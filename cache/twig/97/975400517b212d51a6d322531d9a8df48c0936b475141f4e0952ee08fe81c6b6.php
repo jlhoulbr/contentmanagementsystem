@@ -83,7 +83,7 @@ class __TwigTemplate_a8cc37adb9a4c82ecfce39cae308d136e7457baab1d96c3a68a9d392566
         echo "\"
       action=\"";
         // line 24
-        echo (isset($context["action"]) ? $context["action"] : null);
+        echo twig_trim_filter((isset($context["action"]) ? $context["action"] : null), "/", "right");
         echo "\"
       method=\"";
         // line 25
@@ -208,7 +208,7 @@ class __TwigTemplate_a8cc37adb9a4c82ecfce39cae308d136e7457baab1d96c3a68a9d392566
             if ($this->getAttribute($context["button"], "url", array())) {
                 // line 53
                 echo "              <a href=\"";
-                echo (((is_string($__internal_104641b211d3a8bc41f6e2106f90545ed1c90880a59d10ae01645c65afe95f6e = $this->getAttribute($context["button"], "url", array())) && is_string($__internal_627c80e1626d032fb5db51f216fccf13c43569946c4ade12a813b7bb2639a2d9 = "http") && ('' === $__internal_627c80e1626d032fb5db51f216fccf13c43569946c4ade12a813b7bb2639a2d9 || 0 === strpos($__internal_104641b211d3a8bc41f6e2106f90545ed1c90880a59d10ae01645c65afe95f6e, $__internal_627c80e1626d032fb5db51f216fccf13c43569946c4ade12a813b7bb2639a2d9)))) ? ($this->getAttribute($context["button"], "url", array())) : ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc($this->getAttribute($context["button"], "url", array()))));
+                echo (((is_string($__internal_d629a2ae95249338336f6c4e2a8f90b5235a0d5cca9ae82258715ef5039781b3 = $this->getAttribute($context["button"], "url", array())) && is_string($__internal_6506cc446a307e1b05c3edced766992fffb7179464434c456d3015653ad625fd = "http") && ('' === $__internal_6506cc446a307e1b05c3edced766992fffb7179464434c456d3015653ad625fd || 0 === strpos($__internal_d629a2ae95249338336f6c4e2a8f90b5235a0d5cca9ae82258715ef5039781b3, $__internal_6506cc446a307e1b05c3edced766992fffb7179464434c456d3015653ad625fd)))) ? ($this->getAttribute($context["button"], "url", array())) : ($this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc($this->getAttribute($context["button"], "url", array()))));
                 echo "\">
           ";
             }
@@ -396,7 +396,7 @@ class __TwigTemplate_a8cc37adb9a4c82ecfce39cae308d136e7457baab1d96c3a68a9d392566
 {% endif %}
 
 <form name=\"{{ form.name }}\"
-      action=\"{{ action }}\"
+      action=\"{{ action | trim('/', 'right') }}\"
       method=\"{{ method }}\"{{ multipart }}
       {% if form.id %}id=\"{{ form.id }}\"{% endif %}
       {% block form_classes %}

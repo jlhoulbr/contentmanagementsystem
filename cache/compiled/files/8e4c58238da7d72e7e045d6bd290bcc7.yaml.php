@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/grav-admin/system/config/system.yaml',
-    'modified' => 1507132170,
+    'modified' => 1508247061,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
@@ -159,7 +159,6 @@ return [
         ],
         'media' => [
             'enable_media_timestamp' => false,
-            'upload_limit' => 0,
             'unsupported_inline_types' => [
                 
             ],

@@ -61,20 +61,25 @@ class __TwigTemplate_5f6f93cfc316e327503a4e6d2556d3920ea3a7d361b17e649d2be6f992f
         $this->displayBlock('instructions', $context, $blocks);
         // line 15
         echo "
-        <form method=\"post\" action=\"";
+        ";
         // line 16
+        $context["redirect"] = (((isset($context["redirect"]) ? $context["redirect"] : null)) ? ((isset($context["redirect"]) ? $context["redirect"] : null)) : ($this->getAttribute((isset($context["uri"]) ? $context["uri"] : null), "route", array(0 => false), "method")));
+        // line 17
+        echo "
+        <form method=\"post\" action=\"";
+        // line 18
         echo twig_escape_filter($this->env, (isset($context["base_url_relative"]) ? $context["base_url_relative"] : null), "html", null, true);
         echo "\">
             <div class=\"padding\">
                 ";
-        // line 18
+        // line 20
         $this->displayBlock('form', $context, $blocks);
-        // line 19
+        // line 21
         echo "                <input type=\"hidden\" name=\"redirect\" value=\"";
-        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["uri"]) ? $context["uri"] : null), "url", array()), "html", null, true);
+        echo twig_escape_filter($this->env, (isset($context["redirect"]) ? $context["redirect"] : null), "html", null, true);
         echo "\" />
                 ";
-        // line 20
+        // line 22
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->nonceFieldFunc("admin-form", "admin-nonce");
         echo "
             </div>
@@ -89,7 +94,7 @@ class __TwigTemplate_5f6f93cfc316e327503a4e6d2556d3920ea3a7d361b17e649d2be6f992f
     {
     }
 
-    // line 18
+    // line 20
     public function block_form($context, array $blocks = array())
     {
     }
@@ -106,7 +111,7 @@ class __TwigTemplate_5f6f93cfc316e327503a4e6d2556d3920ea3a7d361b17e649d2be6f992f
 
     public function getDebugInfo()
     {
-        return array (  93 => 18,  88 => 14,  78 => 20,  73 => 19,  71 => 18,  66 => 16,  63 => 15,  61 => 14,  58 => 13,  56 => 12,  50 => 9,  45 => 7,  42 => 6,  39 => 5,  34 => 3,  30 => 1,  28 => 2,  11 => 1,);
+        return array (  98 => 20,  93 => 14,  83 => 22,  78 => 21,  76 => 20,  71 => 18,  68 => 17,  66 => 16,  63 => 15,  61 => 14,  58 => 13,  56 => 12,  50 => 9,  45 => 7,  42 => 6,  39 => 5,  34 => 3,  30 => 1,  28 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -134,10 +139,12 @@ class __TwigTemplate_5f6f93cfc316e327503a4e6d2556d3920ea3a7d361b17e649d2be6f992f
 
         {% block instructions %}{% endblock %}
 
+        {% set redirect = redirect ?: uri.route(false) %}
+
         <form method=\"post\" action=\"{{ base_url_relative }}\">
             <div class=\"padding\">
                 {% block form %}{% endblock %}
-                <input type=\"hidden\" name=\"redirect\" value=\"{{ uri.url }}\" />
+                <input type=\"hidden\" name=\"redirect\" value=\"{{ redirect }}\" />
                 {{ nonce_field('admin-form', 'admin-nonce')|raw }}
             </div>
         </form>

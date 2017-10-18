@@ -80,7 +80,10 @@ class __TwigTemplate_3fd1ef577210fb6a42a6f1e4be8dcf206db9c4df98a4c05802ff9c553a3
             $context["help"] = ((twig_in_filter($context["key"], twig_get_array_keys_filter($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "help_options", array())))) ? ($this->getAttribute($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "help_options", array()), $context["key"], array(), "array")) : (false));
             // line 23
             echo "
-        <span class=\"checkboxes\">
+        <span class=\"checkboxes ";
+            // line 24
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "wrapper_classes", array()), "html", null, true);
+            echo "\">
             <input type=\"checkbox\"
                    id=\"";
             // line 26
@@ -101,24 +104,31 @@ class __TwigTemplate_3fd1ef577210fb6a42a6f1e4be8dcf206db9c4df98a4c05802ff9c553a3
             }
             // line 30
             echo "                   ";
+            if ($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "classes", array(), "any", true, true)) {
+                echo "class=\"";
+                echo twig_escape_filter($this->env, $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "classes", array()), "html", null, true);
+                echo "\" ";
+            }
+            // line 31
+            echo "                   ";
             if (($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "disabled", array()) || (isset($context["isDisabledToggleable"]) ? $context["isDisabledToggleable"] : null))) {
                 echo "disabled=\"disabled\"";
             }
-            // line 31
+            // line 32
             echo "                   ";
             if ($this->getAttribute($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "validate", array()), "required", array())) {
                 echo "required=\"required\"";
             }
-            // line 32
+            // line 33
             echo "            >
             <label style=\"display: inline\" for=\"";
-            // line 33
+            // line 34
             echo twig_escape_filter($this->env, (isset($context["id"]) ? $context["id"] : null));
             echo "\">
                 ";
-            // line 34
+            // line 35
             if ((isset($context["help"]) ? $context["help"] : null)) {
-                // line 35
+                // line 36
                 echo "                    <span class=\"hint--bottom\" data-hint=\"";
                 echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate((isset($context["help"]) ? $context["help"] : null)), "html_attr");
                 echo "\">";
@@ -126,13 +136,13 @@ class __TwigTemplate_3fd1ef577210fb6a42a6f1e4be8dcf206db9c4df98a4c05802ff9c553a3
                 echo "</span>
                 ";
             } else {
-                // line 37
+                // line 38
                 echo "                    ";
                 echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate($context["text"]));
                 echo "
                 ";
             }
-            // line 39
+            // line 40
             echo "            </label>
         </span>
     ";
@@ -154,7 +164,7 @@ class __TwigTemplate_3fd1ef577210fb6a42a6f1e4be8dcf206db9c4df98a4c05802ff9c553a3
 
     public function getDebugInfo()
     {
-        return array (  136 => 39,  130 => 37,  122 => 35,  120 => 34,  116 => 33,  113 => 32,  108 => 31,  103 => 30,  99 => 29,  95 => 28,  91 => 27,  87 => 26,  82 => 23,  79 => 22,  76 => 21,  73 => 20,  70 => 19,  68 => 18,  65 => 17,  60 => 16,  57 => 15,  51 => 12,  47 => 11,  42 => 10,  39 => 9,  35 => 1,  32 => 6,  30 => 5,  28 => 4,  26 => 3,  11 => 1,);
+        return array (  146 => 40,  140 => 38,  132 => 36,  130 => 35,  126 => 34,  123 => 33,  118 => 32,  113 => 31,  106 => 30,  102 => 29,  98 => 28,  94 => 27,  90 => 26,  85 => 24,  82 => 23,  79 => 22,  76 => 21,  73 => 20,  70 => 19,  68 => 18,  65 => 17,  60 => 16,  57 => 15,  51 => 12,  47 => 11,  42 => 10,  39 => 9,  35 => 1,  32 => 6,  30 => 5,  28 => 4,  26 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -190,12 +200,13 @@ class __TwigTemplate_3fd1ef577210fb6a42a6f1e4be8dcf206db9c4df98a4c05802ff9c553a3
         {% set checked = (field.use == 'keys' ? value[key] : key in value) %}
         {% set help = (key in field.help_options|keys ? field.help_options[key] : false) %}
 
-        <span class=\"checkboxes\">
+        <span class=\"checkboxes {{ field.wrapper_classes }}\">
             <input type=\"checkbox\"
                    id=\"{{ id|e }}\"
                    value=\"{{ val|e }}\"
                    name=\"{{ (scope ~ field.name)|fieldName ~ '[' ~ name ~ ']' }}\"
                    {% if checked %}checked=\"checked\"{% endif %}
+                   {% if field.classes is defined %}class=\"{{ field.classes }}\" {% endif %}
                    {% if field.disabled or isDisabledToggleable %}disabled=\"disabled\"{% endif %}
                    {% if field.validate.required %}required=\"required\"{% endif %}
             >

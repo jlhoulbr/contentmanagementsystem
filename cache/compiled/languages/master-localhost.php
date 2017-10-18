@@ -1,281 +1,297 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1507213282,
-    'checksum' => '75f337a5d5f2c62be2e9e67e6d310a76',
+    'timestamp' => 1508332173,
+    'checksum' => '8da8ae6ca96d67e573c1e334a7984e11',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1507132171
+                'modified' => 1508247061
             ]
         ],
         'user/plugins' => [
+            'plugins/adsense' => [
+                'file' => 'user/plugins/adsense/languages.yaml',
+                'modified' => 1508256395
+            ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1507209967
+                'modified' => 1508256228
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/languages.yaml',
                 'modified' => 1502903290
             ],
+            'plugins/external_links' => [
+                'file' => 'user/plugins/external_links/languages.yaml',
+                'modified' => 1508332172
+            ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/languages.yaml',
-                'modified' => 1507209982
+                'modified' => 1508247205
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/languages.yaml',
-                'modified' => 1507209976
+                'modified' => 1508247232
+            ],
+            'plugins/maintenance' => [
+                'file' => 'user/plugins/maintenance/languages.yaml',
+                'modified' => 1508251251
             ],
             'plugins/recaptchacontact' => [
                 'file' => 'user/plugins/recaptchacontact/languages.yaml',
                 'modified' => 1507210121
+            ],
+            'plugins/simplesearch' => [
+                'file' => 'user/plugins/simplesearch/languages.yaml',
+                'modified' => 1508255178
             ]
         ],
         'user/plugins/admin/languages' => [
             'ar' => [
                 'file' => 'user/plugins/admin/languages/ar.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'bg' => [
                 'file' => 'user/plugins/admin/languages/bg.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'br' => [
                 'file' => 'user/plugins/admin/languages/br.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'ca' => [
                 'file' => 'user/plugins/admin/languages/ca.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'cs' => [
                 'file' => 'user/plugins/admin/languages/cs.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'cy' => [
                 'file' => 'user/plugins/admin/languages/cy.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'da' => [
                 'file' => 'user/plugins/admin/languages/da.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'de' => [
                 'file' => 'user/plugins/admin/languages/de.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'el' => [
                 'file' => 'user/plugins/admin/languages/el.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'en' => [
                 'file' => 'user/plugins/admin/languages/en.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'es' => [
                 'file' => 'user/plugins/admin/languages/es.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'fa' => [
                 'file' => 'user/plugins/admin/languages/fa.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'fi' => [
                 'file' => 'user/plugins/admin/languages/fi.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'fr' => [
                 'file' => 'user/plugins/admin/languages/fr.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'hr' => [
                 'file' => 'user/plugins/admin/languages/hr.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'hu' => [
                 'file' => 'user/plugins/admin/languages/hu.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'it' => [
                 'file' => 'user/plugins/admin/languages/it.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'ja' => [
                 'file' => 'user/plugins/admin/languages/ja.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'ko' => [
                 'file' => 'user/plugins/admin/languages/ko.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'lt' => [
                 'file' => 'user/plugins/admin/languages/lt.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'nl' => [
                 'file' => 'user/plugins/admin/languages/nl.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'no' => [
                 'file' => 'user/plugins/admin/languages/no.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'pl' => [
                 'file' => 'user/plugins/admin/languages/pl.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'pt' => [
                 'file' => 'user/plugins/admin/languages/pt.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'ro' => [
                 'file' => 'user/plugins/admin/languages/ro.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'ru' => [
                 'file' => 'user/plugins/admin/languages/ru.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'sk' => [
                 'file' => 'user/plugins/admin/languages/sk.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'sv' => [
                 'file' => 'user/plugins/admin/languages/sv.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'th' => [
                 'file' => 'user/plugins/admin/languages/th.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'tlh' => [
                 'file' => 'user/plugins/admin/languages/tlh.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'tr' => [
                 'file' => 'user/plugins/admin/languages/tr.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'uk' => [
                 'file' => 'user/plugins/admin/languages/uk.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'vi' => [
                 'file' => 'user/plugins/admin/languages/vi.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ],
             'zh' => [
                 'file' => 'user/plugins/admin/languages/zh.yaml',
-                'modified' => 1507209996
+                'modified' => 1508247214
             ]
         ],
         'user/plugins/admin-addon-user-manager/languages' => [
@@ -957,6 +973,39 @@ return [
                 'ERROR_SIMPLE' => 'Einfacher Fehler',
                 'ERROR_SYSTEM' => 'Systemfehler'
             ],
+            'PLUGIN_ADSENSE' => [
+                'GLOBAL_CONFIG' => 'Globale Einstellungen',
+                'DEFAULT_CONFIG' => 'Standardeinstellungen für AdSense',
+                'SANDBOX_STATUS' => 'Sandbox',
+                'SANDBOX_HELP' => 'Sandbox shows you demo ads for testing purpose',
+                'PLUGIN_STATUS' => 'Plugin Status',
+                'OPTIONS_LABEL' => 'Optionen',
+                'OPTIONS' => [
+                    'TYPE' => 'Typ der Anzeige',
+                    'BANNER' => 'Banner',
+                    'FIXED' => 'Fixiert',
+                    'DIRECTION' => 'Ausrichtung der Anzeige',
+                    'LEFT' => 'Links',
+                    'RIGHT' => 'Rechts',
+                    'TOP' => 'Oben',
+                    'BOTTOM' => 'Unten',
+                    'PRIORITY' => 'Priorität',
+                    'PRIORITY_HELP' => 'Priorität von AdSense, wenn es zur Grav Pipeline hinzugefügt wird: größere Werte werden zuerst geladen',
+                    'PIPELINE' => 'Kombinieren',
+                    'LOAD' => 'Ladeverhalten',
+                    'LOAD_HELP' => 'Asynchrones (async), verzögertes (defer) oder syncrones (none) laden von AdSense',
+                    'NONE' => 'None',
+                    'ASYNC' => 'Async',
+                    'DEFER' => 'Defer',
+                    'RESOURCE' => 'AdSense API JavaScript'
+                ],
+                'DATA_LABEL' => 'Keys',
+                'DATA_HELP' => 'Mehr über die zu angebenden Daten hier finden Sie auf google.com/adsense/',
+                'DATA' => [
+                    'CLIENT' => 'Klient-ID von AdSense',
+                    'SLOT' => 'Slot-ID von AdSense'
+                ]
+            ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
@@ -965,6 +1014,46 @@ return [
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Fehler',
                 'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
+            ],
+            'PLUGINS' => [
+                'EXTERNAL_LINKS' => [
+                    'PLUGIN_NAME' => 'External Links',
+                    'PLUGIN_STATUS' => 'Plugin Status',
+                    'PLUGIN_STATUS_HELP' => 'Aktiviere das Plugin oder schalte es komplett ab.',
+                    'BUILTIN_CSS' => 'Verwende mitgeliefertes CSS',
+                    'WEIGHT' => 'Ausführungsreihenfolge',
+                    'SETTINGS' => 'Einstellungen',
+                    'CONTENT' => 'Inhalt',
+                    'EXCLUDE' => [
+                        'SECTION' => 'Ausnahmen',
+                        'SECTION_HELP' => 'Setzt Links mit bestimmten Klassen oder Links von bestimmten Domains immer als intern.',
+                        'CLASSES' => 'Ignoriere Links mit diesen Klassen',
+                        'CLASSES_HELP' => 'Komma getrennte Liste',
+                        'DOMAINS' => 'Eine Liste von auszuschließenden Domains',
+                        'DOMAINS_HELP' => 'Komma getrennte Liste von Domains z.B. _localhost/*_ (jeder regulärer Ausdruck kann verwendet werden)'
+                    ],
+                    'LINKS' => [
+                        'SECTION' => 'Links',
+                        'SECTION_HELP' => 'Sieht Links beginnend mit <code>www.</code> oder mit als extern markierten Protokollen als extern an.',
+                        'WWW' => 'Verlinkung (WWW)',
+                        'WWW_HELP' => 'Verlinke auch Links, die mit \'www.\' beginnen als extern',
+                        'SCHEMES' => 'Erlaubte Protokolle',
+                        'SCHEMES_HELP' => 'Liste von erlaubten Protokollen'
+                    ],
+                    'PROCESS' => 'Aktiviere <code>External Links</code> auf Seite',
+                    'TITLE' => 'Zeige Standardtexttitel für externe Links',
+                    'TITLE_MESSAGE' => 'Dieser Link führt auf eine externe Webseite für deren Inhalt wir nicht verantwortlich sind.',
+                    'NO_FOLLOW' => 'Fügt <code>rel="nofollow"</code> zu allen externen Links',
+                    'TARGET' => 'Setze "target" Attribut des Links.',
+                    'TARGET_BLANK' => '_blank - Öffne Link im neuen Fenster',
+                    'TARGET_SELF' => '_self - Öffne Link im gleichen Tab oder Seite',
+                    'TARGET_PARENT' => '_parent - Öffne Link im Elternfenster',
+                    'TARGET_TOP' => '_top - Öffne Link im ganzen Fenster',
+                    'MODE' => 'Modus',
+                    'MODE_HELP' => 'active = Zeichne externe Links aus; passive = Zeichne externe Links aus ohne entsprechende CSS-Klassen zu setzen',
+                    'MODE_ACTIVE' => 'Aktiv - Zeichne externe Links aus',
+                    'MODE_PASSIVE' => 'Passiv - Zeichne externe Links aus ohne entsprechende CSS-Klassen zu setzen'
+                ]
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularwerte nicht gültig. Für ein oder mehrere erforderliche Felder fehlen Werte.',
@@ -1026,6 +1115,22 @@ return [
                 'EMAIL_VALIDATION_MESSAGE' => 'Muss eine gültige E-Mail Adresse sein',
                 'WELCOME' => 'Willkommen'
             ],
+            'PLUGIN_MAINTENANCE' => [
+                'OFFLINE_MARKDOWN' => '# Site Offline
+## Bitte kommen Sie bald wieder...',
+                'AUTHORIZED_ACCESS' => '**Autorisierter Zugang erforderlich**',
+                'BLUEPRINTS' => [
+                    'STATUS' => 'Plugin-Status',
+                    'MODE' => 'Wartungsmodus',
+                    'MODE_HELP' => 'Schaltet den Wartungsmodus auf der Website an oder aus',
+                    'ALLOW_LOGIN' => 'Erlaube Login',
+                    'ALLOW_LOGIN_HELP' => 'Wenn Sie ein Login-Formular anbieten wollen, um autorisierten Nutzern Zugang zur Website zu gewähren',
+                    'ACCESS' => 'Login-Zugang',
+                    'ACCESS_HELP' => 'Der ACL-String, der gesetzt sein muss, damit dieser Nutzer Zugang zur Website hat',
+                    'PAGE_ROUTE' => 'Pfad zur Wartungs-Seite',
+                    'PAGE_ROUTE_HELP' => 'Der Pfad zu der benutzerdefinierten Grav-Seite, die Sie für die Wartung nutzen wollen'
+                ]
+            ],
             'RECAPTCHACONTACT' => [
                 'FORM_LEGEND' => 'Kontaktiere mich',
                 'SUBJECT' => '[Grav] Kontaktanfrage',
@@ -1070,6 +1175,12 @@ return [
                     'ERROR' => 'Oops! Mit der Übertragung gab es ein Problem. Bitte versuche es erneut.',
                     'FAIL' => 'Oops! Versenden der Nachricht fehlgeschlagen.'
                 ]
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Suche...',
+                'SEARCH_RESULTS' => 'Suchergebnisse',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Suche: <strong>%s</strong> fand ein Ergebnis',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Suche: <strong>%s</strong> fand %s Ergebnisse'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -1920,6 +2031,39 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'CASE_INSENSITIVE_URLS' => 'Case Insensitive URLs',
                 'CASE_INSENSITIVE_URLS_HELP' => 'Enables Grav routing to locate resources regardless of text case.'
             ],
+            'PLUGIN_ADSENSE' => [
+                'GLOBAL_CONFIG' => 'Global Settings',
+                'DEFAULT_CONFIG' => 'Default Configuration for AdSense',
+                'SANDBOX_STATUS' => 'Sandbox',
+                'SANDBOX_HELP' => 'Sandbox shows you demo ads for testing purposes',
+                'PLUGIN_STATUS' => 'Plugin Status',
+                'OPTIONS_LABEL' => 'Options',
+                'OPTIONS' => [
+                    'TYPE' => 'Display Type',
+                    'BANNER' => 'Banner',
+                    'FIXED' => 'Fixiert',
+                    'DIRECTION' => 'Orientation',
+                    'LEFT' => 'Left',
+                    'RIGHT' => 'Right',
+                    'TOP' => 'Top',
+                    'BOTTOM' => 'Bottom',
+                    'PRIORITY' => 'Priority',
+                    'PRIORITY_HELP' => 'Priority of AdSense, if it is added to the pipeline Grav: larger values are loaded first',
+                    'PIPELINE' => 'Pipeline',
+                    'LOAD' => 'Load',
+                    'LOAD_HELP' => 'Load AdSense aynchronously (async), delayed (defer) or synchronous (none) method',
+                    'NONE' => 'None',
+                    'ASYNC' => 'Async',
+                    'DEFER' => 'Defer',
+                    'RESOURCE' => 'AdSense API JavaScript'
+                ],
+                'DATA_LABEL' => 'Keys',
+                'DATA_HELP' => 'Further information can be found on google.com/adsense/',
+                'DATA' => [
+                    'CLIENT' => 'AdSense Client-ID',
+                    'SLOT' => 'AdSense Slot-ID'
+                ]
+            ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Email not configured',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Please configure a \'to\' address in the Email Plugin settings, or in the form',
@@ -1930,6 +2074,46 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Error',
                 'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
+            ],
+            'PLUGINS' => [
+                'EXTERNAL_LINKS' => [
+                    'PLUGIN_NAME' => 'External Links',
+                    'PLUGIN_STATUS' => 'Plugin status',
+                    'STATUS_HELP' => 'Set to false to disable this plugin completely.',
+                    'BUILTIN_CSS' => 'Use built in CSS',
+                    'WEIGHT' => 'Order of execution',
+                    'SETTINGS' => 'Settings',
+                    'CONTENT' => 'Content',
+                    'EXCLUDE' => [
+                        'SECTION' => 'Exclusion',
+                        'SECTION_HELP' => 'Exclude links with a specific class or domains from being recognized as external links.',
+                        'CLASSES' => 'Exclude all links with this class',
+                        'CLASSES_HELP' => 'Comma separated list.',
+                        'DOMAINS' => 'A list of domains to be excluded',
+                        'DOMAINS_HELP' => 'Comma separated list of domains e.g. _localhost/*_  (any regular expression can be used)'
+                    ],
+                    'LINKS' => [
+                        'SECTION' => 'Links',
+                        'SECTION_HELP' => 'Set links starting with <code>www.</code> and within the list of allowed schemes as external.',
+                        'WWW' => 'Link WWW',
+                        'WWW_HELP' => 'Automatically link any hostname that starts with \'www.\' as external',
+                        'SCHEMES' => 'Allowed schemes',
+                        'SCHEMES_HELP' => 'List of allowed schemes'
+                    ],
+                    'PROCESS' => 'Filter external links on the page',
+                    'TITLE' => 'Show default title for external links',
+                    'TITLE_MESSAGE' => 'This link will take you to an external web site. We are not responsible for their content.',
+                    'NO_FOLLOW' => 'Add <code>rel="nofollow"</code> to all external links',
+                    'TARGET' => 'Set target attribute of the link.',
+                    'TARGET_BLANK' => '_blank | Load in a new window',
+                    'TARGET_SELF' => '_self | Load in the same frame as it was clicked',
+                    'TARGET_PARENT' => '_parent | Load in the parent frameset',
+                    'TARGET_TOP' => '_top | Load in the full body of the window',
+                    'MODE' => 'Mode',
+                    'MODE_HELP' => 'active = process and parse all links; passive = parse links, but don\'t set CSS classes',
+                    'MODE_ACTIVE' => 'Active - Process and parse all links',
+                    'MODE_PASSIVE' => 'Passive - Parse links, but don\'t set CSS classes'
+                ]
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Form not validated. One or more required fields are missing.',
@@ -2080,6 +2264,22 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'ROUTE_PROFILE' => 'User profile route',
                 'ROUTE_ACTIVATE' => 'User activation route'
             ],
+            'PLUGIN_MAINTENANCE' => [
+                'OFFLINE_MARKDOWN' => '# Site Offline
+## Please check back soon...',
+                'AUTHORIZED_ACCESS' => '**Authorized Access Required**',
+                'BLUEPRINTS' => [
+                    'STATUS' => 'Plugin status',
+                    'MODE' => 'Maintenance mode',
+                    'MODE_HELP' => 'Toggle the maintenance mode on or off, will be site-wide',
+                    'ALLOW_LOGIN' => 'Allow login',
+                    'ALLOW_LOGIN_HELP' => 'If you want to provide a login form for authorized users to access the site',
+                    'ACCESS' => 'Login access',
+                    'ACCESS_HELP' => 'The ACL authorization string that must be true for a user to access the site',
+                    'PAGE_ROUTE' => 'Maintenance page route',
+                    'PAGE_ROUTE_HELP' => 'The route path to the custom Grav page you wish to use for maintenance'
+                ]
+            ],
             'RECAPTCHACONTACT' => [
                 'FORM_LEGEND' => 'Contact me',
                 'SUBJECT' => 'New contact from Grav site!',
@@ -2124,6 +2324,13 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                     'ERROR' => 'Oops! There was a problem with your submission. Please complete the form and try again.',
                     'FAIL' => 'Oops! Something went wrong and we couldn\'t send your message.'
                 ]
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Search...',
+                'SEARCH_RESULTS' => 'Search Results',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> found one result',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> found %s results',
+                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Please add at least %s characters'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -4627,6 +4834,12 @@ Ruta: `%2$s`
                 'YES' => 'Ano',
                 'NO' => 'Ne'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Vyhledat...',
+                'SEARCH_RESULTS' => 'Výsledky hledání',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Hledání výrazu \'<strong>%s</strong>\' našlo jeden výsledek',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Hledání výrazu \'<strong>%s</strong>\' našlo %s výsledků'
+            ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'vybavení',
                 1 => 'informace',
@@ -6476,6 +6689,22 @@ Sti: `%2$s`
                 'RECAPTCHA_SECRET_KEY' => 'Secret key',
                 'RECAPTCHA_SECRET_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha'
             ],
+            'PLUGIN_MAINTENANCE' => [
+                'OFFLINE_MARKDOWN' => '# Sitio offline
+## Por favor inténtalo mas tarde...',
+                'AUTHORIZED_ACCESS' => '**Se requiere acceso autorizado**',
+                'BLUEPRINTS' => [
+                    'STATUS' => 'Estado del plugin',
+                    'MODE' => 'Modo mantenimiento',
+                    'MODE_HELP' => 'Activa o desactiva el modo mantenimiento, en todo el sitio',
+                    'ALLOW_LOGIN' => 'Permitir acceso',
+                    'ALLOW_LOGIN_HELP' => 'Si deseas proporcionar un formulario de inicio de sesión para que los usuarios autorizados puedan acceder al sitio',
+                    'ACCESS' => 'Accesso',
+                    'ACCESS_HELP' => 'La cadena de autorización ACL que debe ser verdadera para que un usuario acceda al sitio',
+                    'PAGE_ROUTE' => 'Ruta de la página de mantenimiento',
+                    'PAGE_ROUTE_HELP' => 'La ruta de acceso a la página Grav personalizada que deseas utilizar para el mantenimiento'
+                ]
+            ],
             'RECAPTCHACONTACT' => [
                 'FORM_LEGEND' => 'Contacta conmigo',
                 'SUBJECT' => '¡Nuevo contacto desde tu sitio GRAV!',
@@ -6506,6 +6735,12 @@ Sti: `%2$s`
                     'ERROR' => '¡Uy! Hubo un problema con el envío. Por favor, rellena el formulario de nuevo.',
                     'FAIL' => '¡Uy! Algo salió mal y no se pudo enviar el mensaje.'
                 ]
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Buscar...',
+                'SEARCH_RESULTS' => 'Resultados de la búsqueda',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Consulta: <strong>%s</strong> se encontró 1 resultado',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Consulta: <strong>%s</strong> se encontraron %s resultados'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -6948,6 +7183,12 @@ Ruta: `%2$s`
                 'NO_USER_ACCOUNTS' => 'حساب های کاربری پیدا نشد ، لطفا ابتدا یکی بسازید...',
                 'DEFAULT_DATE_FORMAT' => 'فرمت تاریخ صفحه',
                 'DEFAULT_DATE_FORMAT_HELP' => 'نوع نمایش تاریخ صفحه توسط Grav. به صورت پیش فرض Grav قصد دارد نوع نمایش تاریخ را پیشنهاد کند ، هرچند شما میتوانید یک نوع نمایش تاریخ با استفاده از سینتکس تاریخ PHP مشخص کنید (مانند: Y-m-d H:i)'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'جستجو...',
+                'SEARCH_RESULTS' => 'نتایج جستجو',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'جستار: <strong>%s</strong> یک نتیجه یافت شد',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'جستار: <strong>%s</strong> %s نتیجه یافت شد'
             ]
         ],
         'fi' => [
@@ -7844,6 +8085,46 @@ Ruta: `%2$s`
                 'ERROR' => 'Erreur',
                 'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
             ],
+            'PLUGINS' => [
+                'EXTERNAL_LINKS' => [
+                    'PLUGIN_NAME' => 'Liens externes',
+                    'PLUGIN_STATUS' => 'Statut du plugin',
+                    'STATUS_HELP' => 'Set to false to disable this plugin completely.',
+                    'BUILTIN_CSS' => 'Utiliser les CSS intégrés',
+                    'WEIGHT' => 'Ordre d\'exécution',
+                    'SETTINGS' => 'Configuration',
+                    'CONTENT' => 'Contenu',
+                    'EXCLUDE' => [
+                        'SECTION' => 'Exclusion',
+                        'SECTION_HELP' => 'Exclure les liens avec des classes spécifiques ou des domaines comme étant reconnus comme liens externes.',
+                        'CLASSES' => 'Exclure tous les liens avec cette classe',
+                        'CLASSES_HELP' => 'Liste des classes séparées par des virgules.',
+                        'DOMAINS' => 'Une liste des domaines à exclure',
+                        'DOMAINS_HELP' => 'Liste des domaines séparés par des virgules ex : _localhost/*_  (les expressions régulières peuvent être utilisées)'
+                    ],
+                    'LINKS' => [
+                        'SECTION' => 'Liens',
+                        'SECTION_HELP' => 'Définir les liens commençant par <code>www.</code> et ceux de la liste des schémas définis comme étant des liens externes.',
+                        'WWW' => 'Liens WWW',
+                        'WWW_HELP' => 'Reconnaître automatiquement tout lien commencant par \'www.\' comme étant un lien externe.',
+                        'SCHEMES' => 'Schémas autorisés',
+                        'SCHEMES_HELP' => 'Liste des schémas autorisés'
+                    ],
+                    'PROCESS' => 'Filtrer les liens externes de la page',
+                    'TITLE' => 'Afficher le titre par défaut pour les liens externes',
+                    'TITLE_MESSAGE' => 'Ce lien va vous diriger vers un site externe. Nous ne sommes pas responsables de son contenu.',
+                    'NO_FOLLOW' => 'Ajouter <code>rel="nofollow"</code> à tous les liens externes',
+                    'TARGET' => 'Spécifier la cible dans laquelle le contenu du lien doit s\'afficher.',
+                    'TARGET_BLANK' => '_blank | Afficher dans une nouvelle fenêtre',
+                    'TARGET_SELF' => '_self | Afficher dans la même fenêtre',
+                    'TARGET_PARENT' => '_parent | Afficher dans le cadre parent (frame)',
+                    'TARGET_TOP' => '_top | Afficher dans le cadre racine',
+                    'MODE' => 'Mode',
+                    'MODE_HELP' => 'actif = analyser et procéder pour tous les liens; passif = analyser les liens mais ne pas appliquer les classes CSS',
+                    'MODE_ACTIVE' => 'Actif - Analyser et procéder pour tous les liens',
+                    'MODE_PASSIVE' => 'Passif - Analyser les liens mais ne pas appliquer les classes CSS'
+                ]
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formulaire non validé. Un ou plusieurs champs obligatoires sont manquants.',
                 'NONCE_NOT_VALIDATED' => 'Oups, un problème est survenu. Veuillez vérifier votre saisie et soumettre à nouveau le formulaire.',
@@ -7969,6 +8250,22 @@ Ruta: `%2$s`
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => 'Protéger le média d\'une page par une protection par connexion',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Si activé, les médias d\'une page protégée par connexion sera également protégé par un système de connexion et ne pourra pas être visible à moins d\'être connecté.'
             ],
+            'PLUGIN_MAINTENANCE' => [
+                'OFFLINE_MARKDOWN' => '# Site hors ligne
+## Veuillez revenir ultérieurement...',
+                'AUTHORIZED_ACCESS' => '**Accès autorisé obligatoire**',
+                'BLUEPRINTS' => [
+                    'STATUS' => 'Statut du plugin',
+                    'MODE' => 'Mode maintenance',
+                    'MODE_HELP' => 'Basculer le mode de maintenance sur on ou off, pour l\'ensemble du site',
+                    'ALLOW_LOGIN' => 'Autoriser la connexion',
+                    'ALLOW_LOGIN_HELP' => 'Si vous souhaitez proposer un formulaire de connexion pour les utilisateurs autorisés à accéder au site.',
+                    'ACCESS' => 'Accès connexion',
+                    'ACCESS_HELP' => 'La chaîne d\'autorisation ACL doit être définie sur true pour que l\'utilisateur accède au site.',
+                    'PAGE_ROUTE' => 'Chemin de la page de maintenance',
+                    'PAGE_ROUTE_HELP' => 'Le chemin vers la page personnalisée de Grav que vous souhaitez utiliser lors de la maintenance.'
+                ]
+            ],
             'RECAPTCHACONTACT' => [
                 'FORM_LEGEND' => 'Me contacter',
                 'SUBJECT' => 'Nouveau contact du site de Grav !',
@@ -7999,6 +8296,12 @@ Ruta: `%2$s`
                     'ERROR' => 'Oups ! Une erreur s\'est produite lors de l\'envoi. Veuillez renseigner à nouveau le formulaire et réessayer.',
                     'FAIL' => 'Oups ! Une erreur s\'est produite et il a été impossible d\'envoyer votre message.'
                 ]
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Recherche...',
+                'SEARCH_RESULTS' => 'Résultats de la recherche',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Recherche : Un résultat trouvé pour <strong>%s</strong>',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Recherche : %2$s résultats trouvés pour <strong>%1$s</strong>'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -8750,6 +9053,12 @@ Path: `%2$s`
                 'REGISTRATION_FIELDS_HELP' => 'Add the fields that will be added to the user yaml file. Fields not listed here will not be added even if present in the registration form',
                 'REGISTRATION_FIELD_KEY' => 'Ime polja',
                 'OPTIONS' => 'Opcije'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Traži...',
+                'SEARCH_RESULTS' => 'Rezultati pretrage',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Upit: <strong>%s</strong> je pronašao jedan rezultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Upit: <strong>%s</strong> je pronašao %s rezultata'
             ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'oprema',
@@ -10347,6 +10656,13 @@ Elérési út: `%2$s`
                     'FAIL' => 'Oh! Qualcosa non ha funzionato perciò il tuo messaggio non potrà essere inviato.'
                 ]
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Cerca...',
+                'SEARCH_RESULTS' => 'Risultati della ricerca',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Ricerca: <strong>%s</strong>. Trovato un risultato',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Ricerca: <strong>%s</strong>. Trovati %s risultati',
+                'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Inserisci almeno %s caratteri'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---Titolo: %1$s---# Errore: Frontmatter non valido: \'%2$s\' * *%3$s * * \' \'%4$s \' \'',
             'NICETIME' => [
                 'NO_DATE_PROVIDED' => 'Nessuna data fornita',
@@ -10898,6 +11214,12 @@ Elérési út: `%2$s`
                 'UPDATING_PACKAGES' => 'パッケージを更新中...',
                 'PACKAGES_SUCCESSFULLY_UPDATED' => 'パッケージは正常に更新されました。',
                 'UPDATING' => '更新中'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => '検索する...',
+                'SEARCH_RESULTS' => '検索結果',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => '検索 : <strong>%s</strong> に一つの結果があります。',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => '検索 : <strong>%s</strong> に %s の結果があります。'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -12063,6 +12385,12 @@ Path: `%2$s`
                 'ALL' => 'Alle',
                 'FROM' => 'van',
                 'TO' => 'aan'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Zoeken...',
+                'SEARCH_RESULTS' => 'Zoek resultaat',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> is 1 keer gevonden',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> is %s keer gevonden'
             ],
             'INFLECTOR_IRREGULAR' => [
                 'person' => 'personen',
@@ -13551,6 +13879,12 @@ Path: `%2$s`
                 'TO' => 'para',
                 'RESOURCE_FILTER' => 'Filtro...'
             ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'O que você procura?',
+                'SEARCH_RESULTS' => 'Resultados da pesquisa',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Pesquisa: <strong>%s</strong>. Foram encontrados 1 resultados',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Pesquisa: <strong>%s</strong>. Foram encontrados %s resultados'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 título: %1$s
 ---
@@ -14388,6 +14722,28 @@ Caminho: `%2$s`
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => ' Protejează media ce aparține paginii de logare ',
                 'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Dacă este activată, media ce aparține unei pagini de logare este protejată și nu poate fi accesată decât după logare.'
             ],
+            'PLUGIN_MAINTENANCE' => [
+                'OFFLINE_MARKDOWN' => '# Site nu este disponibil
+## Vă rugăm reveniți în curând ...',
+                'AUTHORIZED_ACCESS' => '**Este necesar accesul autorizat**',
+                'BLUEPRINTS' => [
+                    'STATUS' => 'Status modul ',
+                    'MODE' => 'Mod mentenanță',
+                    'MODE_HELP' => ' Comutați modul de mentenanță pentru intregul site ',
+                    'ALLOW_LOGIN' => 'Permiteți logarea',
+                    'ALLOW_LOGIN_HELP' => 'Dacă doriți să pemiteți accesul utilizatorilor autorizati pe site',
+                    'ACCESS' => 'Logare pentru acces ',
+                    'ACCESS_HELP' => ' Șirul de autorizare din ACL ce trebuie să fie true pentru ca un utilizator să poată accesa site-ul.',
+                    'PAGE_ROUTE' => ' Ruta paginei de mentenanță ',
+                    'PAGE_ROUTE_HELP' => ' Calea rutei către pagina din Grav pe care doriți să o folosiți pentru mentenanță.'
+                ]
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Caută...',
+                'SEARCH_RESULTS' => 'Rezultatele căutării',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Căutarea: <strong>%s</strong> a găsit un rezultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Căutarea: <strong>%s</strong> a găsit %s rezultate'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 Titlu: %1$s
 ---
@@ -15118,6 +15474,46 @@ Calea: `%2$s`
                 'ERROR' => 'Ошибка',
                 'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
             ],
+            'PLUGINS' => [
+                'EXTERNAL_LINKS' => [
+                    'PLUGIN_NAME' => 'Внешние ссылки',
+                    'PLUGIN_STATUS' => 'Статус плагина',
+                    'STATUS_HELP' => 'Установите нет, чтобы отключить этот плагин полностью.',
+                    'BUILTIN_CSS' => 'Использовать встроенные CSS',
+                    'WEIGHT' => 'Порядок выполнения',
+                    'SETTINGS' => 'Настройки',
+                    'CONTENT' => 'Контент',
+                    'EXCLUDE' => [
+                        'SECTION' => 'Исключения',
+                        'SECTION_HELP' => 'Исключить ссылки с определенным классом или домены, которые не признаются в качестве внешних ссылок.',
+                        'CLASSES' => 'Исключить все ссылки с этим классом',
+                        'CLASSES_HELP' => 'Список разделенных запятыми.',
+                        'DOMAINS' => 'Список доменов, которые будут исключены',
+                        'DOMAINS_HELP' => 'Разделенный запятыми список доменов, например, _localhost / * _ (любое регулярное выражение может быть использовано)'
+                    ],
+                    'LINKS' => [
+                        'SECTION' => 'Ссылки',
+                        'SECTION_HELP' => 'Установить ссылки, начинающиеся с <code>www.</code>? и список разрешенных схем, как внешние.',
+                        'WWW' => 'Ссылка WWW',
+                        'WWW_HELP' => 'Автоматически связывать любое имя хоста, которое начинается с \'www\'. как внешние',
+                        'SCHEMES' => 'Допустимые схемы',
+                        'SCHEMES_HELP' => 'Список допустимых схем'
+                    ],
+                    'PROCESS' => 'Фильтр внешних ссылок на странице',
+                    'TITLE' => 'Показать название по умолчанию для внешних ссылок',
+                    'TITLE_MESSAGE' => 'Эта ссылка приведет вас на внешний веб-сайт. Мы не несем ответственности за его содержание.',
+                    'NO_FOLLOW' => 'Добавить <code>rel="nofollow"</code> ко всем внешним ссылкам',
+                    'TARGET' => 'Установить целевой атрибут ссылки.',
+                    'TARGET_BLANK' => '_blank | Загрузка в новом окне',
+                    'TARGET_SELF' => '_self | Загрузка в том же фрейме где и был сделан клик',
+                    'TARGET_PARENT' => '_parent | Загрузка в родительском наборе фреймов',
+                    'TARGET_TOP' => '_top | Загрузка в отдельном окне браузера',
+                    'MODE' => 'Режим',
+                    'MODE_HELP' => 'активный = обработка и разбор всех ссылок; пассивный = вставлять ссылки, но не устанавливать для них CSS',
+                    'MODE_ACTIVE' => 'Активный = обработка и разбор всех ссылок',
+                    'MODE_PASSIVE' => 'Пассивный = вставлять ссылки, но не устанавливать для них CSS'
+                ]
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Форма не подтверждена. Отсутствует одно или несколько обязательных полей.',
                 'NONCE_NOT_VALIDATED' => 'Упс, у вас возникла проблема, проверьте свои данные и отправьте форму еще раз.',
@@ -15308,6 +15704,12 @@ Calea: `%2$s`
                     'ERROR' => 'Упс! Произошла ошибка при отправке вашего сообщения. Пожалуйста заполните форму и попробуйте снова.',
                     'FAIL' => 'Упс! Что-то пошло не так и мы не можем отправить ваше сообщение.'
                 ]
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Найти...',
+                'SEARCH_RESULTS' => 'Результат поиска',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'По запросу: <strong>%s</strong> результатов найдено 1',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'По запросу: <strong>%s</strong> результатов найдено %s'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -16070,6 +16472,12 @@ Path: `%2$s`
                 'NON_VISIBLE' => 'Icke synlig',
                 'NOTIFICATIONS' => 'Notifikationer',
                 'LEGEND' => 'Sidförklaring'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => 'Sök...',
+                'SEARCH_RESULTS' => 'Sökresultat',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Sökning: <strong>%s</strong> hittade ett resultat',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Sökning: <strong>%s</strong> hittade %s resultat'
             ],
             'FRONTMATTER_ERROR_PAGE' => '--- titel: %1$s --- # Fel: Ogiltig Frontmatter-sökväg: `%2$s` **%3$s** ``` %4$s ```',
             'NICETIME' => [
@@ -18364,6 +18772,66 @@ Path: `%2$s`
             'PLUGIN_ERROR' => [
                 'ERROR' => '错误',
                 'ERROR_MESSAGE' => '呃，似乎这个页面不存在。'
+            ],
+            'PLUGIN_SIMPLESEARCH' => [
+                'SEARCH_PLACEHOLDER' => '搜索...',
+                'SEARCH_RESULTS' => '搜索结果',
+                'SEARCH_RESULTS_SUMMARY_SINGULAR' => '查询: <strong>%s</strong> 找到 1 个结果',
+                'SEARCH_RESULTS_SUMMARY_PLURAL' => '查询: <strong>%s</strong> 找到 %s 个结果'
+            ]
+        ],
+        'zh-cn' => [
+            'PLUGIN_MAINTENANCE' => [
+                'OFFLINE_MARKDOWN' => '# 网站正在维护
+## 请稍后访问...',
+                'AUTHORIZED_ACCESS' => '**需要登录**',
+                'BLUEPRINTS' => [
+                    'STATUS' => '插件状态',
+                    'MODE' => '维护模式',
+                    'MODE_HELP' => '控制全站维护模式的打开与关闭',
+                    'ALLOW_LOGIN' => '允许登录',
+                    'ALLOW_LOGIN_HELP' => '若您需要给授权用户提供登录页面以访问网站',
+                    'ACCESS' => '登录控制',
+                    'ACCESS_HELP' => '用户若需登录，此权限控制项目必须为真',
+                    'PAGE_ROUTE' => '维护页面路径',
+                    'PAGE_ROUTE_HELP' => '您可以自定义一个 Grav 页面作为维护页面'
+                ]
+            ]
+        ],
+        'zh-hk' => [
+            'PLUGIN_MAINTENANCE' => [
+                'OFFLINE_MARKDOWN' => '# 網站正在維護
+## 請稍後訪問...',
+                'AUTHORIZED_ACCESS' => '**需要登錄**',
+                'BLUEPRINTS' => [
+                    'STATUS' => '外掛狀態',
+                    'MODE' => '維護模式',
+                    'MODE_HELP' => '控制全站維護模式的打開與關閉',
+                    'ALLOW_LOGIN' => '允許登錄',
+                    'ALLOW_LOGIN_HELP' => '若您需要給授權用戶提供登入界面以訪問網站',
+                    'ACCESS' => '登入控制',
+                    'ACCESS_HELP' => '用戶若需登入，此權限控制項目必須為真',
+                    'PAGE_ROUTE' => '維護頁面路徑',
+                    'PAGE_ROUTE_HELP' => '您可以自定義一個 Grav 頁面作為維護頁面'
+                ]
+            ]
+        ],
+        'zh-tw' => [
+            'PLUGIN_MAINTENANCE' => [
+                'OFFLINE_MARKDOWN' => '# 網站正在維護
+## 請稍後訪問...',
+                'AUTHORIZED_ACCESS' => '**需要登錄**',
+                'BLUEPRINTS' => [
+                    'STATUS' => '外掛狀態',
+                    'MODE' => '維護模式',
+                    'MODE_HELP' => '控制全站維護模式的打開與關閉',
+                    'ALLOW_LOGIN' => '允許登錄',
+                    'ALLOW_LOGIN_HELP' => '若您需要給授權用戶提供登入界面以訪問網站',
+                    'ACCESS' => '登入控制',
+                    'ACCESS_HELP' => '用戶若需登入，此權限控制項目必須為真',
+                    'PAGE_ROUTE' => '維護頁面路徑',
+                    'PAGE_ROUTE_HELP' => '您可以自定義一個 Grav 頁面作為維護頁面'
+                ]
             ]
         ],
         'nb' => [
@@ -18391,7 +18859,7 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => '75f337a5d5f2c62be2e9e67e6d310a76',
-        'timestamp' => 1507213282
+        'checksum' => '8da8ae6ca96d67e573c1e334a7984e11',
+        'timestamp' => 1508332173
     ]
 ];

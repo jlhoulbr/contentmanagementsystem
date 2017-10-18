@@ -24,10 +24,16 @@ class __TwigTemplate_37eea76264cbdf9e285352f72a480a857d4d99ec4872680bd6bca10ba6f
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 3
+    // line 2
     public function block_content($context, array $blocks = array())
     {
-        // line 4
+        // line 3
+        if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "breadcrumbs", array()), "enabled", array())) {
+            // line 4
+            echo "\t\t\t\t";
+            $this->loadTemplate("partials/breadcrumbs.html.twig", "default.html.twig", 4)->display($context);
+        }
+        // line 6
         echo "\t";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
@@ -46,7 +52,7 @@ class __TwigTemplate_37eea76264cbdf9e285352f72a480a857d4d99ec4872680bd6bca10ba6f
 
     public function getDebugInfo()
     {
-        return array (  31 => 4,  28 => 3,  11 => 1,);
+        return array (  37 => 6,  33 => 4,  31 => 3,  28 => 2,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -60,8 +66,10 @@ class __TwigTemplate_37eea76264cbdf9e285352f72a480a857d4d99ec4872680bd6bca10ba6f
     public function getSourceContext()
     {
         return new Twig_Source("{% extends 'partials/base.html.twig' %}
-
 {% block content %}
+{% if config.plugins.breadcrumbs.enabled %}
+\t\t\t\t{% include 'partials/breadcrumbs.html.twig' %}
+{% endif %}
 \t{{ page.content }}
 {% endblock %}
 ", "default.html.twig", "C:\\wamp64\\www\\grav-admin\\user\\themes\\antimatter\\templates\\default.html.twig");

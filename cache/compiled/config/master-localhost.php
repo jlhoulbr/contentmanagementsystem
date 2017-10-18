@@ -1,13 +1,25 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1507213282,
-    'checksum' => '3c2f14846163d4673ea8cebe22f6dbff',
+    'timestamp' => 1508332173,
+    'checksum' => '6b1a29ea3c6ffbe4d4b400da46d481fe',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1506616847
+            ],
+            'plugins/admin' => [
+                'file' => 'user/config/plugins/admin.yaml',
+                'modified' => 1508251584
+            ],
+            'plugins/breadcrumbs' => [
+                'file' => 'user/config/plugins/breadcrumbs.yaml',
+                'modified' => 1508251639
+            ],
+            'plugins/maintenance' => [
+                'file' => 'user/config/plugins/maintenance.yaml',
+                'modified' => 1508252106
             ],
             'plugins/recaptchacontact' => [
                 'file' => 'user/config/plugins/recaptchacontact.yaml',
@@ -33,25 +45,25 @@ return [
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1507132170
+                'modified' => 1508247061
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1507132170
+                'modified' => 1508247061
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1507132170
+                'modified' => 1508247061
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1507132170
+                'modified' => 1508247061
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1507209995
+                'modified' => 1508247213
             ],
             'plugins/admin-addon-revisions' => [
                 'file' => 'user/plugins/admin-addon-revisions/admin-addon-revisions.yaml',
@@ -61,37 +73,97 @@ return [
                 'file' => 'user/plugins/admin-addon-user-manager/admin-addon-user-manager.yaml',
                 'modified' => 1507209316
             ],
+            'plugins/adsense' => [
+                'file' => 'user/plugins/adsense/adsense.yaml',
+                'modified' => 1508256395
+            ],
+            'plugins/auto-date' => [
+                'file' => 'user/plugins/auto-date/auto-date.yaml',
+                'modified' => 1508247566
+            ],
+            'plugins/breadcrumbs' => [
+                'file' => 'user/plugins/breadcrumbs/breadcrumbs.yaml',
+                'modified' => 1508249935
+            ],
+            'plugins/cookieconsent' => [
+                'file' => 'user/plugins/cookieconsent/cookieconsent.yaml',
+                'modified' => 1508256441
+            ],
+            'plugins/custom-css' => [
+                'file' => 'user/plugins/custom-css/custom-css.yaml',
+                'modified' => 1508250916
+            ],
+            'plugins/customadmin' => [
+                'file' => 'user/plugins/customadmin/customadmin.yaml',
+                'modified' => 1508331852
+            ],
+            'plugins/diagrams' => [
+                'file' => 'user/plugins/diagrams/diagrams.yaml',
+                'modified' => 1508332158
+            ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1507209967
+                'modified' => 1508256228
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
                 'modified' => 1502903290
             ],
+            'plugins/external_links' => [
+                'file' => 'user/plugins/external_links/external_links.yaml',
+                'modified' => 1508332172
+            ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1507209982
+                'modified' => 1508247205
             ],
             'plugins/ganalytics' => [
                 'file' => 'user/plugins/ganalytics/ganalytics.yaml',
                 'modified' => 1507213281
             ],
+            'plugins/logerrors' => [
+                'file' => 'user/plugins/logerrors/logerrors.yaml',
+                'modified' => 1508256333
+            ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1507209976
+                'modified' => 1508247232
+            ],
+            'plugins/maintenance' => [
+                'file' => 'user/plugins/maintenance/maintenance.yaml',
+                'modified' => 1508251251
+            ],
+            'plugins/markdown-color' => [
+                'file' => 'user/plugins/markdown-color/markdown-color.yaml',
+                'modified' => 1508252873
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
                 'modified' => 1502903290
             ],
+            'plugins/page-inject' => [
+                'file' => 'user/plugins/page-inject/page-inject.yaml',
+                'modified' => 1508253955
+            ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1502903290
+                'modified' => 1508254954
             ],
             'plugins/recaptchacontact' => [
                 'file' => 'user/plugins/recaptchacontact/recaptchacontact.yaml',
                 'modified' => 1507210121
+            ],
+            'plugins/responsive-images' => [
+                'file' => 'user/plugins/responsive-images/responsive-images.yaml',
+                'modified' => 1508256502
+            ],
+            'plugins/simplesearch' => [
+                'file' => 'user/plugins/simplesearch/simplesearch.yaml',
+                'modified' => 1508255178
+            ],
+            'plugins/sitemap' => [
+                'file' => 'user/plugins/sitemap/sitemap.yaml',
+                'modified' => 1508255480
             ]
         ]
     ],
@@ -102,7 +174,7 @@ return [
                 'route' => '/admin',
                 'cache_enabled' => false,
                 'theme' => 'grav',
-                'logo_text' => '',
+                'logo_text' => 'Qualsafe Awards',
                 'body_classes' => '',
                 'content_padding' => true,
                 'twofa_enabled' => true,
@@ -149,9 +221,9 @@ return [
                         1 => '/modular'
                     ],
                     'history' => [
-                        'daily' => 30,
-                        'monthly' => 12,
-                        'visitors' => 20
+                        'daily' => '30',
+                        'monthly' => '12',
+                        'visitors' => '20'
                     ]
                 ]
             ],
@@ -169,6 +241,78 @@ return [
                 'default_list_style' => 'list',
                 'pagination' => [
                     'per_page' => 20
+                ]
+            ],
+            'adsense' => [
+                'enabled' => true,
+                'sandbox' => false,
+                'adsense' => [
+                    'options' => [
+                        'type' => 'banner',
+                        'direction' => 'top',
+                        'priority' => -999,
+                        'pipeline' => false,
+                        'load' => '',
+                        'resource' => 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+                    ],
+                    'data' => [
+                        'client' => 'ca-pub-1147018993230160',
+                        'slot' => 1160605533
+                    ]
+                ]
+            ],
+            'auto-date' => [
+                'enabled' => true
+            ],
+            'breadcrumbs' => [
+                'enabled' => true,
+                'show_all' => true,
+                'built_in_css' => true,
+                'include_home' => false,
+                'icon_home' => '',
+                'icon_divider_classes' => 'fa fa-angle-right',
+                'link_trailing' => false
+            ],
+            'cookieconsent' => [
+                'enabled' => true,
+                'content_message' => 'This website uses cookies to ensure you get the best experience on our website.',
+                'content_dismiss' => 'Got it!',
+                'content_link' => 'Learn more',
+                'content_href' => 'https://cookiesandyou.com',
+                'popup_background_color' => '#000',
+                'popup_text_color' => '#fff',
+                'button_background_color' => '#f1d600',
+                'button_text_color' => '#000',
+                'button_border_color' => '#f1d600',
+                'position' => 'bottom',
+                'theme' => 'block'
+            ],
+            'custom-css' => [
+                'enabled' => true
+            ],
+            'customadmin' => [
+                'enabled' => true
+            ],
+            'diagrams' => [
+                'enabled' => true,
+                'align' => 'center',
+                'theme' => 'simple',
+                'font' => [
+                    'size' => 14,
+                    'color' => 'black'
+                ],
+                'line' => [
+                    'color' => 'black'
+                ],
+                'element' => [
+                    'color' => 'black'
+                ],
+                'condition' => [
+                    'yes' => 'yes',
+                    'no' => 'no'
+                ],
+                'gantt' => [
+                    'axis' => '%d-%m-%Y'
                 ]
             ],
             'email' => [
@@ -199,6 +343,40 @@ return [
                     404 => '/error'
                 ]
             ],
+            'external_links' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'weight' => 0,
+                'exclude' => [
+                    'classes' => [
+                        0 => 'exclude'
+                    ],
+                    'domains' => NULL
+                ],
+                'links' => [
+                    'www' => false,
+                    'schemes' => [
+                        0 => 'http',
+                        1 => 'https',
+                        2 => 'ftp',
+                        3 => 'irc',
+                        4 => 'mailto',
+                        5 => 'news',
+                        6 => 'nntp',
+                        7 => 'rtsp',
+                        8 => 'sftp',
+                        9 => 'ssh',
+                        10 => 'tel',
+                        11 => 'telnet',
+                        12 => 'webcal'
+                    ]
+                ],
+                'process' => true,
+                'title' => false,
+                'no_follow' => true,
+                'target' => '_blank',
+                'mode' => 'active'
+            ],
             'form' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -206,7 +384,6 @@ return [
                 'files' => [
                     'multiple' => false,
                     'limit' => 10,
-                    'filesize' => 5,
                     'destination' => 'self@',
                     'avoid_overwriting' => false,
                     'random_name' => false,
@@ -232,6 +409,11 @@ return [
                 'cookieExpires' => 63072000,
                 'debugStatus' => false,
                 'debugTrace' => false
+            ],
+            'logerrors' => [
+                'enabled' => true,
+                'filename' => 'notfound.txt',
+                'folder' => 'logerrors'
             ],
             'login' => [
                 'enabled' => true,
@@ -280,6 +462,16 @@ return [
                 'max_login_count' => 0,
                 'max_login_interval' => 2
             ],
+            'maintenance' => [
+                'enabled' => true,
+                'active' => false,
+                'allow_login' => true,
+                'login_access' => 'site.login',
+                'maintenance_page_route' => NULL
+            ],
+            'markdown-color' => [
+                'enabled' => true
+            ],
             'markdown-notices' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -289,6 +481,11 @@ return [
                     2 => 'blue',
                     3 => 'green'
                 ]
+            ],
+            'page-inject' => [
+                'enabled' => true,
+                'active' => true,
+                'processed_content' => true
             ],
             'problems' => [
                 'enabled' => true,
@@ -302,6 +499,33 @@ return [
                 'grecaptcha_sitekey' => 'your reCAPTCHA site key',
                 'grecaptcha_secret' => 'your secret-g-recaptcha-key',
                 'grecaptcha_callback' => false
+            ],
+            'responsive-images' => [
+                'enabled' => true
+            ],
+            'simplesearch' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'display_button' => false,
+                'min_query_length' => 3,
+                'route' => '/search',
+                'search_content' => 'rendered',
+                'template' => 'simplesearch_results',
+                'filters' => [
+                    'category' => 'blog'
+                ],
+                'filter_combinator' => 'and',
+                'ignore_accented_characters' => false,
+                'order' => [
+                    'by' => 'date',
+                    'dir' => 'desc'
+                ]
+            ],
+            'sitemap' => [
+                'enabled' => true,
+                'route' => '/sitemap',
+                'changefreq' => 'daily',
+                'priority' => 1
             ]
         ],
         'media' => [
@@ -776,7 +1000,6 @@ return [
             ],
             'media' => [
                 'enable_media_timestamp' => false,
-                'upload_limit' => 0,
                 'unsupported_inline_types' => [
                     
                 ],

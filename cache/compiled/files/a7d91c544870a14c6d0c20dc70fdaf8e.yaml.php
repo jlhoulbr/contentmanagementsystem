@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/grav-admin/user/plugins/admin/blueprints/admin/pages/new_folder.yaml',
-    'modified' => 1507209995,
+    'modified' => 1508247213,
     'data' => [
         'rules' => [
             'slug' => [

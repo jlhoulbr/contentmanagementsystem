@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/grav-admin/system/languages/uk.yaml',
-    'modified' => 1507132171,
+    'modified' => 1508247061,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
