@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1508332173,
-    'checksum' => '8da8ae6ca96d67e573c1e334a7984e11',
+    'timestamp' => 1508587412,
+    'checksum' => '67fcf0f7bf7311dc938754be0991dc04',
     'files' => [
         'system/languages' => [
             'ar' => [
@@ -154,6 +154,10 @@ return [
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/languages.yaml',
                 'modified' => 1508255178
+            ],
+            'plugins/tinymce-editor' => [
+                'file' => 'user/plugins/tinymce-editor/languages.yaml',
+                'modified' => 1508518784
             ]
         ],
         'user/plugins/admin/languages' => [
@@ -2331,6 +2335,24 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'SEARCH_RESULTS_SUMMARY_SINGULAR' => 'Query: <strong>%s</strong> found one result',
                 'SEARCH_RESULTS_SUMMARY_PLURAL' => 'Query: <strong>%s</strong> found %s results',
                 'SEARCH_FIELD_MINIMUM_CHARACTERS' => 'Please add at least %s characters'
+            ],
+            'PLUGIN_TINYMCE_EDITOR' => [
+                'API_KEY' => 'API key',
+                'API_KEY_HELP' => 'The API key to use with TinyMCE Cloud. If empty, local copy of TinyMCE will be used',
+                'PLUGINS_HELP' => 'The plugins to load with TinyMCE',
+                'PARAMETERS' => 'Parameters',
+                'PARAMETERS_HELP' => 'Additional parameters to pass to TinyMCE during its initialization',
+                'VALUE' => 'Value',
+                'MENU_BAR' => 'Menu bar',
+                'MENU_BAR_HELP' => 'If enabled, a menu bar will be present over the toolbar',
+                'MENU_HELP' => 'The tree of the TinyMCE menu elements, ignored if menu bar is disabled',
+                'TOOLBAR' => 'Toolbar',
+                'TOOLBAR_HELP' => 'The toolbar layout for TinyMCE to use',
+                'ROW' => 'Row',
+                'BRANDING' => 'Branding',
+                'BRANDING_HELP' => 'If enabled, a "Powered by TinyMCE" branding will be present at the bottom of the editor',
+                'STATUS_BAR' => 'Status bar',
+                'STATUS_BAR_HELP' => 'If enabled, a status bar will be present at the bottom of the editor'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -13340,6 +13362,24 @@ Pane: \'%2$s\'
                     'FAIL' => 'Ups! Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie poźniej.'
                 ]
             ],
+            'PLUGIN_TINYMCE_EDITOR' => [
+                'API_KEY' => 'Klucz API',
+                'API_KEY_HELP' => 'Pole na klucz API używany do uwierzytelnienia z chmurą TinyMCE. Jeśli puste, zostanie użyta lokalna kopia TinyMCE',
+                'PLUGINS_HELP' => 'Wtyczki do załadowania z TinyMCE',
+                'PARAMETERS' => 'Parametry',
+                'PARAMETERS_HELP' => 'Dodatkowe parametry do przekazania TinyMCE podczas jego ładowania',
+                'VALUE' => 'Wartość',
+                'MENU_BAR' => 'Pasek menu',
+                'MENU_BAR_HELP' => 'Jeśli włączony, pasek menu będzie widoczny ponad paskiem narzędzi',
+                'MENU_HELP' => 'Drzewo elementów menu TinyMCE, ignorowane jeśli pasek menu jest wyłączony',
+                'TOOLBAR' => 'Pasek narzędzi',
+                'TOOLBAR_HELP' => 'Układ paska narzędzi TinyMCE',
+                'ROW' => 'Wiersz',
+                'BRANDING' => 'Znak TinyMCE',
+                'BRANDING_HELP' => 'Jeśli włączony, znak "Powered by TinyMCE" będzie widoczny na dole edytora',
+                'STATUS_BAR' => 'Pasek stanu',
+                'STATUS_BAR_HELP' => 'Jeśli włączony, pasek stanu będzie widoczny na dole edytora'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
 ---
@@ -18859,7 +18899,7 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => '8da8ae6ca96d67e573c1e334a7984e11',
-        'timestamp' => 1508332173
+        'checksum' => '67fcf0f7bf7311dc938754be0991dc04',
+        'timestamp' => 1508587412
     ]
 ];

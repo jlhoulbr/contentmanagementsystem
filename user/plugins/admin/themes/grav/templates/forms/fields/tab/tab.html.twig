@@ -3,7 +3,11 @@
     {% for field in field.fields %}
         {% if field.type %}
             {% set value = field.name ? data.value(field.name) : data.toArray %}
+{% if admin.session.expert == '1' and field.type =='tinymce'%}
+{% include ["forms/fields/editor/editor.html.twig", 'forms/fields/text/text.html.twig'] %}
+{% else %}
             {% include ["forms/fields/#{field.type}/#{field.type}.html.twig", 'forms/fields/text/text.html.twig'] %}
+              {% endif %}
         {% endif %}
     {% endfor %}
     </div>

@@ -28,6 +28,20 @@
     {% endfor %}
     </div>
     <div class="tabs-content">
+      {% if admin.session.expert == '1' %}
+        {% for field in field.fields %}
+            {% if field.type == 'tab' %}
+
+                {% if field.security is empty or authorize(array(field.security)) %}
+                    {% set value = field.name ? data.value(field.name) : data.toArray %}
+                    <div id="tab-{{ tabsKey ~ loop.index }}" class="tab__content {{ (storedTab == scope ~ field.name) or active == loop.index ? 'active' : '' }}">
+                        {% include ["forms/fields/#{field.type}/#{field.type}.html.twig", 'forms/fields/editor/editor.html.twig', 'forms/fields/text/text.html.twig'] %}
+                    </div>
+                {% endif %}
+                {% endif %}        
+        {% endfor %}
+      {% endif %}
+      {% if admin.session.expert == '0' %}
         {% for field in field.fields %}
             {% if field.type == 'tab' %}
                 {% if field.security is empty or authorize(array(field.security)) %}
@@ -38,7 +52,7 @@
                 {% endif %}
             {% endif %}
         {% endfor %}
+      {% endif %}
     </div>
 {% endif %}
 </div>
-

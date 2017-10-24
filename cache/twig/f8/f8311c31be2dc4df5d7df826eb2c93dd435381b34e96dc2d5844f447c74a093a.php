@@ -44,12 +44,20 @@ class __TwigTemplate_6ef03984e9a39b9ed0705e86a8fa055ddc583695d141e80aadc0d9930b3
                     echo "            ";
                     $context["value"] = (($this->getAttribute($context["field"], "name", array())) ? ($this->getAttribute((isset($context["data"]) ? $context["data"] : null), "value", array(0 => $this->getAttribute($context["field"], "name", array())), "method")) : ($this->getAttribute((isset($context["data"]) ? $context["data"] : null), "toArray", array())));
                     // line 6
-                    echo "            ";
-                    $this->loadTemplate(array(0 => (((("forms/fields/" . $this->getAttribute($context["field"], "type", array())) . "/") . $this->getAttribute($context["field"], "type", array())) . ".html.twig"), 1 => "forms/fields/text/text.html.twig"), "forms/fields/tab/tab.html.twig", 6)->display($context);
-                    // line 7
+                    if ((($this->getAttribute($this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "session", array()), "expert", array()) == "1") && ($this->getAttribute($context["field"], "type", array()) == "tinymce"))) {
+                        // line 7
+                        $this->loadTemplate(array(0 => "forms/fields/editor/editor.html.twig", 1 => "forms/fields/text/text.html.twig"), "forms/fields/tab/tab.html.twig", 7)->display($context);
+                    } else {
+                        // line 9
+                        echo "            ";
+                        $this->loadTemplate(array(0 => (((("forms/fields/" . $this->getAttribute($context["field"], "type", array())) . "/") . $this->getAttribute($context["field"], "type", array())) . ".html.twig"), 1 => "forms/fields/text/text.html.twig"), "forms/fields/tab/tab.html.twig", 9)->display($context);
+                        // line 10
+                        echo "              ";
+                    }
+                    // line 11
                     echo "        ";
                 }
-                // line 8
+                // line 12
                 echo "    ";
                 ++$context['loop']['index0'];
                 ++$context['loop']['index'];
@@ -63,7 +71,7 @@ class __TwigTemplate_6ef03984e9a39b9ed0705e86a8fa055ddc583695d141e80aadc0d9930b3
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['field'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 9
+            // line 13
             echo "    </div>
 ";
         }
@@ -81,7 +89,7 @@ class __TwigTemplate_6ef03984e9a39b9ed0705e86a8fa055ddc583695d141e80aadc0d9930b3
 
     public function getDebugInfo()
     {
-        return array (  67 => 9,  53 => 8,  50 => 7,  47 => 6,  44 => 5,  41 => 4,  24 => 3,  21 => 2,  19 => 1,);
+        return array (  75 => 13,  61 => 12,  58 => 11,  55 => 10,  52 => 9,  49 => 7,  47 => 6,  44 => 5,  41 => 4,  24 => 3,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -99,7 +107,11 @@ class __TwigTemplate_6ef03984e9a39b9ed0705e86a8fa055ddc583695d141e80aadc0d9930b3
     {% for field in field.fields %}
         {% if field.type %}
             {% set value = field.name ? data.value(field.name) : data.toArray %}
+{% if admin.session.expert == '1' and field.type =='tinymce'%}
+{% include [\"forms/fields/editor/editor.html.twig\", 'forms/fields/text/text.html.twig'] %}
+{% else %}
             {% include [\"forms/fields/#{field.type}/#{field.type}.html.twig\", 'forms/fields/text/text.html.twig'] %}
+              {% endif %}
         {% endif %}
     {% endfor %}
     </div>
