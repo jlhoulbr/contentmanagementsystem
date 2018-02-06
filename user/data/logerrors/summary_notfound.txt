@@ -1,12 +1,18 @@
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 160
+    count: 173
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 152
+    count: 166
 -
     url: 'http://localhost:80/grav-admin/user/plugins/tinymce-editor/js/tinymce/langs/en.js'
-    count: 81
+    count: 103
 -
     url: 'http://localhost:80/grav-admin/user/plugins/tinymce-editor/js/tinymce/langs/en_EN.js'
-    count: 81
+    count: 103
+-
+    url: 'http://localhost:80/grav-admin/user/plugins/bootstrapper/css/bootstrap-theme.min.css.map'
+    count: 7
+-
+    url: 'http://localhost:80/grav-admin/user/plugins/bootstrapper/css/bootstrap.min.css.map'
+    count: 7

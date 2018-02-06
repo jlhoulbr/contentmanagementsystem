@@ -17,6 +17,7 @@
         {% do assets.addCss('theme://css/custom.css', 100) %}
         {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
         {% do assets.addCss('theme://css/slidebars.min.css') %}
+        {% do assets.addCss('theme://slick/slick.css') %}
 
         {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
             {% do assets.addCss('theme://css/nucleus-ie10.css') %}
@@ -33,10 +34,16 @@
         {% do assets.addJs('theme://js/modernizr.custom.71422.js', 100) %}
         {% do assets.addJs('theme://js/antimatter.js') %}
         {% do assets.addJs('theme://js/slidebars.min.js') %}
+        {% do assets.addJs('theme://slick/slick.min.js') %}
     {% endblock %}
     {{ assets.js() }}
 
 {% endblock head %}
+    <script type='text/javascript'>
+        $(document).ready(function () {
+            $('.sliding-banner').slick({autoplay: true, arrows: false});
+        });
+    </script>
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
     <div id="sb-site">

@@ -14,6 +14,10 @@ content:
     url_taxonomy_filters: '1'
 ---
 
+<span class='sliding-banner'><span>Put ![](1497167371852.gif)your content here</span><span>Put your content here</span><span>Put your content here</span></span>
+
+<span class='sliding-banner'><span>Put your content here</span><span>Put yo![](1441413351.gif)ur content here</span><span>Put your content here</span><span>Put your content here</span></span>
+
 <p>[Home 2](/home/home2) <strong>hello</strong> <span style="color: red;">greetings</span> [yo](https://www.google.com) ![](55181940.jpg)</p>
 <div>hello</div>
 <div>&nbsp;</div>
