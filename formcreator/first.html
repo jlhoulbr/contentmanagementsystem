@@ -1,0 +1,27 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="formcreator.js"></script>
+<link rel="stylesheet" href="formcreator.css" name="form-css">
+
+<div id="main-panel">
+    <div id="form-panel">
+        <form id="main-form">
+            <input type="text" class="empty">
+        </form>
+        <button class="save-form">Save</button>
+    </div>
+    <div id="options-panel">
+        <div id="buttons">
+            <ul class="button-column">
+                <li><a href="javascript:addLineForm('text')">Line Text</a></li>
+                <li><a href="javascript:addLineForm('number')">Line Number</a></li>
+                <li><a href="javascript:addLineForm('textarea')">Text Area</a></li>
+                <li><a href="javascript:addLineForm('dropdown')">Dropdown</a></li>
+                <li><a href="javascript:addLineForm('radio')">Multiple Choice</a></li>
+                <li><a href="javascript:addLineForm('checkbox')">Checkboxes</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{ preview_html }}
+{{ '/user/pages/' ~ context.order ~  context.rawRoute|trim('/') ~ '/default.md'}}

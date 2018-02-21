@@ -26,6 +26,12 @@
             </a>
         {% endif %}
     {% endfor %}
+        {% if admin.session.expert == '0' %}
+            <a class="tab__link" href="#" data-tabid="tab-content.options4" data-tabkey="tab-content.options" data-scope="data.options">
+                <span>
+                Form                </span>
+            </a>
+        {% endif %}
     </div>
     <div class="tabs-content">
       {% if admin.session.expert == '1' %}
@@ -38,7 +44,7 @@
                         {% include ["forms/fields/#{field.type}/#{field.type}.html.twig", 'forms/fields/editor/editor.html.twig', 'forms/fields/text/text.html.twig'] %}
                     </div>
                 {% endif %}
-                {% endif %}        
+                {% endif %}
         {% endfor %}
       {% endif %}
       {% if admin.session.expert == '0' %}
@@ -52,6 +58,9 @@
                 {% endif %}
             {% endif %}
         {% endfor %}
+          <div id="tab-content.options4" class="tab__content {{ (storedTab == scope ~ field.name) or active == loop.index ? 'active' : '' }}">
+              {% include ["forms/fields/formcreator/formcreator.html.twig"] %}
+          </div>
       {% endif %}
     </div>
 {% endif %}

@@ -1,0 +1,113 @@
+#main-panel {
+    display: inline-block;
+    width: 100%;
+}
+
+#form-panel {
+    background: whitesmoke;
+    border: 1px #c3c3c3 solid;
+    width: 46%;
+    height: auto;
+    min-height: 200px;
+    float: left;
+    margin: 0 0 0 30px;
+    padding: 20px 30px;
+}
+
+#options-panel {
+
+    width: 40%;
+    height: auto;
+    float: right;
+    margin: 0 3rem;
+
+}
+
+#buttons {
+    width: auto;
+    float: right;
+}
+
+.button-column {
+    height: auto;
+}
+
+.button-column li {
+    width: 240px;
+    height: 40px;
+    background: #f6f6f6;
+    border: 1px solid #d5d5d5;
+    border-radius: .1875rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.button-column li:hover {
+    border: 1px solid #c0c0c0;
+}
+
+.button-column li a {
+    color: #676f74 !important;
+    display: block;
+    height: 100%;
+    line-height: 2.3;
+}
+
+.button-column li a:hover {
+    color: #515151 !important;
+}
+
+.empty {
+    display: none;
+}
+
+.options {
+    display: none;
+}
+
+.open-editPanel {
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.open-editPanel:hover {
+    outline: 1px solid #d4d4d4;
+    cursor: pointer;
+}
+.open-editPanel input, .open-editPanel select{
+    width: 70% !important;
+}
+.open-editPanel input[type=radio], .open-editPanel input[type=checkbox]{
+    width: auto !important;
+}
+.label-title{
+    color: #676f74 !important;
+    display: inline;
+}
+
+.star {
+    display: none;
+    float: left;
+    margin: 10px;
+}
+
+.choices-panel {
+    width: 200px;
+}
+#main-panel ul{
+    list-style: none;
+}
+.multipleChoice{
+    margin: 0;
+}
+
+.checkboxList{
+    margin: 0;
+}
+
+.save-form {
+    display: none;
+}
+.remove-formPanel{
+    display: none;
+}
