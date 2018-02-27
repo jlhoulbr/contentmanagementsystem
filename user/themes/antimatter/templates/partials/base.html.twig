@@ -42,8 +42,34 @@
     <script type='text/javascript'>
         $(document).ready(function () {
             $('.sliding-banner').slick({autoplay: true, arrows: false});
+
+
         });
+        function formHandler(){
+            var response = grecaptcha.getResponse();
+            if (response.length == 0) {
+                return false;
+            } else {
+            var formValues = $('form :input');
+            var values = {};
+            formValues.each(function () {
+                values[this.name] = $(this).val();
+            });
+            console.log(values);
+            $.ajax({
+                type: 'POST',
+                data: {values:values},
+                url: '/grav-admin/formcreator/customFormSubmission.php', // Your form script
+                success: function (msg) {
+                    $(this).html(msg);
+                }
+            });
+            return false;
+        }
+        }
+
     </script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
     <div id="sb-site">

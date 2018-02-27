@@ -2,16 +2,21 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/grav-admin/formcreator/formcreator.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<div id="select-from">
+    <h1>Select form</h1>
+<div id="form-list">
+    <div id="form-added"></div>
+<select id="form-selector" name="select-form">
 
+</select>
+    <button onclick="return importForm()">Insert form on this page</button>
+    <button onclick="return deleteForm()">Delete Form</button>
+</div>
+</div>
 <div id="main-panel">
-    <div id="form-panel">
-        <div id="main-form">
-        <input type="text" class="empty">
-        </div>
-        <button class="save-form">Save</button>
-    </div>
-
+    <h1>Create Form</h1>
     <div id="options-panel">
+        <h2 style="padding-left: 3rem;">Add field</h2>
         <div id="buttons">
             <ul class="button-column">
                 <li><a href="javascript:addLineForm('text')">Line Text</a></li>
@@ -21,7 +26,21 @@
                 <li><a href="javascript:addLineForm('radio')">Multiple Choice</a></li>
                 <li><a href="javascript:addLineForm('checkbox')">Checkboxes</a></li>
             </ul>
+            <button onclick="return saveForm()" style="cursor: pointer" class="save-form">Save</button>
         </div>
     </div>
+
+    <div id="form-panel">
+
+        <div id="main-form">
+            <span style="display: block;margin-top: 30px;" class="form-message">Use the buttons to create a new form.</span>
+            <input type="text" class="empty">
+        </div>
+
+    </div>
+
 </div>
+<br>
+<span class="target-page"
+      style="display: none">{{ '../user/pages/' ~ context.order ~  context.rawRoute|trim('/') ~ '/' }}</span>
 
