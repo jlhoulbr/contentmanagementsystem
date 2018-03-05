@@ -1,9 +1,9 @@
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 629
+    count: 683
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 621
+    count: 674
 -
     url: 'http://localhost:80/grav-admin/user/plugins/tinymce-editor/js/tinymce/langs/en_EN.js'
     count: 186
@@ -19,6 +19,15 @@
 -
     url: 'http://localhost:80/grav-admin/formcreator.css'
     count: 4
+-
+    url: 'http://localhost:80/grav-admin/admin/images/custom/sortable.png'
+    count: 2
+-
+    url: 'http://localhost:80/grav-admin/user/pages/01.home/1441413351.gif'
+    count: 2
+-
+    url: 'http://localhost:80/grav-admin/user/pages/01.home/1497167371852.gif'
+    count: 2
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/formcreator/formcreator.css'
     count: 2

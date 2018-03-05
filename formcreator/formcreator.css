@@ -115,6 +115,13 @@
 }
 .remove-formPanel{
     display: none;
+    float: right;
+    margin-left: 6px;
+    height: 18px;
+}
+.remove-img{
+    width: 18px;
+    vertical-align: top;
 }
 .form-target{
     display: none;
@@ -127,8 +134,47 @@
 #form-list{
     margin: 20px;
 }
+#form-list button{
+    border: 1px solid #d5d5d5;
+    vertical-align: top;
+    padding: 2px 7px;
+}
 .save-form{
 width: 100px;
     margin-left: 40px;
 
+}
+.sortable-img{
+    width: 16px;
+    float: right;
+    position: relative;
+}
+.choices-list{
+    margin: 0;
+}
+.choices-list input{
+    display: inline;
+    width: 80% !important;
+    margin-bottom: 20px;
+}
+.options fieldset{
+    border: 1px #c3c3c3 solid;
+}
+.add-img{
+    width: 30px;
+}
+.minus-img{
+    vertical-align:middle;
+    width: 20px;
+    margin-left: 6px;
+}
+
+@media screen and (max-width: 896px) {
+    #options-panel {
+        width: 100%;
+    }
+
+    #form-panel {
+        width: 96%;
+    }
 }

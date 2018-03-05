@@ -45,29 +45,41 @@
 
 
         });
-        function formHandler(){
+
+        function formHandler(formID) {
             var response = grecaptcha.getResponse();
             if (response.length == 0) {
                 return false;
             } else {
-            var formValues = $('form :input');
-            var values = {};
-            formValues.each(function () {
-                values[this.name] = $(this).val();
-            });
-            console.log(values);
-            $.ajax({
-                type: 'POST',
-                data: {values:values},
-                url: '/grav-admin/formcreator/customFormSubmission.php', // Your form script
-                success: function (msg) {
-                    $(this).html(msg);
-                }
-            });
-            return false;
-        }
-        }
+                var formValues = $('form#' + formID + ' :input');
+                var values = {};
+                formValues.each(function () {
 
+                    if ($(this).attr('type') == 'radio') {
+                        if ($(this).is(':checked')) {
+                            values[this.name] = $(this).val();
+                        }
+                    } else {
+                        if ($(this).attr('type') == 'checkbox') {
+                            if ($(this).is(':checked')) {
+                                values[this.name] = $(this).val();
+                            }
+                        } else {
+                            values[this.name] = $(this).val();
+                        }
+                    }
+                });
+                $.ajax({
+                    type: 'POST',
+                    data: {values: values},
+                    url: '/grav-admin/formcreator/customFormSubmission.php', // Your form script
+                    success: function (msg) {
+                        $('form#' + formID).html(msg);
+                    }
+                });
+                return false;
+            }
+        }
     </script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
