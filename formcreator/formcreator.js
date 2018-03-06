@@ -13,7 +13,7 @@ checkForms();
 function addLineForm(type) {
     if (type == 'text') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/images/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/images/custom/sortable.png"><span class="star">*</span><label class="label-title">Text</label><span style="color: red" class="required-star"></span><br><input class="text-field" type="text"></div>');
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/formcreator/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/formcreator/custom/sortable.png"><span class="star">*</span><label class="label-title">Text</label><span style="color: red" class="required-star"></span><br><input class="text-field" type="text"></div>');
         var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" id="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><input type="checkbox" class="toggle-required">Required<br><input type="submit"></form></div>';
         $(optionForm).appendTo('#options-panel');
         $('#panel'+i).fadeIn(900);
@@ -21,7 +21,7 @@ function addLineForm(type) {
     }
     if (type == 'number') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/images/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/images/custom/sortable.png"><span class="star">*</span><label class="label-title">Number</label><span style="color: red" class="required-star"></span><br><input class="number-field" type="number"></div>');
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/formcreator/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/formcreator/custom/sortable.png"><span class="star">*</span><label class="label-title">Number</label><span style="color: red" class="required-star"></span><br><input class="number-field" type="number"></div>');
         var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" id="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><input type="checkbox" class="toggle-required">Required<br><input type="submit"></form></div>';
         $(optionForm).appendTo('#options-panel');
         $('#panel'+i).fadeIn(900);
@@ -29,15 +29,15 @@ function addLineForm(type) {
     }
     if (type == 'dropdown') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/images/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/images/custom/sortable.png"><span class="star">*</span><label class="label-title">Dropdown</label><span style="color: red" class="required-star"></span><br><select class="dropdown"><option value="option1">Option 1</option><option value="option2">Option 2</option><option value="option2">Option 3</option></select></div>')
-        var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" id="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><fieldset class="choices-panel' + i + '"><legend>Choices:</legend><a class="plus"><img class="add-img" src="/grav-admin/images/custom/insert.png"></a><ul class="choices-list"></ul></fieldset><input type="submit"></form></div>';
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/formcreator/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/formcreator/custom/sortable.png"><span class="star">*</span><label class="label-title">Dropdown</label><span style="color: red" class="required-star"></span><br><select class="dropdown"><option value="option1">Option 1</option><option value="option2">Option 2</option><option value="option2">Option 3</option></select></div>')
+        var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" id="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><fieldset class="choices-panel' + i + '"><legend>Choices:</legend><a class="plus"><img class="add-img" src="/grav-admin/formcreator/custom/insert.png"></a><ul class="choices-list"></ul></fieldset><input type="submit"></form></div>';
         $(optionForm).appendTo('#options-panel');
         $('#panel'+i).fadeIn(900);
         animateHeight(90);
     }
     if (type == 'textarea') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/images/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/images/custom/sortable.png"><span class="star">*</span><label class="label-title">Text Area</label><span style="color: red" class="required-star"></span><br><textarea class="textarea-field"></textarea></div>');
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/formcreator/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/formcreator/custom/sortable.png"><span class="star">*</span><label class="label-title">Text Area</label><span style="color: red" class="required-star"></span><br><textarea class="textarea-field"></textarea></div>');
         var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" id="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><input type="checkbox" class="toggle-required">Required<br><input type="submit"></form></div>';
         $(optionForm).appendTo('#options-panel');
         $('#panel'+i).fadeIn(900);
@@ -45,16 +45,16 @@ function addLineForm(type) {
     }
     if (type == 'radio') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/images/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/images/custom/sortable.png"><span class="star">*</span><label class="label-title">Multiple Choice</label><span style="color: red" class="required-star"></span><br><ul class="multipleChoice"><li><input type="radio" name="radio" value="Radio1">Radio 1</li><li><input type="radio" name="radio" value="Radio2">Radio 2</li><li><input type="radio" name="radio" value="Radio3">Radio 3</li></ul></div>')
-        var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" id="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><fieldset class="choices-panel' + i + '"><legend>Choices:</legend><a class="plus"><img class="add-img" src="/grav-admin/images/custom/insert.png"></a><ul class="choices-list"></ul></fieldset><input type="submit"></form></div>';
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/formcreator/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/formcreator/custom/sortable.png"><span class="star">*</span><label class="label-title">Multiple Choice</label><span style="color: red" class="required-star"></span><br><ul class="multipleChoice"><li><input type="radio" name="radio" value="Radio1">Radio 1</li><li><input type="radio" name="radio" value="Radio2">Radio 2</li><li><input type="radio" name="radio" value="Radio3">Radio 3</li></ul></div>')
+        var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" id="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><fieldset class="choices-panel' + i + '"><legend>Choices:</legend><a class="plus"><img class="add-img" src="/grav-admin/formcreator/custom/insert.png"></a><ul class="choices-list"></ul></fieldset><input type="submit"></form></div>';
         $(optionForm).appendTo('#options-panel');
         $('#panel'+i).fadeIn(900);
         animateHeight(90);
     }
     if (type == 'checkbox') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/images/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/images/custom/sortable.png"><span class="star">*</span><label class="label-title">Checkbox</label><span style="color: red" class="required-star"></span><br><ul class="checkboxList"><li><input type="checkbox" value="checkbox1">Checkbox 1</li><li><input type="checkbox" value="checkbox2">Checkbox 2</li><li><input type="checkbox" value="checkbox3">Checkbox 3</li></ul></div>')
-        var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" id="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><fieldset class="choices-panel' + i + '"><legend>Choices:</legend><a class="plus"><img class="add-img" src="/grav-admin/images/custom/insert.png"></a><ul class="choices-list"></ul></fieldset><input type="submit"></form></div>';
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="/grav-admin/formcreator/custom/delete.png"></span><img class="sortable-img" src="/grav-admin/formcreator/custom/sortable.png"><span class="star">*</span><label class="label-title">Checkbox</label><span style="color: red" class="required-star"></span><br><ul class="checkboxList"><li><input type="checkbox" value="checkbox1">Checkbox 1</li><li><input type="checkbox" value="checkbox2">Checkbox 2</li><li><input type="checkbox" value="checkbox3">Checkbox 3</li></ul></div>')
+        var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" id="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><fieldset class="choices-panel' + i + '"><legend>Choices:</legend><a class="plus"><img class="add-img" src="/grav-admin/formcreator/custom/insert.png"></a><ul class="choices-list"></ul></fieldset><input type="submit"></form></div>';
         $(optionForm).appendTo('#options-panel');
         $('#panel'+i).fadeIn(900);
         animateHeight(90);
@@ -84,21 +84,21 @@ function addLineForm(type) {
             if (multipleChoice.length > 0) {
                 multipleChoice.children().each(function () {
                     var inputValue = $(this).children().val();
-                    $('.choices-panel' + target + ' .choices-list').append('<li><input type="text" value="' + inputValue + '"><a class="minus"><img class="minus-img" src="/grav-admin/images/custom/delete.png"></a></li>');
+                    $('.choices-panel' + target + ' .choices-list').append('<li><input type="text" value="' + inputValue + '"><a class="minus"><img class="minus-img" src="/grav-admin/formcreator/custom/delete.png"></a></li>');
                 });
             }
             var checkboxList = $(this).children('.checkboxList');
             if (checkboxList.length > 0) {
                 checkboxList.children().each(function () {
                     var inputValue = $(this).children().val();
-                    $('.choices-panel' + target + ' .choices-list').append('<li><input type="text" value="' + inputValue + '"><a class="minus"><img class="minus-img" src="/grav-admin/images/custom/delete.png"></a></li>');
+                    $('.choices-panel' + target + ' .choices-list').append('<li><input type="text" value="' + inputValue + '"><a class="minus"><img class="minus-img" src="/grav-admin/formcreator/custom/delete.png"></a></li>');
                 });
             }
             var dropdown = $(this).children('.dropdown');
             if (dropdown.length > 0) {
                 dropdown.children().each(function () {
                     var inputValue = $(this).html();
-                    $('.choices-panel' + target + ' .choices-list').append('<li><input type="text" value="' + inputValue + '"><a class="minus"><img class="minus-img" src="/grav-admin/images/custom/delete.png"></a></li>');
+                    $('.choices-panel' + target + ' .choices-list').append('<li><input type="text" value="' + inputValue + '"><a class="minus"><img class="minus-img" src="/grav-admin/formcreator/custom/delete.png"></a></li>');
                 });
             }
         }
@@ -107,7 +107,7 @@ function addLineForm(type) {
             .on('click', function () {
                 $(this)
                     .next()
-                    .append('<li><input type="text" value=""><a class="minus"><img class="minus-img" src="/grav-admin/images/custom/delete.png"></a></li>');
+                    .append('<li><input type="text" value=""><a class="minus"><img class="minus-img" src="/grav-admin/formcreator/custom/delete.png"></a></li>');
                 $('.minus').on('click', function () {
                     $(this)
                         .parent()
