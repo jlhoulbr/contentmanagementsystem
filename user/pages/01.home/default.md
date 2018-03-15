@@ -14,50 +14,46 @@ content:
     url_taxonomy_filters: '1'
 ---
 
-<span class='sliding-banner'><span>Put ![](1497167371852.gif)your content here</span><span>Put your content here</span><span>Put your content here</span></span>
-
-<span class='sliding-banner'><span>Put your content here</span><span>Put yo![](1441413351.gif)ur content here</span><span>Put your content here</span><span>Put your content here</span></span>
-
-<p>[Home 2](/home/home2) <strong>hello</strong> <span style="color: red;">greetings</span> [yo](https://www.google.com) ![](55181940.jpg)</p>
+<p><span class="sliding-banner">Put ![](1497167371852.gif)your content herePut your content herePut your content here</span> <span class="sliding-banner">Put your content herePut yo![](1441413351.gif)ur content herePut your content herePut your content here</span></p>
 <div>hello</div>
 <div>&nbsp;</div>
 <div>
-<table style="height: 128px;" width="245">
+<table style="height: 147px;" width="598">
 <tbody>
 <tr>
-<td style="width: 42px;">fgx</td>
-<td style="width: 42px;">zxh</td>
-<td style="width: 42px;">zhd</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 43px;">&nbsp;</td>
+<td style="width: 112px;">fgx</td>
+<td style="width: 112px;">zxh</td>
+<td style="width: 112px;">zhd</td>
+<td style="width: 112px;">&nbsp;g</td>
+<td style="width: 116px;">&nbsp;g</td>
 </tr>
 <tr>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 43px;">&nbsp;</td>
+<td style="width: 112px;">&nbsp;gg</td>
+<td style="width: 112px;">&nbsp;g</td>
+<td style="width: 112px;">&nbsp;gg</td>
+<td style="width: 112px;">&nbsp;gg</td>
+<td style="width: 116px;">&nbsp;g</td>
 </tr>
 <tr>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 43px;">&nbsp;</td>
+<td style="width: 112px;">&nbsp;gs</td>
+<td style="width: 112px;">&nbsp;dsg</td>
+<td style="width: 112px;">&nbsp;sdg</td>
+<td style="width: 112px;">&nbsp;sg</td>
+<td style="width: 116px;">&nbsp;dgs</td>
 </tr>
 <tr>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 43px;">&nbsp;</td>
+<td style="width: 112px;">&nbsp;</td>
+<td style="width: 112px;">&nbsp;</td>
+<td style="width: 112px;">&nbsp;</td>
+<td style="width: 112px;">&nbsp;</td>
+<td style="width: 116px;">&nbsp;</td>
 </tr>
 <tr>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 42px;">&nbsp;</td>
-<td style="width: 43px;">&nbsp;</td>
+<td style="width: 112px;">&nbsp;</td>
+<td style="width: 112px;">&nbsp;</td>
+<td style="width: 112px;">&nbsp;</td>
+<td style="width: 112px;">&nbsp;</td>
+<td style="width: 116px;">&nbsp;</td>
 </tr>
 </tbody>
 </table>

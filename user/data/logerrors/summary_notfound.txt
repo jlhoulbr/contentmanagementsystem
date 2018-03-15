@@ -1,9 +1,9 @@
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 685
+    count: 728
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 676
+    count: 718
 -
     url: 'http://localhost:80/grav-admin/user/plugins/tinymce-editor/js/tinymce/langs/en_EN.js'
     count: 186

@@ -4,4 +4,8 @@ visible: true
 enabled: true
 ---
 
-<p># this is becomea shit [plugin:content-inject](/formtest) **get kekt**</p>
+<p>hello</p>
+<div class="sliding-banner">
+<div>&nbsp;</div>
+<div>kkk</div>
+</div>

@@ -67,7 +67,7 @@ function addLineForm(type) {
     $('.open-editPanel').off().on('click', function () {
         $('.star').css('display', 'none');
         $('.open-editPanel').css('outline', '');
-        $(this).css('outline', '1px solid #d4d4d4');
+        $(this).css('outline', '1px dashed #d4d4d4');
         $('.remove-formPanel').css('display', 'none');
         $(this).children('.star').css('display', 'block');
         $(this).children('.remove-formPanel').css('display', 'block');
