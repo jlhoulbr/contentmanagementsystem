@@ -1,6 +1,6 @@
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 728
+    count: 729
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/themes/grav/js/admin.min.js.map'
     count: 718
@@ -11,14 +11,26 @@
     url: 'http://localhost:80/grav-admin/user/plugins/tinymce-editor/js/tinymce/langs/en.js'
     count: 184
 -
+    url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/vendor.min.js.map'
+    count: 23
+-
+    url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/admin.min.js.map'
+    count: 20
+-
     url: 'http://localhost:80/grav-admin/user/plugins/bootstrapper/css/bootstrap-theme.min.css.map'
     count: 7
 -
     url: 'http://localhost:80/grav-admin/user/plugins/bootstrapper/css/bootstrap.min.css.map'
     count: 7
 -
+    url: 'http://localhost/grav-admin/gd/facebook.png%29%3C/div%3E%3Cdiv%20class='
+    count: 5
+-
     url: 'http://localhost:80/grav-admin/formcreator.css'
     count: 4
+-
+    url: 'http://localhost/grav-admin/user/pages/gd/Conference-Book-Now-Banner-QA%20%284'
+    count: 2
 -
     url: 'http://localhost:80/grav-admin/admin/images/custom/sortable.png'
     count: 2
@@ -40,6 +52,9 @@
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/formcreator/user/plugins/admin/formcreator/formcreator.css'
     count: 2
+-
+    url: 'http://localhost/grav-admin/formcreator/admin.min.js.map'
+    count: 1
 -
     url: 'http://localhost:80/grav-admin/images/custom/insert.png'
     count: 1

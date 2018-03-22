@@ -1,3 +1,59 @@
+# v2.1.0
+##  14/03/2018
+
+1. [](#new)
+    * Czech translation (Thanks: https://github.com/07pepa)
+    * Spanish translation (Thanks: https://github.com/filisko PR #31)
+
+2. [](#bugfix)
+    * Fixed user editor using wrong task when saving, which caused save error when you didn't have 'admin.super'. (#34)
+    * Added a temporary fix for user editor's permission area. The toggles moved below the permission's name at a specific width. (#22)
+    * Minor bugfixes
+
+# v2.0.3
+##  27/02/2018
+
+1. [](#improved)
+    * Added missing translations
+
+# v2.0.2
+##  27/01/2018
+
+1. [](#bugfix)
+    * Fixed wrong redirection after deleting an user (#28)
+    * Added missing translation for user delete confirmation
+
+# v2.0.1
+##  01/01/2018
+
+1. [](#bugfix)
+    * Fixed admin links not working when something is changed in the form (#27)
+
+# v2.0.0
+##  29/12/2017
+
+1. [](#new)
+    * 'Login As' button
+
+2. [](#bugfix)
+    * Fixed being redirected to the deleted user, now redirects to the user manager
+    * The delete button now shows up when editing the user
+    * Avatar upload now works
+
+# v1.9.1
+##  29/12/2017
+
+1. [](#bugfix)
+    * Fixed 'Memory leak when using non-ascii character (?) to create group' (#26)
+    * Fixed being redirected to the deleted group, now redirects to the group manager
+
+# v1.9.0
+##  02/12/2017
+
+1. [](#improved)
+    * Using custom blueprint for user editing (#23)
+    * Using custom request handler for saving user data (#23)
+
 # v1.8.1
 ##  18/09/2017
 

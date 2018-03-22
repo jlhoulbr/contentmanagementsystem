@@ -4,11 +4,9 @@ $targetURL = $_POST['target_url'];
 $pageContents = file_get_contents('forms/'.$formFile.'.html');
 $file;
 if($pageContents != '' || $pageContents != null){
-
     foreach(glob($targetURL."*.md") as $filename){
    $file = $filename;
 }
-
     $myfile = fopen($file, "a") or die("Unable to open file!");
     fwrite($myfile, $pageContents);
     fclose($myfile);

@@ -42,8 +42,6 @@
     <script type='text/javascript'>
         $(document).ready(function () {
             $('.sliding-banner').slick({autoplay: true, arrows: false});
-
-
         });
 
         function formHandler(formID) {
@@ -84,6 +82,7 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
+
     <div id="sb-site">
         {% block header %}
         <header id="header">
@@ -134,9 +133,16 @@
                 hideControlClasses: true,
                 scrollLock: true
               });
+
+            });
+        });
+        $('.sliding-banner section').each(function(){
+            $(this).html(function(index,html) {
+                return html.replace('![](', '<img src="'+window.location.href+'/').replace(')','">');
             });
         });
         </script>
     {% endblock %}
+
 </body>
 </html>

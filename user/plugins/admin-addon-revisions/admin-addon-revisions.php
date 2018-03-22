@@ -42,7 +42,7 @@ class AdminAddonRevisionsPlugin extends Plugin {
   }
 
   public function configKey() {
-    return 'plugins' . self::SLUG;
+    return 'plugins.' . self::SLUG;
   }
 
   public function onPluginsInitialized() {
@@ -150,6 +150,11 @@ class AdminAddonRevisionsPlugin extends Plugin {
 
   public function onPageProcessed(Event $e) {
     $page = $e['page'];
+
+    if (!$page->id()) {
+      return;
+    }
+
     $this->debugMessage('--- Admin Addon Revision - Analyzing \'' . $page->title(). '\' ---');
 
     $revisions = new Revisions($page);
@@ -247,7 +252,13 @@ class AdminAddonRevisionsPlugin extends Plugin {
   }
 
   public function getCurrentPage() {
-    return $this->grav['admin']->page(true);
+    $page = $this->grav['admin']->page(true);
+
+    if (!$page) {
+      $page = $this->grav['admin']->page();
+    }
+
+    return $page;
   }
 
   public function directoryName() {
@@ -256,6 +267,18 @@ class AdminAddonRevisionsPlugin extends Plugin {
 
   public function grav() {
     return $this->grav;
+  }
+
+  public function isIgnoredFile($file) {
+    $patterns = $this->config->get($this->configKey() . '.ignore_files', []);
+
+    foreach ($patterns as $pattern) {
+      if (preg_match($pattern, $file)) {
+        return true;
+      }
+    }
+
+    return false;
   }
 
 }

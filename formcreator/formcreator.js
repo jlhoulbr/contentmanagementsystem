@@ -195,7 +195,7 @@ function saveForm() {
             'form':form,
             'formname': formname
         },
-        url: '/grav-admin/formcreator/formcreator.php', // Your form script
+        url: '/grav-admin/formcreator/formcreator.php',
         success: function (msg) {
             $('.save-form').html('done!');
             checkForms();
@@ -252,7 +252,3 @@ function importForm() {
         return false;
     }
 }
-
-
-
-
