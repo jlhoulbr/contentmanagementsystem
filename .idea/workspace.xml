@@ -2,633 +2,374 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd484b8c-76bb-4e56-af0c-25ecd56b182e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/assets/readme_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints/asset/file.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints/blog.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints/form.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints/item.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints/modular/features.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints/modular/showcase.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints/modular/text.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css-compiled/nucleus.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css-compiled/nucleus.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css-compiled/particles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css-compiled/particles.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css-compiled/template.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css-compiled/template.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css/nucleus-ie10.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css/nucleus-ie9.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css/prism.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css/pure-0.5.0/grids-min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/css/slidebars.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/images/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/js/antimatter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/js/html5shiv-printshiv.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/js/modernizr.custom.71422.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/js/singlePageNav.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/js/slidebars.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/languages.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/qualsafe_awards.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/qualsafe_awards.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/screenshot.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/nucleus/_base.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/nucleus/_breakpoints.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/nucleus/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/nucleus/_layout.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/nucleus/_nav.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/nucleus/_typography.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/template/_base.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/template/_bullets.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/template/_colors.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/template/_typography.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/configuration/template/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/_flex.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/_forms.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/_typography.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/functions/_base.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/functions/_direction.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/functions/_range.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/mixins/_base.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/mixins/_breakpoints.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/mixins/_utilities.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/particles/_align-text.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/nucleus/particles/_visibility.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/particles.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_blog.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_bullets.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_core.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_custom.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_errors.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_extensions.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_fonts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_footer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_forms.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_header.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_panel.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_simplesearch.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_tables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_typography.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/modular/_all.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/modular/_features.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/modular/_showcase.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/modular/_text.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/modules/_base.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/modules/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/_bourbon-deprecated-upcoming.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/_bourbon.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_button.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_clearfix.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_directional-values.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_ellipsis.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_font-family.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_hide-text.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_html5-input-types.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_position.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_prefixer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_rem.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_retina-image.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_size.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_timing-functions.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_triangle.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/addons/_word-wrap.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_animation.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_appearance.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_backface-visibility.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_background-image.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_background.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_border-image.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_border-radius.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_box-sizing.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_calc.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_columns.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_filter.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_flex-box.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_font-face.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_font-feature-settings.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_hidpi-media-query.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_hyphens.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_image-rendering.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_keyframes.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_linear-gradient.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_perspective.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_placeholder.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_radial-gradient.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_transform.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_transition.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/css3/_user-select.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_assign.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_color-lightness.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_flex-grid.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_golden-ratio.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_grid-width.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_modular-scale.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_px-to-em.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_px-to-rem.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_strip-units.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_tint-shade.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_transition-property-name.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/functions/_unpack.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_convert-units.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_gradient-positions-parser.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_is-num.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_linear-angle-parser.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_linear-gradient-parser.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_linear-positions-parser.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_linear-side-corner-parser.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_radial-arg-parser.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_radial-gradient-parser.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_radial-positions-parser.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_render-gradients.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_shape-size-stripper.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/helpers/_str-to-num.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/settings/_prefixer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/bourbon/settings/_px-to-em.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/_color-schemer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_cmyk.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_color-adjustments.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_color-schemer.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_colorblind.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_comparison.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_equalize.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_harmonize.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_interpolation.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_mix.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_ryb.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/vendor/color-schemer/color-schemer/_tint-shade.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/blog.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/default.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/error.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/form.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/item.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/macros/macros.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/modular.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/modular/features.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/modular/showcase.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/modular/text.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/blog_item.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/metadata.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/navigation.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/sidebar.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/thumbnail.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/bin/composer.phar" afterPath="$PROJECT_DIR$/bin/composer.phar" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/formcreator/formadd.php" afterPath="$PROJECT_DIR$/formcreator/formadd.php" />
-      <change beforePath="$PROJECT_DIR$/formcreator/formcreator.js" afterPath="$PROJECT_DIR$/formcreator/formcreator.js" />
-      <change beforePath="$PROJECT_DIR$/formcreator/formhandler.php" afterPath="$PROJECT_DIR$/formcreator/formhandler.php" />
-      <change beforePath="$PROJECT_DIR$/formcreator/forms/hj.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/grav-admin.iml" afterPath="$PROJECT_DIR$/grav-admin.iml" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/71901b54f5e18fced88d5493bcbc56dc.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/71901b54f5e18fced88d5493bcbc56dc.yaml.php" />
+      <change beforePath="$PROJECT_DIR$/cache/problem-check-g-761e4703" afterPath="" />
       <change beforePath="$PROJECT_DIR$/logs/grav.log" afterPath="$PROJECT_DIR$/logs/grav.log" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/daily.json" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/totals.json" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" />
-      <change beforePath="$PROJECT_DIR$/system/assets/jquery/jquery-3.x.min.js" afterPath="$PROJECT_DIR$/system/assets/jquery/jquery-3.x.min.js" />
-      <change beforePath="$PROJECT_DIR$/system/assets/whoops.css" afterPath="$PROJECT_DIR$/system/assets/whoops.css" />
-      <change beforePath="$PROJECT_DIR$/system/blueprints/config/system.yaml" afterPath="$PROJECT_DIR$/system/blueprints/config/system.yaml" />
-      <change beforePath="$PROJECT_DIR$/system/blueprints/pages/default.yaml" afterPath="$PROJECT_DIR$/system/blueprints/pages/default.yaml" />
-      <change beforePath="$PROJECT_DIR$/system/blueprints/pages/external.yaml" afterPath="$PROJECT_DIR$/system/blueprints/pages/external.yaml" />
-      <change beforePath="$PROJECT_DIR$/system/blueprints/pages/modular.yaml" afterPath="$PROJECT_DIR$/system/blueprints/pages/modular.yaml" />
-      <change beforePath="$PROJECT_DIR$/system/blueprints/user/account.yaml" afterPath="$PROJECT_DIR$/system/blueprints/user/account.yaml" />
-      <change beforePath="$PROJECT_DIR$/system/config/system.yaml" afterPath="$PROJECT_DIR$/system/config/system.yaml" />
-      <change beforePath="$PROJECT_DIR$/system/defines.php" afterPath="$PROJECT_DIR$/system/defines.php" />
-      <change beforePath="$PROJECT_DIR$/system/router.php" afterPath="$PROJECT_DIR$/system/router.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Assets.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Assets.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Backup/ZipBackup.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Backup/ZipBackup.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Browser.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Browser.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Cache.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Cache.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Composer.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Composer.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Config/CompiledBase.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Config/CompiledBase.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Config/CompiledBlueprints.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Config/CompiledBlueprints.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Config/CompiledConfig.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Config/CompiledConfig.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Config/CompiledLanguages.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Config/CompiledLanguages.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Config/Config.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Config/Config.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Config/ConfigFileFinder.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Config/ConfigFileFinder.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Config/Languages.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Config/Languages.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Config/Setup.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Config/Setup.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Data/Blueprint.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Data/Blueprint.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Data/BlueprintSchema.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Data/BlueprintSchema.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Data/Blueprints.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Data/Blueprints.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Data/Data.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Data/Data.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Data/DataInterface.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Data/DataInterface.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Data/Validation.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Data/Validation.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Data/ValidationException.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Data/ValidationException.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Debugger.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Debugger.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Errors/BareHandler.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Errors/BareHandler.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Errors/Errors.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Errors/Errors.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Errors/SimplePageHandler.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Errors/SimplePageHandler.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Errors/SystemFacade.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Errors/SystemFacade.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/File/CompiledFile.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/File/CompiledFile.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/File/CompiledJsonFile.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/File/CompiledJsonFile.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/File/CompiledMarkdownFile.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/File/CompiledMarkdownFile.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/File/CompiledYamlFile.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/File/CompiledYamlFile.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Filesystem/Folder.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Filesystem/Folder.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Filesystem/RecursiveFolderFilterIterator.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Filesystem/RecursiveFolderFilterIterator.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/AbstractCollection.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/AbstractCollection.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Common/AbstractPackageCollection.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Common/AbstractPackageCollection.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Common/CachedCollection.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Common/CachedCollection.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Common/Package.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Common/Package.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/GPM.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/GPM.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Installer.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Installer.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Licenses.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Licenses.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Local/AbstractPackageCollection.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Local/AbstractPackageCollection.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Local/Package.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Local/Package.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Local/Packages.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Local/Packages.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Local/Plugins.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Local/Plugins.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Local/Themes.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Local/Themes.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/AbstractPackageCollection.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/AbstractPackageCollection.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/GravCore.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/GravCore.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/Package.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/Package.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/Packages.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/Packages.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/Plugins.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/Plugins.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/Themes.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Remote/Themes.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Response.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Response.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Upgrader.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GPM/Upgrader.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Getters.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Getters.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Grav.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Grav.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/GravTrait.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/GravTrait.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Helpers/Base32.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Helpers/Base32.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Helpers/Excerpts.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Helpers/Excerpts.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Helpers/Exif.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Helpers/Exif.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Helpers/Truncator.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Helpers/Truncator.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Inflector.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Inflector.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Iterator.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Iterator.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Language/Language.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Language/Language.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Language/LanguageCodes.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Language/LanguageCodes.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Markdown/Parsedown.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Markdown/Parsedown.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Markdown/ParsedownExtra.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Markdown/ParsedownExtra.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Markdown/ParsedownGravTrait.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Markdown/ParsedownGravTrait.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Collection.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Collection.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Header.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Header.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Media.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Media.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/AbstractMedia.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/AbstractMedia.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/AudioMedium.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/AudioMedium.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/GlobalMedia.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/GlobalMedia.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/ImageFile.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/ImageFile.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/ImageMedium.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/ImageMedium.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/Link.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/Link.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/Medium.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/Medium.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/MediumFactory.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/MediumFactory.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/ParsedownHtmlTrait.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/ParsedownHtmlTrait.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/RenderableInterface.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/RenderableInterface.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/StaticImageMedium.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/StaticImageMedium.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/StaticResizeTrait.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/StaticResizeTrait.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/ThumbnailImageMedium.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/ThumbnailImageMedium.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/VideoMedium.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Medium/VideoMedium.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Page.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Page.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Pages.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Pages.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Types.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Types.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Plugin.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Plugin.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Plugins.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Plugins.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/AssetsProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/AssetsProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/ConfigurationProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/ConfigurationProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/DebuggerAssetsProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/DebuggerAssetsProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/DebuggerInitProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/DebuggerInitProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/ErrorsProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/ErrorsProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/InitializeProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/InitializeProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/PagesProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/PagesProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/PluginsProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/PluginsProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/ProcessorBase.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/ProcessorBase.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/ProcessorInterface.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/ProcessorInterface.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/RenderProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/RenderProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/SiteSetupProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/SiteSetupProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/TasksProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/TasksProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/ThemesProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/ThemesProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Processors/TwigProcessor.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Processors/TwigProcessor.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Service/AssetsServiceProvider.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Service/AssetsServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Service/ConfigServiceProvider.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Service/ConfigServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Service/ErrorServiceProvider.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Service/ErrorServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Service/LoggerServiceProvider.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Service/LoggerServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Service/MessagesServiceProvider.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Service/OutputServiceProvider.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Service/OutputServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Service/PageServiceProvider.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Service/PageServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Service/StreamsServiceProvider.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Service/StreamsServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Service/TaskServiceProvider.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Service/TaskServiceProvider.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Session.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Session.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Taxonomy.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Taxonomy.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Theme.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Theme.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Themes.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Themes.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Twig/Twig.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Twig/Twig.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Twig/TwigEnvironment.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Twig/TwigEnvironment.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Twig/TwigExtension.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Twig/TwigExtension.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Twig/WriteCacheFileTrait.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Twig/WriteCacheFileTrait.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Uri.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Uri.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/User/Authentication.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/User/Authentication.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/User/Group.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/User/Group.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/User/User.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/User/User.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Utils.php" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Utils.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Cli/BackupCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Cli/BackupCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Cli/CleanCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Cli/CleanCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Cli/ClearCacheCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Cli/ClearCacheCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Cli/ComposerCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Cli/ComposerCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Cli/InstallCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Cli/InstallCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Cli/NewProjectCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Cli/NewProjectCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Cli/SandboxCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Cli/SandboxCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/ConsoleCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/ConsoleCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/ConsoleTrait.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/ConsoleTrait.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/DirectInstallCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/DirectInstallCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/IndexCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/IndexCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/InfoCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/InfoCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/InstallCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/InstallCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/SelfupgradeCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/SelfupgradeCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/UninstallCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/UninstallCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/UpdateCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/UpdateCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/VersionCommand.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Gpm/VersionCommand.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/TerminalObjects/Table.php" afterPath="$PROJECT_DIR$/system/src/Grav/Console/TerminalObjects/Table.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Framework/Collection/AbstractLazyCollection.php" afterPath="$PROJECT_DIR$/system/src/Grav/Framework/Collection/AbstractLazyCollection.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Framework/Collection/ArrayCollection.php" afterPath="$PROJECT_DIR$/system/src/Grav/Framework/Collection/ArrayCollection.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Framework/Collection/CollectionInterface.php" afterPath="$PROJECT_DIR$/system/src/Grav/Framework/Collection/CollectionInterface.php" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Framework/Collection/FileCollection.php" afterPath="$PROJECT_DIR$/system/src/Grav/Framework/Collection/FileCollection.php" />
+      <change beforePath="$PROJECT_DIR$/user/config/system.yaml" afterPath="$PROJECT_DIR$/user/config/system.yaml" />
       <change beforePath="$PROJECT_DIR$/user/data/logerrors/notfound.txt" afterPath="$PROJECT_DIR$/user/data/logerrors/notfound.txt" />
       <change beforePath="$PROJECT_DIR$/user/data/logerrors/summary_notfound.txt" afterPath="$PROJECT_DIR$/user/data/logerrors/summary_notfound.txt" />
-      <change beforePath="$PROJECT_DIR$/user/pages/05.hello/default.md" afterPath="$PROJECT_DIR$/user/pages/05.hello/default.md" />
-      <change beforePath="$PROJECT_DIR$/user/pages/07.jfdfdfdf/blog.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-revisions/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-revisions/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-revisions/README.md" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-revisions/README.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-revisions/admin-addon-revisions.php" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-revisions/admin-addon-revisions.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-revisions/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-revisions/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-revisions/src/Util/Util.php" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-revisions/src/Util/Util.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/languages/en.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/languages/en.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/src/Groups/Manager.php" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/src/Groups/Manager.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/src/Users/Manager.php" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/src/Users/Manager.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/templates/group-manager.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/templates/group-manager.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/templates/user-manager-macros.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/templates/user-manager-macros.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/templates/user-manager.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin-addon-user-manager/templates/user-manager.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/admin/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/admin.php" afterPath="$PROJECT_DIR$/user/plugins/admin/admin.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/admin.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/admin.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/assets/admin-dashboard.png" afterPath="$PROJECT_DIR$/user/plugins/admin/assets/admin-dashboard.png" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/modular_raw.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/modular_raw.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/raw.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/raw.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/classes/admin.php" afterPath="$PROJECT_DIR$/user/plugins/admin/classes/admin.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/classes/adminbasecontroller.php" afterPath="$PROJECT_DIR$/user/plugins/admin/classes/adminbasecontroller.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/classes/admincontroller.php" afterPath="$PROJECT_DIR$/user/plugins/admin/classes/admincontroller.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/classes/gpm.php" afterPath="$PROJECT_DIR$/user/plugins/admin/classes/gpm.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/bg.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/bg.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/br.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/br.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/ca.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/ca.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/cs.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/cs.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/da.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/da.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/de.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/de.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/el.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/el.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/en.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/en.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/es.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/es.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/fa.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/fa.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/fi.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/fi.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/fr.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/fr.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/hr.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/hr.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/hu.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/hu.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/it.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/it.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/ja.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/ja.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/lt.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/lt.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/nl.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/nl.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/no.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/no.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/pl.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/pl.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/pt.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/pt.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/ro.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/ro.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/ru.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/ru.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/sk.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/sk.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/sv.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/sv.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/th.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/th.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/tlh.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/tlh.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/tr.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/tr.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/uk.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/uk.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/languages/vi.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/languages/vi.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/logout.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/forms/fields/editor/buttons.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/forms/fields/editor/buttons.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/forms/fields/files.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/forms/fields/files.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/forms/fields/iconpicker.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/forms/fields/iconpicker.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/forms/fields/mediapicker.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/forms/fields/mediapicker.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/forms/form.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/forms/form.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/media/index.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/media/index.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/index.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/index.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/media.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/media.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/tree.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/tree.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/updates/notifications.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/updates/notifications.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/fonts.css" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/fonts.css" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/fonts.css.map" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/fonts.css.map" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/nucleus.css" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/nucleus.css" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/nucleus.css.map" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/nucleus.css.map" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/preset.css" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/preset.css" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/preset.css.map" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/preset.css.map" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/simple-fonts.css" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/simple-fonts.css" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/simple-fonts.css.map" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/simple-fonts.css.map" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/template.css" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/template.css" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/template.css.map" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css-compiled/template.css.map" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css/iconpicker.css" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/css/iconpicker.css" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/images/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/js/admin.min.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/js/admin.min.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/js/form-attr.polyfill.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/js/vendor.min.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/js/vendor.min.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/configuration/fonts/_support.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/configuration/fonts/_support.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/configuration/nucleus/_typography.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/configuration/nucleus/_typography.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/configuration/template/_variables.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/configuration/template/_variables.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/fonts.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/fonts.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/preset.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/preset.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/simple-fonts.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/simple-fonts.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_admin.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_admin.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_buttons.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_buttons.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_core.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_core.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_dropzone.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_dropzone.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_editor.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_editor.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_extensions.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_extensions.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_forms.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_forms.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_gpm.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_gpm.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_login.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_login.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_notifications.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_notifications.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_pages.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_pages.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_tables.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_tables.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_tabs.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_tabs.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_typography.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/_typography.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/modules/_buttons.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/modules/_buttons.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/modules/_scrollbars.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/modules/_scrollbars.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/modules/_toggle-switch.scss" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/scss/template/modules/_toggle-switch.scss" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/field.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/field.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/array/array.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/array/array.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/fieldset/fieldset.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/fieldset/fieldset.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/file/file.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/file/file.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/list/list.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/list/list.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/order/order.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/order/order.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/pagemedia/pagemedia.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/pagemedia/pagemedia.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/parents/parents.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/parents/parents.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/selectize/selectize.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/selectize/selectize.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/taxonomy/taxonomy.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/taxonomy/taxonomy.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/login.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/login.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/logout.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/media-list-content.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/media-list-content.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/pages.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/pages.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/login.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/login.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/logo.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/logo.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/nav.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/nav.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/register.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/register.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/tools-direct-install.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/tools-direct-install.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/plugins.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/plugins.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/tools.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/tools.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/yarn.lock" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/yarn.lock" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/breadcrumbs/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/breadcrumbs/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/breadcrumbs/README.md" afterPath="$PROJECT_DIR$/user/plugins/breadcrumbs/README.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/breadcrumbs/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/breadcrumbs/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/breadcrumbs/breadcrumbs.yaml" afterPath="$PROJECT_DIR$/user/plugins/breadcrumbs/breadcrumbs.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/breadcrumbs/classes/breadcrumbs.php" afterPath="$PROJECT_DIR$/user/plugins/breadcrumbs/classes/breadcrumbs.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/cookieconsent/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/cookieconsent/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/cookieconsent/README.md" afterPath="$PROJECT_DIR$/user/plugins/cookieconsent/README.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/cookieconsent/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/cookieconsent/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/cookieconsent/cookieconsent.yaml" afterPath="$PROJECT_DIR$/user/plugins/cookieconsent/cookieconsent.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/cookieconsent/templates/partials/cookieconsent.html.twig" afterPath="$PROJECT_DIR$/user/plugins/cookieconsent/templates/partials/cookieconsent.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/diagrams/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/diagrams/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/diagrams/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/diagrams/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/diagrams/css/mermaid.css" afterPath="$PROJECT_DIR$/user/plugins/diagrams/css/mermaid.css" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/email/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/README.md" afterPath="$PROJECT_DIR$/user/plugins/email/README.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/email/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/classes/Email.php" afterPath="$PROJECT_DIR$/user/plugins/email/classes/Email.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/composer.lock" afterPath="$PROJECT_DIR$/user/plugins/email/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/email.php" afterPath="$PROJECT_DIR$/user/plugins/email/email.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/email.yaml" afterPath="$PROJECT_DIR$/user/plugins/email/email.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/languages.yaml" afterPath="$PROJECT_DIR$/user/plugins/email/languages.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/autoload.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/autoload.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/composer/ClassLoader.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/composer/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/composer/autoload_real.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/composer/installed.json" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/CHANGES" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/CHANGES" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/VERSION" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/VERSION" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyContainer.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyContainer.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoding.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoding.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Image.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Image.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MailTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MailTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Attachment.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Attachment.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MimePart.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MimePart.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/NullTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/NullTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Preferences.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Preferences.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SendmailTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SendmailTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DomainKeySigner.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DomainKeySigner.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/preferences.php" afterPath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/lib/preferences.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/email/vendor/swiftmailer/swiftmailer/phpunit.xml.dist" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/error/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/error/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/error/README.md" afterPath="$PROJECT_DIR$/user/plugins/error/README.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/error/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/error/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/error/languages.yaml" afterPath="$PROJECT_DIR$/user/plugins/error/languages.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/external_links/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/external_links/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/external_links/README.md" afterPath="$PROJECT_DIR$/user/plugins/external_links/README.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/external_links/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/external_links/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/external_links/classes/ExternalLinks.php" afterPath="$PROJECT_DIR$/user/plugins/external_links/classes/ExternalLinks.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/external_links/external_links.php" afterPath="$PROJECT_DIR$/user/plugins/external_links/external_links.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/external_links/external_links.yaml" afterPath="$PROJECT_DIR$/user/plugins/external_links/external_links.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/external_links/languages.yaml" afterPath="$PROJECT_DIR$/user/plugins/external_links/languages.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/form/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/app/main.js" afterPath="$PROJECT_DIR$/user/plugins/form/app/main.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/assets/form-styles.css" afterPath="$PROJECT_DIR$/user/plugins/form/assets/form-styles.css" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/assets/form.min.js" afterPath="$PROJECT_DIR$/user/plugins/form/assets/form.min.js" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/form/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/classes/form.php" afterPath="$PROJECT_DIR$/user/plugins/form/classes/form.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/form.php" afterPath="$PROJECT_DIR$/user/plugins/form/form.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/form.yaml" afterPath="$PROJECT_DIR$/user/plugins/form/form.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/languages.yaml" afterPath="$PROJECT_DIR$/user/plugins/form/languages.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/package.json" afterPath="$PROJECT_DIR$/user/plugins/form/package.json" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/form-messages.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/form-messages.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/form-messages.json.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/form-messages.json.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/formdata.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/formdata.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/default/data.txt.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/default/data.txt.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/default/field.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/default/field.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/default/form.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/default/form.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/checkbox/checkbox.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/checkbox/checkbox.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/checkbox/checkbox.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/checkboxes/checkboxes.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/checkboxes/checkboxes.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/display/display.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/display/display.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/fieldset/fieldset.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/fieldset/fieldset.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/file/file.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/file/file.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/honeypot/honeypot.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/honeypot/honeypot.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/radio/radio.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/radio/radio.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/select/select.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/select/select.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/select_optgroup/select_optgroup.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/select_optgroup/select_optgroup.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/textarea/textarea.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/forms/fields/textarea/textarea.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/partials/form-messages.html.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/partials/form-messages.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/templates/partials/form-messages.json.twig" afterPath="$PROJECT_DIR$/user/plugins/form/templates/partials/form-messages.json.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/form/yarn.lock" afterPath="$PROJECT_DIR$/user/plugins/form/yarn.lock" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/login/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/README.md" afterPath="$PROJECT_DIR$/user/plugins/login/README.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/login/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/classes/Controller.php" afterPath="$PROJECT_DIR$/user/plugins/login/classes/Controller.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/classes/Events/UserLoginEvent.php" afterPath="$PROJECT_DIR$/user/plugins/login/classes/Events/UserLoginEvent.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/classes/Login.php" afterPath="$PROJECT_DIR$/user/plugins/login/classes/Login.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/classes/RememberMe/RememberMe.php" afterPath="$PROJECT_DIR$/user/plugins/login/classes/RememberMe/RememberMe.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/classes/RememberMe/TokenStorage.php" afterPath="$PROJECT_DIR$/user/plugins/login/classes/RememberMe/TokenStorage.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/cli/ChangePasswordCommand.php" afterPath="$PROJECT_DIR$/user/plugins/login/cli/ChangePasswordCommand.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/cli/ChangeUserStateCommand.php" afterPath="$PROJECT_DIR$/user/plugins/login/cli/ChangeUserStateCommand.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/cli/NewUserCommand.php" afterPath="$PROJECT_DIR$/user/plugins/login/cli/NewUserCommand.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/css/login.css" afterPath="$PROJECT_DIR$/user/plugins/login/css/login.css" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/languages.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/languages/hu.yaml" afterPath="$PROJECT_DIR$/user/plugins/login/languages/hu.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/login.php" afterPath="$PROJECT_DIR$/user/plugins/login/login.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/login.yaml" afterPath="$PROJECT_DIR$/user/plugins/login/login.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/pages/login.md" afterPath="$PROJECT_DIR$/user/plugins/login/pages/login.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/pages/register.md" afterPath="$PROJECT_DIR$/user/plugins/login/pages/register.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/templates/forgot.html.twig" afterPath="$PROJECT_DIR$/user/plugins/login/templates/forgot.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/templates/login.html.twig" afterPath="$PROJECT_DIR$/user/plugins/login/templates/login.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/templates/login.json.twig" afterPath="$PROJECT_DIR$/user/plugins/login/templates/login.json.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/templates/partials/forgot-form.html.twig" afterPath="$PROJECT_DIR$/user/plugins/login/templates/partials/forgot-form.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/templates/partials/login-form.html.twig" afterPath="$PROJECT_DIR$/user/plugins/login/templates/partials/login-form.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/templates/partials/login-status.html.twig" afterPath="$PROJECT_DIR$/user/plugins/login/templates/partials/login-status.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/templates/partials/messages.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/templates/partials/reset-form.html.twig" afterPath="$PROJECT_DIR$/user/plugins/login/templates/partials/reset-form.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/templates/profile.html.twig" afterPath="$PROJECT_DIR$/user/plugins/login/templates/profile.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/login/templates/reset.html.twig" afterPath="$PROJECT_DIR$/user/plugins/login/templates/reset.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/markdown-notices/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/markdown-notices/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/markdown-notices/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/markdown-notices/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/simplesearch/CHANGELOG.md" afterPath="$PROJECT_DIR$/user/plugins/simplesearch/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/simplesearch/README.md" afterPath="$PROJECT_DIR$/user/plugins/simplesearch/README.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/simplesearch/blueprints.yaml" afterPath="$PROJECT_DIR$/user/plugins/simplesearch/blueprints.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/simplesearch/languages.yaml" afterPath="$PROJECT_DIR$/user/plugins/simplesearch/languages.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/simplesearch/simplesearch.php" afterPath="$PROJECT_DIR$/user/plugins/simplesearch/simplesearch.php" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/simplesearch/simplesearch.yaml" afterPath="$PROJECT_DIR$/user/plugins/simplesearch/simplesearch.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/simplesearch/templates/partials/simplesearch_searchbox.html.twig" afterPath="$PROJECT_DIR$/user/plugins/simplesearch/templates/partials/simplesearch_searchbox.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/simplesearch/templates/simplesearch_results.html.twig" afterPath="$PROJECT_DIR$/user/plugins/simplesearch/templates/simplesearch_results.html.twig" />
+      <change beforePath="$PROJECT_DIR$/user/pages/gd/default.md" afterPath="$PROJECT_DIR$/user/pages/gd/default.md" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/ajax-loader.gif" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/ajax-loader.gif" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/config.rb" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/config.rb" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/fonts/slick.eot" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/fonts/slick.eot" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/fonts/slick.svg" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/fonts/slick.svg" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/fonts/slick.ttf" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/fonts/slick.ttf" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/fonts/slick.woff" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/fonts/slick.woff" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/slick-theme.css" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/slick-theme.css" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/slick-theme.less" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/slick-theme.less" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/slick-theme.scss" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/slick-theme.scss" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/slick.css" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/slick.css" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/slick.js" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/slick.js" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/slick.less" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/slick.less" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/slick.min.js" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/slick.min.js" />
+      <change beforePath="$PROJECT_DIR$/user/themes/antimatter/slick/slick.scss" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/slick/slick.scss" />
       <change beforePath="$PROJECT_DIR$/user/themes/antimatter/templates/partials/base.html.twig" afterPath="$PROJECT_DIR$/user/themes/antimatter/templates/partials/base.html.twig" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ca-bundle/README.md" afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/README.md" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ca-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/composer.json" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ca-bundle/res/cacert.pem" afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/res/cacert.pem" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ca-bundle/src/CaBundle.php" afterPath="$PROJECT_DIR$/vendor/composer/ca-bundle/src/CaBundle.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change beforePath="$PROJECT_DIR$/vendor/donatj/phpuseragentparser/README.md" afterPath="$PROJECT_DIR$/vendor/donatj/phpuseragentparser/README.md" />
-      <change beforePath="$PROJECT_DIR$/vendor/donatj/phpuseragentparser/Source/UserAgentParser.php" afterPath="$PROJECT_DIR$/vendor/donatj/phpuseragentparser/Source/UserAgentParser.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/erusev/parsedown/LICENSE.txt" afterPath="$PROJECT_DIR$/vendor/erusev/parsedown/LICENSE.txt" />
-      <change beforePath="$PROJECT_DIR$/vendor/erusev/parsedown/Parsedown.php" afterPath="$PROJECT_DIR$/vendor/erusev/parsedown/Parsedown.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/erusev/parsedown/README.md" afterPath="$PROJECT_DIR$/vendor/erusev/parsedown/README.md" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Formatter.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Formatter.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Frame.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Frame.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/FrameCollection.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/FrameCollection.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Inspector.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Inspector.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/Handler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/Handler.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/JsonResponseHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/JsonResponseHandler.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PlainTextHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PlainTextHandler.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/css/whoops.base.css" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/css/whoops.base.css" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/js/whoops.base.js" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/js/whoops.base.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/frames_description.html.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/frames_description.html.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/layout.html.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/layout.html.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/HtmlDumperOutput.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/HtmlDumperOutput.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/Misc.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/Misc.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/TemplateHelper.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/TemplateHelper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/gregwar/image/Gregwar/Image/Adapter/Common.php" afterPath="$PROJECT_DIR$/vendor/gregwar/image/Gregwar/Image/Adapter/Common.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/gregwar/image/Gregwar/Image/LICENSE" afterPath="$PROJECT_DIR$/vendor/gregwar/image/Gregwar/Image/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Progress.php" afterPath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Dynamic/Progress.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Helper/Art.php" afterPath="$PROJECT_DIR$/vendor/league/climate/src/TerminalObject/Helper/Art.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/CSS.php" afterPath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/CSS.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/Exception.php" afterPath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/Exception.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/Exceptions/BasicException.php" afterPath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/Exceptions/BasicException.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/Exceptions/FileImportException.php" afterPath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/Exceptions/FileImportException.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/Exceptions/IOException.php" afterPath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/Exceptions/IOException.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/JS.php" afterPath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/JS.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/Minify.php" afterPath="$PROJECT_DIR$/vendor/matthiasmullie/minify/src/Minify.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/matthiasmullie/path-converter/src/Converter.php" afterPath="$PROJECT_DIR$/vendor/matthiasmullie/path-converter/src/Converter.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php" afterPath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/DataCollector/DataCollector.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php" afterPath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/DataCollector/ExceptionsCollector.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php" afterPath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/DataCollector/PhpInfoCollector.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/JavascriptRenderer.php" afterPath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/JavascriptRenderer.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/Resources/debugbar.css" afterPath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/Resources/debugbar.css" />
-      <change beforePath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/Resources/widgets.css" afterPath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/Resources/widgets.css" />
-      <change beforePath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/Resources/widgets.js" afterPath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/Resources/widgets.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/Resources/widgets/templates/widget.js" afterPath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/Resources/widgets/templates/widget.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/Storage/RedisStorage.php" afterPath="$PROJECT_DIR$/vendor/maximebf/debugbar/src/DebugBar/Storage/RedisStorage.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/CHANGELOG" afterPath="$PROJECT_DIR$/vendor/pimple/pimple/CHANGELOG" />
-      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/README.rst" afterPath="$PROJECT_DIR$/vendor/pimple/pimple/README.rst" />
-      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Container.php" afterPath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Container.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Exception/FrozenServiceException.php" afterPath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Exception/FrozenServiceException.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Exception/InvalidServiceIdentifierException.php" afterPath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Exception/InvalidServiceIdentifierException.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Exception/UnknownIdentifierException.php" afterPath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Exception/UnknownIdentifierException.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Psr11/ServiceLocator.php" afterPath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/Psr11/ServiceLocator.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/ServiceIterator.php" afterPath="$PROJECT_DIR$/vendor/pimple/pimple/src/Pimple/ServiceIterator.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/rockettheme/toolbox/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/rockettheme/toolbox/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/vendor/rockettheme/toolbox/File/src/MarkdownFile.php" afterPath="$PROJECT_DIR$/vendor/rockettheme/toolbox/File/src/MarkdownFile.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/rockettheme/toolbox/LICENSE" afterPath="$PROJECT_DIR$/vendor/rockettheme/toolbox/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Application.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Application.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Command/HelpCommand.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/HelpCommand.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/ConsoleEvents.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/ConsoleEvents.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/ApplicationDescription.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/ApplicationDescription.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/Descriptor.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/Descriptor.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/JsonDescriptor.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/JsonDescriptor.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/TextDescriptor.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/TextDescriptor.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/XmlDescriptor.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/XmlDescriptor.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Event/ConsoleCommandEvent.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Event/ConsoleCommandEvent.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatter.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatter.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyle.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyle.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyleInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyleInterface.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyleStack.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyleStack.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/DescriptorHelper.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/DescriptorHelper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/DialogHelper.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/DialogHelper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/Helper.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/Helper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/HelperInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/HelperInterface.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/HelperSet.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/HelperSet.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProgressBar.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProgressBar.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProgressHelper.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProgressHelper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/Table.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/Table.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableCell.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableCell.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableHelper.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableHelper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableSeparator.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableSeparator.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/ArgvInput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/ArgvInput.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/ArrayInput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/ArrayInput.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/Input.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/Input.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/InputArgument.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputArgument.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/InputDefinition.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputDefinition.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/InputInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputInterface.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/StringInput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/StringInput.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/console/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Logger/ConsoleLogger.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Logger/ConsoleLogger.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/BufferedOutput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/BufferedOutput.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleOutput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleOutput.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleOutputInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleOutputInterface.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/Output.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/Output.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/OutputInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/OutputInterface.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/StreamOutput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/StreamOutput.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Question/ChoiceQuestion.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/ChoiceQuestion.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Question/ConfirmationQuestion.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/ConfirmationQuestion.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Question/Question.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/Question.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Shell.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Shell.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Style/OutputStyle.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Style/OutputStyle.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Style/StyleInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Style/StyleInterface.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Style/SymfonyStyle.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Style/SymfonyStyle.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ContainerAwareEventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ContainerAwareEventDispatcher.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Event.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Event.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/GenericEvent.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/GenericEvent.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ImmutableEventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ImmutableEventDispatcher.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/Iconv.php" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/Iconv.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Mbstring.php" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Mbstring.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ExceptionCaster.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SplCaster.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SplCaster.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/CliDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/CliDumper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/DataDumperInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/DataDumperInterface.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/HtmlDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/HtmlDumper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Exception/ThrowingCasterException.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Exception/ThrowingCasterException.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/VarDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/VarDumper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Dumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Dumper.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Exception/ParseException.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Exception/ParseException.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Yaml.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Yaml.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/CHANGELOG" afterPath="$PROJECT_DIR$/vendor/twig/twig/CHANGELOG" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/LICENSE" afterPath="$PROJECT_DIR$/vendor/twig/twig/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Compiler.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Compiler.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExpressionParser.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExpressionParser.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Lexer.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Lexer.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Loader/Filesystem.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Optimizer.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Optimizer.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/NodeVisitor/Sandbox.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/NodeVisitor/Profiler.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Profiler/NodeVisitor/Profiler.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Template.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/For.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/For.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserBroker.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParserBroker.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenStream.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenStream.php" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/assets/readme_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/blueprints.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/blueprints/asset/file.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/blueprints/blog.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/blueprints/form.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/blueprints/item.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/blueprints/modular/features.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/blueprints/modular/showcase.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/blueprints/modular/text.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/bootstrap.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/bootstrap.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/css-compiled/theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/gosass.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/hebe.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/js/html5shiv-printshiv.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/js/modernizr.custom.71422.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/js/singlePageNav.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/screenshot.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/_blog.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/_default.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/_fixes.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/_login.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/_modular.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/_typography.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/mixins/_base.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/mixins/_breakpoints.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/mixins/_utilities.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/modular/_all.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/modular/_features.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/modular/_showcase.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/theme/modular/_text.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/_bourbon-deprecated-upcoming.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/_bourbon.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_button.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_clearfix.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_directional-values.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_ellipsis.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_font-family.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_hide-text.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_html5-input-types.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_position.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_prefixer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_rem.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_retina-image.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_size.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_timing-functions.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_triangle.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/addons/_word-wrap.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_animation.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_appearance.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_backface-visibility.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_background-image.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_background.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_border-image.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_border-radius.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_box-sizing.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_calc.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_columns.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_filter.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_flex-box.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_font-face.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_font-feature-settings.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_hidpi-media-query.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_hyphens.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_image-rendering.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_keyframes.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_linear-gradient.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_perspective.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_placeholder.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_radial-gradient.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_transform.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_transition.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/css3/_user-select.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_assign.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_color-lightness.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_flex-grid.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_golden-ratio.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_grid-width.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_modular-scale.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_px-to-em.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_px-to-rem.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_strip-units.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_tint-shade.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_transition-property-name.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/functions/_unpack.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_convert-units.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_gradient-positions-parser.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_is-num.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_linear-angle-parser.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_linear-gradient-parser.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_linear-positions-parser.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_linear-side-corner-parser.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_radial-arg-parser.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_radial-gradient-parser.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_radial-positions-parser.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_render-gradients.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_shape-size-stripper.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/helpers/_str-to-num.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/settings/_prefixer.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/scss/vendor/bourbon/settings/_px-to-em.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/blog.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/default.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/error.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/form.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/formdata.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/data.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/data.txt.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/checkbox/checkbox.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/checkboxes/checkboxes.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/date/date.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/datetime/datetime.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/email/email.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/hidden/hidden.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/password/password.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/radio/radio.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/select/select.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/text/text.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/textarea/textarea.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/fields/upload/upload.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/forms/form.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/item.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/modular.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/modular/features.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/modular/showcase.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/modular/text.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/partials/archives.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/partials/base.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/partials/blog_item.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/partials/breadcrumbs.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/partials/metadata.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/partials/navigation.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/partials/sidebar.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/templates/partials/taxonomylist.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user/themes/bootstrap/thumbnail.jpg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -643,30 +384,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/partials/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="138" column="34" lean-forward="false" selection-start-line="138" selection-start-column="34" selection-end-line="138" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.min.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/js/admin.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="5" column="15297" lean-forward="false" selection-start-line="5" selection-start-column="15297" selection-end-line="5" selection-end-column="15297" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="formcreator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formcreator/formcreator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="-952">
               <caret line="16" column="75" lean-forward="false" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
               <folding>
                 <marker date="1521749593552" expanded="true" signature="405:418" ph="..." />
@@ -686,6 +407,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="691">
+              <caret line="142" column="11" lean-forward="false" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -695,16 +426,6 @@
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tab/tab.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -722,10 +443,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;span class=&quot;star&quot;&gt;*&lt;/span&gt;</find>
-      <find>&lt;span style=&quot;color:red;&quot; class=&quot;remove-formPanel&quot;&gt;remove&lt;/span&gt;</find>
-      <find>titlebar</find>
-      <find>h1</find>
       <find>fa-file-text-o</find>
       <find>slick</find>
       <find>save-form</find>
@@ -751,7 +468,11 @@
       <find>markdown='1</find>
       <find>div</find>
       <find>section</find>
-      <find>div</find>
+      <find>themes</find>
+      <find>INSTALLED_THEMES</find>
+      <find>admin.themes</find>
+      <find>theme</find>
+      <find>antimatter</find>
     </findStrings>
     <replaceStrings>
       <replace>span</replace>
@@ -759,10 +480,12 @@
       <replace>&lt;div markdown=&quot;1&quot;&gt;put your content here</replace>
       <replace>section</replace>
       <replace>div</replace>
+      <replace>qualsafe_awards</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\wamp64\www\grav-admin</dir>
       <dir>C:\wamp64\www\grav-admin\user\plugins\admin\themes\grav\templates\partials</dir>
+      <dir>C:\wamp64\www\grav-admin\user\themes\qualsafe_awards</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -815,6 +538,11 @@
         <option value="$PROJECT_DIR$/user/plugins/tinymce-editor/js/tinymce/plugins/codesample/plugin.min.js" />
         <option value="$PROJECT_DIR$/user/themes/antimatter/templates/partials/base.html.twig" />
         <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/js/admin.min.js" />
+        <option value="$PROJECT_DIR$/user/config/system.yaml" />
+        <option value="$PROJECT_DIR$/user/themes/qualsafe_awards/qualsafe_awards.php" />
+        <option value="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" />
+        <option value="$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints.yaml" />
+        <option value="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig" />
       </list>
     </option>
   </component>
@@ -861,8 +589,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="880" />
-    <option name="y" value="69" />
+    <option name="x" value="170" />
+    <option name="y" value="374" />
     <option name="width" value="1053" />
     <option name="height" value="1056" />
   </component>
@@ -881,8 +609,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -899,48 +627,38 @@
               <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="tinymce-editor" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="qualsafe_awards" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="tinymce-editor" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="qualsafe_awards" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="tinymce-editor" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="tinymce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="tinymce-editor" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="tinymce" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="qualsafe_awards" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -952,16 +670,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\grav-admin\formcreator" />
-      <recent name="C:\wamp64\www\grav-admin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\grav-admin\user\themes" />
       <recent name="C:\wamp64\www\grav-admin\user\plugins\tinymce-editor\js\tinymce\plugins" />
       <recent name="C:\wamp64\www\grav-admin\formcreator" />
       <recent name="C:\wamp64\www\grav-admin\user\plugins\tinymce-editor\js\tinymce\langs" />
       <recent name="C:\wamp64\www\grav-admin\user\plugins\admin\themes\grav\templates\forms\fields\formcreator" />
-      <recent name="C:\wamp64\www\grav-admin\user\themes\antimatter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\grav-admin\user\themes\qualsafe_awards" />
+      <recent name="C:\wamp64\www\grav-admin\formcreator" />
+      <recent name="C:\wamp64\www\grav-admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1128,12 +847,13 @@
       <workItem from="1521375629446" duration="5929000" />
       <workItem from="1521556063059" duration="4161000" />
       <workItem from="1521637672149" duration="1071000" />
-      <workItem from="1521724139960" duration="15839000" />
+      <workItem from="1521724139960" duration="16369000" />
+      <workItem from="1521795962870" duration="10959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331335000" />
+    <option name="totallyTimeSpent" value="342824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1153,7 +873,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27677625" sideWeight="0.5515625" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27677625" sideWeight="0.5515625" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1246,117 +966,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/pages/formtest3/form.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/dashboard.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/pages/pages.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="92" lean-forward="false" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/user.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/tools.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/themes.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/nav.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/dashboard-pages.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="84" lean-forward="false" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/pages.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="247" column="31" lean-forward="false" selection-start-line="247" selection-start-column="31" selection-end-line="247" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/03.gasgsaga/default.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/customFormSubmission.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/page-inject/page-inject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="52" column="30" lean-forward="false" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/markdown-color/markdown-color.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/field.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -1448,18 +1057,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cache/twig/58/5870791fa6fbbe14526c5929a1ab7c849b94fc958d1710918541ba029b9467b1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1658">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/twig/58/5870791fa6fbbe14526c5929a1ab7c849b94fc958d1710918541ba029b9467b1.php" />
     <entry file="file://$PROJECT_DIR$/formcreator/formcreator.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="79" column="1" lean-forward="false" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1467,7 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1475,10 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1521125745180" expanded="true" signature="233:248" ph="..." />
-            <marker date="1521125745180" expanded="true" signature="338:353" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1486,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1494,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1502,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1534,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1542,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1550,7 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="0" column="18475" lean-forward="true" selection-start-line="0" selection-start-column="18475" selection-end-line="0" selection-end-column="18475" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1588,7 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="91" column="4" lean-forward="false" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1600,20 +1190,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/gd/.revs/20180322-170527/default.md">
+    <entry file="file://$PROJECT_DIR$/user/pages/gd/.revs/20180322-170527/default.md" />
+    <entry file="file://$PROJECT_DIR$/user/plugins/tinymce-editor/js/tinymce/tinymce.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/bootstrap/thumbnail.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/pages/admin/themes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/themeselect/themeselect.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="852" column="13" lean-forward="false" selection-start-line="852" selection-start-column="13" selection-end-line="852" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/js/admin.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="3" column="15307" lean-forward="false" selection-start-line="3" selection-start-column="15307" selection-end-line="3" selection-end-column="15307" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/classes/adminbasecontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="902" column="25" lean-forward="false" selection-start-line="902" selection-start-column="20" selection-end-line="902" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/classes/admincontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="257" column="54" lean-forward="false" selection-start-line="257" selection-start-column="54" selection-end-line="257" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/js/antimatter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/themes-list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/compiled/config/master-localhost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/thumbnail.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/qualsafe_awards.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/qualsafe_awards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/formcreator/formcreator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="-952">
           <caret line="16" column="75" lean-forward="false" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
           <folding>
             <marker date="1521749593552" expanded="true" signature="405:418" ph="..." />
@@ -1632,26 +1348,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/tinymce-editor/js/tinymce/tinymce.min.js">
+    <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/antimatter/templates/partials/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="138" column="34" lean-forward="false" selection-start-line="138" selection-start-column="34" selection-end-line="138" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/js/admin.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="5" column="15297" lean-forward="false" selection-start-line="5" selection-start-column="15297" selection-end-line="5" selection-end-column="15297" />
+        <state relative-caret-position="691">
+          <caret line="142" column="11" lean-forward="false" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
           <folding />
         </state>
       </provider>

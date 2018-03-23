@@ -17,7 +17,6 @@
         {% do assets.addCss('theme://css/custom.css', 100) %}
         {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
         {% do assets.addCss('theme://css/slidebars.min.css') %}
-        {% do assets.addCss('theme://slick/slick.css') %}
 
         {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
             {% do assets.addCss('theme://css/nucleus-ie10.css') %}
@@ -34,55 +33,12 @@
         {% do assets.addJs('theme://js/modernizr.custom.71422.js', 100) %}
         {% do assets.addJs('theme://js/antimatter.js') %}
         {% do assets.addJs('theme://js/slidebars.min.js') %}
-        {% do assets.addJs('theme://slick/slick.min.js') %}
     {% endblock %}
     {{ assets.js() }}
 
 {% endblock head %}
-    <script type='text/javascript'>
-        $(document).ready(function () {
-            $('.sliding-banner').slick({autoplay: true, arrows: false});
-        });
-
-        function formHandler(formID) {
-            var response = grecaptcha.getResponse();
-            if (response.length == 0) {
-                return false;
-            } else {
-                var formValues = $('form#' + formID + ' :input');
-                var values = {};
-                formValues.each(function () {
-
-                    if ($(this).attr('type') == 'radio') {
-                        if ($(this).is(':checked')) {
-                            values[this.name] = $(this).val();
-                        }
-                    } else {
-                        if ($(this).attr('type') == 'checkbox') {
-                            if ($(this).is(':checked')) {
-                                values[this.name] = $(this).val();
-                            }
-                        } else {
-                            values[this.name] = $(this).val();
-                        }
-                    }
-                });
-                $.ajax({
-                    type: 'POST',
-                    data: {values: values},
-                    url: '/grav-admin/formcreator/customFormSubmission.php', // Your form script
-                    success: function (msg) {
-                        $('form#' + formID).html(msg);
-                    }
-                });
-                return false;
-            }
-        }
-    </script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
-
     <div id="sb-site">
         {% block header %}
         <header id="header">
@@ -133,16 +89,9 @@
                 hideControlClasses: true,
                 scrollLock: true
               });
-
-            });
-        });
-        $('.sliding-banner section').each(function(){
-            $(this).html(function(index,html) {
-                return html.replace('![](', '<img src="'+window.location.href+'/').replace(')','">');
             });
         });
         </script>
     {% endblock %}
-
 </body>
 </html>

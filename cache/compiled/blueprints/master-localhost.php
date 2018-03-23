@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1521759071,
-    'checksum' => 'd516716c65773c851892c362a8e84293',
+    'timestamp' => 1521801180,
+    'checksum' => '9cf43107cfd810fa13d5e8bb28d93ece',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
@@ -64,6 +64,10 @@ return [
             'plugins/customadmin' => [
                 'file' => 'user/plugins/customadmin/blueprints.yaml',
                 'modified' => 1508331852
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/blueprints.yaml',
+                'modified' => 1521796866
             ],
             'plugins/diagrams' => [
                 'file' => 'user/plugins/diagrams/blueprints.yaml',
@@ -2944,6 +2948,28 @@ return [
                     
                 ]
             ],
+            'plugins.devtools' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.devtools.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.devtools.enabled',
+                'validation' => 'strict'
+            ],
             'plugins.diagrams' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -5197,6 +5223,9 @@ return [
                     ]
                 ],
                 'customadmin' => 'plugins.customadmin',
+                'devtools' => [
+                    'enabled' => 'plugins.devtools.enabled'
+                ],
                 'diagrams' => [
                     'enabled' => 'plugins.diagrams.enabled'
                 ],

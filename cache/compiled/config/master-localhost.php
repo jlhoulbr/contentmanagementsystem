@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1521759063,
-    'checksum' => 'dfeca869d98d01f3571d9c9099038741',
+    'timestamp' => 1521801201,
+    'checksum' => 'f349ebe8d8523f85d0d7d70da3fcc9b5',
     'files' => [
         'user/config' => [
             'media' => [
@@ -63,7 +63,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1521759045
+                'modified' => 1521801201
             ],
             'themes/antimatter' => [
                 'file' => 'user/config/themes/antimatter.yaml',
@@ -128,6 +128,10 @@ return [
             'plugins/customadmin' => [
                 'file' => 'user/plugins/customadmin/customadmin.yaml',
                 'modified' => 1508331852
+            ],
+            'plugins/devtools' => [
+                'file' => 'user/plugins/devtools/devtools.yaml',
+                'modified' => 1521796866
             ],
             'plugins/diagrams' => [
                 'file' => 'user/plugins/diagrams/diagrams.yaml',
@@ -313,6 +317,9 @@ return [
                 'enabled' => true
             ],
             'customadmin' => [
+                'enabled' => true
+            ],
+            'devtools' => [
                 'enabled' => true
             ],
             'diagrams' => [
@@ -1004,7 +1011,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'antimatter',
+                'theme' => 'qualsafe_awards',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -1062,7 +1069,9 @@ return [
                 'ignore_folders' => [
                     0 => '.git',
                     1 => '.idea',
-                    2 => '.revs'
+                    2 => '.revs',
+                    3 => '.revs',
+                    4 => '.revs'
                 ],
                 'ignore_hidden' => true,
                 'url_taxonomy_filters' => true,

@@ -12,10 +12,10 @@
     count: 184
 -
     url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 23
+    count: 33
 -
     url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 20
+    count: 30
 -
     url: 'http://localhost:80/grav-admin/user/plugins/bootstrapper/css/bootstrap-theme.min.css.map'
     count: 7

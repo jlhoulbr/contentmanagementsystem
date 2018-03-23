@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/grav-admin/user/config/system.yaml',
-    'modified' => 1521759045,
+    'modified' => 1521797439,
     'data' => [
         'absolute_urls' => false,
         'param_sep' => ':',
@@ -24,7 +24,7 @@ return [
             'hide_in_urls' => false
         ],
         'pages' => [
-            'theme' => 'antimatter',
+            'theme' => 'qualsafe_awards',
             'order' => [
                 'by' => 'default',
                 'dir' => 'asc'
