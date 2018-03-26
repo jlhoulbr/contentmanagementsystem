@@ -1,4 +1,28 @@
 -
+    url: 'http://localhost/grav-admin/qualifications/footer-panel/facebook.png'
+    time: '2018-03-26 07:44:08pm'
+    referer: 'http://localhost/grav-admin/qualifications/community-resilience-qualifications'
+-
+    url: 'http://localhost/grav-admin/qualifications/footer-panel/twitter.png'
+    time: '2018-03-26 07:44:05pm'
+    referer: 'http://localhost/grav-admin/qualifications/community-resilience-qualifications'
+-
+    url: 'http://localhost/grav-admin/qualifications/side-panel/Join-QA-Today-Side-Panel%20%283%29.jpg'
+    time: '2018-03-26 07:44:02pm'
+    referer: 'http://localhost/grav-admin/qualifications/community-resilience-qualifications'
+-
+    url: 'http://localhost/grav-admin/centre-support/footer-panel/facebook.png'
+    time: '2018-03-26 07:43:50pm'
+    referer: 'http://localhost/grav-admin/centre-support/trainer-and-iqa-e-learning'
+-
+    url: 'http://localhost/grav-admin/centre-support/footer-panel/twitter.png'
+    time: '2018-03-26 07:43:48pm'
+    referer: 'http://localhost/grav-admin/centre-support/trainer-and-iqa-e-learning'
+-
+    url: 'http://localhost/grav-admin/centre-support/side-panel/Join-QA-Today-Side-Panel%20%283%29.jpg'
+    time: '2018-03-26 07:43:45pm'
+    referer: 'http://localhost/grav-admin/centre-support/trainer-and-iqa-e-learning'
+-
     url: 'http://localhost/grav-admin/home/IMG_9581.JPG'
     time: '2018-03-26 06:06:55pm'
     referer: 'http://localhost/grav-admin/admin/pages/home'

@@ -14,15 +14,16 @@ enabled: true
 
 <p><span id="become-a-centre-title" style="color: #174290; font-size: 18pt; font-family: arial, helvetica, sans-serif;">Become a Centre</span></p>
 <p><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">Applying couldn&rsquo;t be easier! Simply complete the form below and we will send you our<strong>&nbsp;</strong><strong>clear&nbsp;</strong>and<strong>&nbsp;</strong><strong>straightforward&nbsp;</strong>Centre Application pack.</span></p>
-<form id="become-a-centre">
-<div id="panel0" class="open-editPanel ui-sortable-handle"><span class="remove-formPanel" style="display: none;"><img class="remove-img" src="../../formcreator/custom/delete.png" /></span><span class="star" style="display: none;">*</span><label class="label-title">Name</label><span class="required-star" style="color: red;">*</span><input class="text-field" name="Name" required="required" type="text" /></div>
-<div id="panel1" class="open-editPanel"><span class="remove-formPanel" style="display: none;"><img class="remove-img" src="../../formcreator/custom/delete.png" /></span><span class="star" style="display: none;">*</span><label class="label-title">Position</label><input class="text-field" name="Position" type="text" /></div>
-<div id="panel2" class="open-editPanel"><span class="remove-formPanel" style="display: none;"><img class="remove-img" src="../../formcreator/custom/delete.png" /></span><span class="star" style="display: none;">*</span><label class="label-title">Organisation</label><span class="required-star" style="color: red;">*</span><input class="text-field" name="Organisation" required="required" type="text" /></div>
-<div id="panel3" class="open-editPanel"><span class="remove-formPanel" style="display: none;"><img class="remove-img" src="../../formcreator/custom/delete.png" /></span><span class="star" style="display: none;">*</span><label class="label-title">Address</label><textarea class="textarea-field" name="Address"></textarea></div>
-<div id="panel4" class="open-editPanel"><span class="remove-formPanel" style="display: none;"><img class="remove-img" src="../../formcreator/custom/delete.png" /></span><span class="star" style="display: none;">*</span><label class="label-title">Telephone Number</label><span class="required-star" style="color: red;">*</span><input class="number-field" name="Telephone Number" required="required" type="number" /></div>
-<div id="panel5" class="open-editPanel"><span class="remove-formPanel" style="display: none;"><img class="remove-img" src="../../formcreator/custom/delete.png" /></span><span class="star" style="display: none;">*</span><label class="label-title">Email Address</label><span class="required-star" style="color: red;">*</span><input class="text-field" name="Email Address" required="required" type="text" /></div>
-<div id="panel6" class="open-editPanel"><span class="remove-formPanel" style="display: none;"><img class="remove-img" src="../../formcreator/custom/delete.png" /></span><span class="star" style="display: none;">*</span><label class="label-title">Websites Address</label><input class="text-field" name="Websites Address" type="text" /></div>
-<div id="panel7" class="open-editPanel"><span class="remove-formPanel" style="display: none;"><img class="remove-img" src="../../formcreator/custom/delete.png" /></span><span class="star" style="display: none;">*</span><label class="label-title">Is your organisation registered with any other Awarding Organisation(s)?</label>
+<p>&nbsp;</p>
+<form id="become-a-centre" onsubmit="return formHandler('become-a-centre')">
+<div id="panel0" class="open-editPanel ui-sortable-handle"><label class="label-title">Name</label><span class="required-star" style="color: red;">*</span><input class="text-field" name="Name" required="required" type="text" /></div>
+<div id="panel1" class="open-editPanel"><label class="label-title">Position</label><input class="text-field" name="Position" type="text" /></div>
+<div id="panel2" class="open-editPanel"><label class="label-title">Organisation</label><span class="required-star" style="color: red;">*</span><input class="text-field" name="Organisation" required="required" type="text" /></div>
+<div id="panel3" class="open-editPanel"><label class="label-title">Address</label><textarea class="textarea-field" name="Address"></textarea></div>
+<div id="panel4" class="open-editPanel"><label class="label-title">Telephone Number</label><span class="required-star" style="color: red;">*</span><input class="number-field" name="Telephone Number" required="required" type="number" /></div>
+<div id="panel5" class="open-editPanel"><label class="label-title">Email Address</label><span class="required-star" style="color: red;">*</span><input class="text-field" name="Email Address" required="required" type="text" /></div>
+<div id="panel6" class="open-editPanel"><label class="label-title">Websites Address</label><input class="text-field" name="Websites Address" type="text" /></div>
+<div id="panel7" class="open-editPanel"><label class="label-title">Is your organisation registered with any other Awarding Organisation(s)?</label>
 <ul class="multipleChoice">
 <li><input name="Is your organisation registered with any other Awarding Organisation(s)?" type="radio" value="Yes" />Yes</li>
 <li><input name="Is your organisation registered with any other Awarding Organisation(s)?" type="radio" value="No" />No</li>
@@ -30,9 +31,8 @@ enabled: true
 </div>
 <div id="panel8" class="open-editPanel"><label class="label-title">Approximately how many Learners has your organisation trained in the last 12 months?</label><span class="required-star" style="color: red;">*</span><input class="number-field" name="Approximately how many Learners has your organisation trained in the last 12 months?" required="required" type="number" /></div>
 <div class="g-recaptcha" data-sitekey="6Le_CEUUAAAAANDccAIPwwFvQnF5GTVz_NC0K17w">&nbsp;</div>
-<p><input type="submit" /></p>
-</form>
-<p>&nbsp;</p>
+<br /><input type="submit" /></form>
+<div class="become-a-centre desktop">&nbsp;</div>
 <div class="become-a-centre desktop"><span id="become-a-centre-benefits-title" style="font-size: 16pt; font-family: arial, helvetica, sans-serif; color: #174290;">The Benefits of Joining Qualsafe Awards</span>
 <p><span style="font-size: 9pt; font-family: arial, helvetica, sans-serif;">As an Ofqual recognised Awarding Organisation, with extensive industry knowledge and expertise, Qualsafe Awards is committed to providing Centres with a high quality, cost effective service with exceptional customer care.&nbsp;</span></p>
 <ul>

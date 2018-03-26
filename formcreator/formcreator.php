@@ -9,6 +9,8 @@ $formHTML = str_replace('<span class="remove-formPanel" style="display: block;">
 $formHTML = str_replace('style="outline: rgb(212, 212, 212) dashed 1px;" ',"",$formHTML);
 $formHTML = str_replace('<input class="empty ui-sortable-handle" style="">',"",$formHTML);
 $formHTML = str_replace('<span class="remove-formPanel"><img class="remove-img" src="/grav-admin/formcreator/custom/delete.png"></span>',"",$formHTML);
+$formHTML = str_replace('<span class="star" style="display: none;">*</span>',"",$formHTML);
+$formHTML = str_replace('<span class="remove-formPanel" style="display: none;"><img class="remove-img" src="/grav-admin/formcreator/custom/delete.png"></span>',"",$formHTML);
 $formHTML = str_replace('<input class="empty">',"",$formHTML);
 $formHTML = str_replace('<input class="empty" style="">',"",$formHTML);
 $formHTML = str_replace('<span class="star">*</span>',"",$formHTML);

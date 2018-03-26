@@ -18,7 +18,7 @@
     count: 72
 -
     url: 'http://localhost/grav-admin/qualifications/side-panel/Join-QA-Today-Side-Panel%20%283%29.jpg'
-    count: 40
+    count: 41
 -
     url: 'http://localhost/grav-admin/news/IMG_9581%20%282%29.JPG'
     count: 24
@@ -36,6 +36,9 @@
     count: 12
 -
     url: 'http://localhost/grav-admin/qualifications/footer-panel/facebook.png'
+    count: 11
+-
+    url: 'http://localhost/grav-admin/qualifications/footer-panel/twitter.png'
     count: 10
 -
     url: 'http://localhost/grav-admin/qualifications/community-resilience-qualificationsside-panel/Babcock.jpg'
@@ -48,9 +51,6 @@
     count: 9
 -
     url: 'http://localhost/grav-admin/qualifications/community-resilience-qualificationsside-panel/Jigsaw%202.jpg'
-    count: 9
--
-    url: 'http://localhost/grav-admin/qualifications/footer-panel/twitter.png'
     count: 9
 -
     url: 'http://localhost:80/grav-admin/user/plugins/bootstrapper/css/bootstrap-theme.min.css.map'
@@ -109,6 +109,15 @@
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/formcreator/user/plugins/admin/formcreator/formcreator.css'
     count: 2
+-
+    url: 'http://localhost/grav-admin/centre-support/footer-panel/facebook.png'
+    count: 1
+-
+    url: 'http://localhost/grav-admin/centre-support/footer-panel/twitter.png'
+    count: 1
+-
+    url: 'http://localhost/grav-admin/centre-support/side-panel/Join-QA-Today-Side-Panel%20%283%29.jpg'
+    count: 1
 -
     url: 'http://localhost/grav-admin/formcreator/admin.min.js.map'
     count: 1
