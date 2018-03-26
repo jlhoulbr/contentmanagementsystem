@@ -1,4 +1,7 @@
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+{% set headerPage = page.find('/header-panel') %}
+{% set sidePage = page.find('/side-panel') %}
+{% set footerPage = page.find('/footer-panel') %}
 <!DOCTYPE html>
 <html lang="{{ grav.language.getLanguage ?: 'en' }}">
 <head>
@@ -80,6 +83,13 @@
         }
     </script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    {% if  page.url != base_url %}
+    <style>
+        .onlyHomePage{
+            display: none;
+        }
+    </style>
+    {% endif %}
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
 
@@ -87,7 +97,7 @@
         {% block header %}
         <header id="header">
             <div id="logo">
-                <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>
+                <a href="{{ base_url == '' ? '/' : base_url }}"><img class="headerImage" src="{{ url('theme://images/header.jpg') }}"></a>
             </div>
             <div id="navbar">
                 {% block header_extra %}{% endblock %}
@@ -99,20 +109,29 @@
                 {% endblock %}
                 <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
             </div>
+            {% if  page.url == base_url %}
+                <div id="header-panel">
+            {{ headerPage.content }}
+                </div>
+            {% endif %}
         </header>
         {% endblock %}
 
         {% block showcase %}{% endblock %}
-
+        {% if config.plugins.breadcrumbs.enabled %}
+            {% include 'partials/breadcrumbs.html.twig' %}
+        {% endif %}
         {% block body %}
         <section id="body" class="{{ class }}">
             {% block content %}{% endblock %}
         </section>
+            <section id="side-panel">{{ sidePage.content }}</section>
         {% endblock %}
 
         {% block footer %}
         <footer id="footer">
-
+            <img src="/grav-admin/user/themes/qualsafe_awards/images/footer-background-top.jpg">
+<section id="footer-panel">{{ footerPage.content }}</section>
         </footer>
         {% endblock %}
     </div>
@@ -133,14 +152,54 @@
 
             });
         });
-        $('.sliding-banner div').each(
-            function(){
-            $(this).html(
-                function(index,html) {
-                var String = html.substring(html.lastIndexOf("![](") + 4, html.lastIndexOf(")"));
-                return html.replace('![](' + String + ')', '<img src="' + window.location.href + '/' + String + '">');
+        function occurrences(string, subString, allowOverlapping) {
+
+            string += "";
+            subString += "";
+            if (subString.length <= 0) return (string.length + 1);
+
+            var n = 0,
+                pos = 0,
+                step = allowOverlapping ? 1 : subString.length;
+
+            while (true) {
+                pos = string.indexOf(subString, pos);
+                if (pos >= 0) {
+                    ++n;
+                    pos += step;
+                } else break;
+            }
+            return n;
+        }
+
+        function replaceIndex(section) {
+            $('#' + section + '-panel img').each(function () {
+                var imageLink = $(this).attr('src');
+                if (imageLink.indexOf('grav-admin') == -1) {
+                    $(this).attr('src', '/grav-admin/' + imageLink);
+                }
             });
-        });
+
+            var bodyHTML = $('#' + section + '-panel').html();
+            var imageOccurence = occurrences(bodyHTML, '![](');
+            for (var i = 0; i < imageOccurence; i++) {
+                $('#' + section + '-panel').html(function (index, html) {
+                    var String = html.substring(html.indexOf(">![](") + 5, html.indexOf(")<"));
+                    return html.replace('>![](' + String + ')<', '><img src="/grav-admin/' + section + '-panel/' + String + '"><');
+                });
+            }
+
+        }
+
+        function setURL() {
+            {% if  page.url == base_url %}
+            replaceIndex('header');
+            {% endif %}
+            replaceIndex('side');
+            replaceIndex('footer');
+        }
+
+        setURL();
         </script>
     {% endblock %}
 
