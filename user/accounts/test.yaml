@@ -25,3 +25,4 @@ access:
     groups: 'false'
     users_expert: 'false'
 hashed_password: $2y$10$Wmh4/6bKN3FXaRRKOAckVO7wLIYUBYQGkQRT.sbcfpO7HzY2kHKRe
+twofa_secret: N2D5Q6FR2RM3DXWCJV5WDLPBN6LJJBWA

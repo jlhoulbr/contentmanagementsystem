@@ -1,8 +1,15 @@
 <?php
 $formHTML = $_POST['form'];
 $formname = $_POST['formname'];
-$newFormName = str_replace(' ','',$formname);
+$formOptions = $_POST['formOptions'];
+$myfile = fopen('rawForms/'.$formname.'.html', "w") or die("Unable to open file!");
+fwrite($myfile, trim($formHTML));
+fclose($myfile);
+$myfile = fopen('rawForms/'.$formname.'Options.html', "w") or die("Unable to open file!");
+fwrite($myfile, trim($formOptions));
+fclose($myfile);
 
+$newFormName = str_replace(' ','',$formname);
 $formHTML = str_replace('<span class="star">*</span>',"",$formHTML);
 $formHTML = str_replace('<span class="star" style="display: block;">*</span>',"",$formHTML);
 $formHTML = str_replace('<span class="remove-formPanel" style="display: block;"><img class="remove-img" src="/grav-admin/formcreator/custom/delete.png"></span>',"",$formHTML);

@@ -12,10 +12,10 @@
     count: 184
 -
     url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 74
+    count: 164
 -
     url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 72
+    count: 162
 -
     url: 'http://localhost/grav-admin/qualifications/side-panel/Join-QA-Today-Side-Panel%20%283%29.jpg'
     count: 41
@@ -65,8 +65,17 @@
     url: 'http://localhost/grav-admin/user/pages/04.downloads/Malpractice%20Policy%20Form%20thumb.jpg'
     count: 5
 -
+    url: 'http://localhost/grav-admin/Why%20Choose%20Banner.jpg'
+    count: 4
+-
+    url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/form-attr.polyfill.js'
+    count: 4
+-
     url: 'http://localhost:80/grav-admin/formcreator.css'
     count: 4
+-
+    url: 'http://localhost/grav-admin/Testimonials%20Banner.jpg'
+    count: 3
 -
     url: 'http://localhost/grav-admin/downloadsside-panel/Babcock.jpg'
     count: 3
@@ -82,6 +91,21 @@
 -
     url: 'http://localhost/grav-admin/undefined'
     count: 3
+-
+    url: 'http://localhost/grav-admin/body-panel/Testimonials%20Banner.jpg'
+    count: 2
+-
+    url: 'http://localhost/grav-admin/body-panel/Why%20Choose%20Banner.jpg'
+    count: 2
+-
+    url: 'http://localhost/grav-admin/centre-support/footer-panel/facebook.png'
+    count: 2
+-
+    url: 'http://localhost/grav-admin/centre-support/footer-panel/twitter.png'
+    count: 2
+-
+    url: 'http://localhost/grav-admin/centre-support/side-panel/Join-QA-Today-Side-Panel%20%283%29.jpg'
+    count: 2
 -
     url: 'http://localhost/grav-admin/user/pages/gd/Conference-Book-Now-Banner-QA%20%284'
     count: 2
@@ -109,15 +133,6 @@
 -
     url: 'http://localhost:80/grav-admin/user/plugins/admin/formcreator/user/plugins/admin/formcreator/formcreator.css'
     count: 2
--
-    url: 'http://localhost/grav-admin/centre-support/footer-panel/facebook.png'
-    count: 1
--
-    url: 'http://localhost/grav-admin/centre-support/footer-panel/twitter.png'
-    count: 1
--
-    url: 'http://localhost/grav-admin/centre-support/side-panel/Join-QA-Today-Side-Panel%20%283%29.jpg'
-    count: 1
 -
     url: 'http://localhost/grav-admin/formcreator/admin.min.js.map'
     count: 1
@@ -195,6 +210,9 @@
     count: 1
 -
     url: 'http://localhost/grav-admin/user/pages/side-panel/undefinedside-panel/Jigsaw%202.jpg'
+    count: 1
+-
+    url: 'http://localhost/grav-admin/user/plugins/external_links/assets/css/external_links.css'
     count: 1
 -
     url: 'http://localhost/grav-admin/user/themes/qualsafe_awards/menu-button.jpg'

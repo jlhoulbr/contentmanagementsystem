@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/grav-admin/user/accounts/test.yaml',
-    'modified' => 1507209529,
+    'modified' => 1522148775,
     'data' => [
         'state' => 'enabled',
         'email' => 'j.l.houlbrook@brad.ac.uk',
@@ -33,6 +33,7 @@ return [
                 'users_expert' => 'false'
             ]
         ],
-        'hashed_password' => '$2y$10$Wmh4/6bKN3FXaRRKOAckVO7wLIYUBYQGkQRT.sbcfpO7HzY2kHKRe'
+        'hashed_password' => '$2y$10$Wmh4/6bKN3FXaRRKOAckVO7wLIYUBYQGkQRT.sbcfpO7HzY2kHKRe',
+        'twofa_secret' => 'N2D5Q6FR2RM3DXWCJV5WDLPBN6LJJBWA'
     ]
 ];
