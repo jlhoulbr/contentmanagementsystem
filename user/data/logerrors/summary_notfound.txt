@@ -5,17 +5,17 @@
     url: 'http://localhost:80/grav-admin/user/plugins/admin/themes/grav/js/admin.min.js.map'
     count: 718
 -
+    url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/admin.min.js.map'
+    count: 221
+-
+    url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/vendor.min.js.map'
+    count: 220
+-
     url: 'http://localhost:80/grav-admin/user/plugins/tinymce-editor/js/tinymce/langs/en_EN.js'
     count: 186
 -
     url: 'http://localhost:80/grav-admin/user/plugins/tinymce-editor/js/tinymce/langs/en.js'
     count: 184
--
-    url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 164
--
-    url: 'http://localhost/grav-admin/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 162
 -
     url: 'http://localhost/grav-admin/qualifications/side-panel/Join-QA-Today-Side-Panel%20%283%29.jpg'
     count: 41
@@ -135,6 +135,9 @@
     count: 2
 -
     url: 'http://localhost/grav-admin/formcreator/admin.min.js.map'
+    count: 1
+-
+    url: 'http://localhost/grav-admin/formcreator/linetext.png'
     count: 1
 -
     url: 'http://localhost/grav-admin/header-panel/Babcock.jpg'

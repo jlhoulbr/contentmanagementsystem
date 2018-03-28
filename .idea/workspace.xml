@@ -2,101 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd484b8c-76bb-4e56-af0c-25ecd56b182e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/formcreator/formedit.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/formcreator/forms/test.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/formcreator/rawForms/test.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/formcreator/rawForms/testOptions.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/01.home/.revs/20180327-202444/3-for-2-offer-banner_0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/01.home/.revs/20180327-202444/Conference-Book-Now-Banner-QA (4).jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/01.home/.revs/20180327-202444/Testimonials Banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/01.home/.revs/20180327-202444/Why Choose Banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/01.home/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/01.home/3-for-2-offer-banner_0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/01.home/Conference-Book-Now-Banner-QA (4).jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/01.home/Testimonials Banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/01.home/Why Choose Banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/02.become-a-centre/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/.revs/20180327-202444/Course Icon__FOOD Blue.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/.revs/20180327-202444/Course Icon__FREC Blue.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/.revs/20180327-202444/Course Icon__Fire Blue.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/.revs/20180327-202444/Course Icon__First Aid Blue.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/.revs/20180327-202444/Course Icon__HS Blue.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/.revs/20180327-202444/Course Icon__Manual Handling blue.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/.revs/20180327-202444/Course Icon__PTLLS Blue.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/.revs/20180327-202444/Course Icon__Safegaurding Blue_0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/.revs/20180327-202444/citizenAID.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/community-resilience-qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/education-and-training-qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/fire-safety-qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/first-aid-qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/food-safety-qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/health-and-safety-qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/health-and-social-care-qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/manual-handling-qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/03.qualifications/prehospital-care-qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/04.downloads/.revs/20180327-202444/Appeals Policy Form thumb.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/04.downloads/.revs/20180327-202444/Assessment Principles for Regulated First Aid Qualifications Thumb.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/04.downloads/.revs/20180327-202444/CPD-Dates-v3-March-2015-Thumbnail (2).jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/04.downloads/.revs/20180327-202444/Conflict-of-Interest-Thumbnail.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/04.downloads/.revs/20180327-202444/Fees-and-Charges_0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/04.downloads/.revs/20180327-202444/Malpractice Policy Form thumb.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/04.downloads/.revs/20180327-202444/Safeguarding-Statement-Thumbnail.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/04.downloads/.revs/20180327-202444/Sample-Questions-Thumbnail.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/04.downloads/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/05.centre-support/.revs/20180327-202444/Academy-Course-Icon-Quals.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/05.centre-support/.revs/20180327-202444/Academy-Course-Icons-CPD.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/05.centre-support/.revs/20180327-202444/Academy-Course-Icons-E-Learning.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/05.centre-support/.revs/20180327-202444/Conference-Icon.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/05.centre-support/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/05.centre-support/conference-2018/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/05.centre-support/cpd-events/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/05.centre-support/trainer-and-iqa-e-learning/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/05.centre-support/trainer-and-iqa-qualifications/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/06.news/.revs/20180327-202444/FAB Awards Finalist 2017.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/06.news/.revs/20180327-202444/IMG_9581.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/06.news/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/07.contact/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/footer-panel/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/footer-panel/.revs/20180327-202444/facebook.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/footer-panel/.revs/20180327-202444/twitter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/header-panel/.revs/20180327-202444/3-for-2-offer-banner_0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/header-panel/.revs/20180327-202444/Conference-Book-Now-Banner-QA (4).jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/header-panel/.revs/20180327-202444/QA-Banner-FAB-AO-of-Year_0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/header-panel/.revs/20180327-202444/Testimonials Banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/header-panel/.revs/20180327-202444/Why Choose Banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/header-panel/.revs/20180327-202444/banner-shadow.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/header-panel/.revs/20180327-202444/default.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/side-panel/.revs/20180327-202444/Babcock.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/side-panel/.revs/20180327-202444/East of England Ambulance.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/side-panel/.revs/20180327-202444/G4S.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/side-panel/.revs/20180327-202444/Jigsaw 2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/side-panel/.revs/20180327-202444/Join-QA-Today-Side-Panel (3).jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/side-panel/.revs/20180327-202444/customer-portal-login-panel.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/pages/side-panel/.revs/20180327-202444/default.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/04821323561e9160b3a6c79202329dd2.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/04821323561e9160b3a6c79202329dd2.yaml.php" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b06f586241cf61826f60ae18a0196f1d.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/b06f586241cf61826f60ae18a0196f1d.yaml.php" />
-      <change beforePath="$PROJECT_DIR$/formcreator/formadd.php" afterPath="$PROJECT_DIR$/formcreator/formadd.php" />
+      <change beforePath="$PROJECT_DIR$/formcreator/formcreator.css" afterPath="$PROJECT_DIR$/formcreator/formcreator.css" />
       <change beforePath="$PROJECT_DIR$/formcreator/formcreator.js" afterPath="$PROJECT_DIR$/formcreator/formcreator.js" />
-      <change beforePath="$PROJECT_DIR$/formcreator/formcreator.php" afterPath="$PROJECT_DIR$/formcreator/formcreator.php" />
-      <change beforePath="$PROJECT_DIR$/formcreator/formdelete.php" afterPath="$PROJECT_DIR$/formcreator/formdelete.php" />
-      <change beforePath="$PROJECT_DIR$/formcreator/formhandler.php" afterPath="$PROJECT_DIR$/formcreator/formhandler.php" />
-      <change beforePath="$PROJECT_DIR$/formcreator/forms/become-a-centre.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/formcreator/forms/contact-us.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/daily.json" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/totals.json" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" />
-      <change beforePath="$PROJECT_DIR$/user/accounts/josh.yaml" afterPath="$PROJECT_DIR$/user/accounts/josh.yaml" />
-      <change beforePath="$PROJECT_DIR$/user/accounts/test.yaml" afterPath="$PROJECT_DIR$/user/accounts/test.yaml" />
       <change beforePath="$PROJECT_DIR$/user/data/logerrors/notfound.txt" afterPath="$PROJECT_DIR$/user/data/logerrors/notfound.txt" />
       <change beforePath="$PROJECT_DIR$/user/data/logerrors/summary_notfound.txt" afterPath="$PROJECT_DIR$/user/data/logerrors/summary_notfound.txt" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.home/default.md" afterPath="$PROJECT_DIR$/user/pages/01.home/default.md" />
-      <change beforePath="$PROJECT_DIR$/user/pages/02.become-a-centre/default.md" afterPath="$PROJECT_DIR$/user/pages/02.become-a-centre/default.md" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/js/admin.min.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/js/admin.min.js" />
+      <change beforePath="$PROJECT_DIR$/user/pages/07.contact/default.md" afterPath="$PROJECT_DIR$/user/pages/07.contact/default.md" />
       <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="185" column="32" lean-forward="false" selection-start-line="185" selection-start-column="32" selection-end-line="185" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="formcreator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formcreator/formcreator.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -150,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/user/pages/02.become-a-centre/default.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="518">
+              <first_editor relative-caret-position="918">
                 <caret line="54" column="446" lean-forward="false" selection-start-line="54" selection-start-column="446" selection-end-line="54" selection-end-column="446" />
                 <folding />
               </first_editor>
@@ -162,21 +68,51 @@
       <file leaf-file-name="formcreator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formcreator/formcreator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="271" column="133" lean-forward="false" selection-start-line="271" selection-start-column="133" selection-end-line="271" selection-end-column="133" />
+            <state relative-caret-position="617">
+              <caret line="218" column="38" lean-forward="false" selection-start-line="218" selection-start-column="38" selection-end-line="218" selection-end-column="38" />
               <folding>
-                <marker date="1522173721239" expanded="true" signature="405:418" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="728:738" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="1405:1418" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="1730:1740" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="2413:2426" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="2740:2750" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="3674:3687" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="4002:4012" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="4684:4697" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="5018:5028" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="6019:6032" ph="..." />
-                <marker date="1522173721239" expanded="true" signature="6346:6356" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="405:418" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="728:738" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="1405:1418" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="1730:1740" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="2413:2426" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="2740:2750" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="3674:3687" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="4002:4012" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="4684:4697" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="5018:5028" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="6019:6032" ph="..." />
+                <marker date="1522245057867" expanded="true" signature="6346:6356" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formcreator.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formcreator/formcreator.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formcreator.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,20 +148,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formcreator.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-              <folding>
-                <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.min.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/js/admin.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -248,9 +171,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>banner-he</find>
-      <find>url</find>
-      <find>#1bb</find>
       <find>was made with</find>
       <find>#footer-p</find>
       <find>trilby media</find>
@@ -278,6 +198,9 @@
       <find>options-panel</find>
       <find>field-option-form</find>
       <find>id=&quot;field-opt</find>
+      <find>40</find>
+      <find>li a</find>
+      <find>grav-admin/</find>
     </findStrings>
     <replaceStrings>
       <replace>span</replace>
@@ -322,7 +245,6 @@
         <option value="$PROJECT_DIR$/user/plugins/tinymce-editor/js/tinymce/plugins/dynamicimage/plugin.min.js" />
         <option value="$PROJECT_DIR$/user/plugins/tinymce-editor/js/tinymce/skins/lightgray/skin.min.css" />
         <option value="$PROJECT_DIR$/user/config/plugins/tinymce-editor.yaml" />
-        <option value="$PROJECT_DIR$/formcreator/formcreator.css" />
         <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig" />
         <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tab/tab.html.twig" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -358,6 +280,7 @@
         <option value="$PROJECT_DIR$/formcreator/formadd.php" />
         <option value="$PROJECT_DIR$/formcreator/formhandler.php" />
         <option value="$PROJECT_DIR$/formcreator/formcreator.js" />
+        <option value="$PROJECT_DIR$/formcreator/formcreator.css" />
         <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig" />
       </list>
     </option>
@@ -405,8 +328,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="230" />
-    <option name="y" value="192" />
+    <option name="x" value="165" />
+    <option name="y" value="193" />
     <option name="width" value="1103" />
     <option name="height" value="1047" />
   </component>
@@ -425,6 +348,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -440,29 +367,19 @@
             <path>
               <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="formcreator" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="02.become-a-centre" type="462c0819:PsiDirectoryNode" />
+              <item name="formcreator" type="462c0819:PsiDirectoryNode" />
+              <item name="rawForms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -660,12 +577,13 @@
       <workItem from="1522055937097" duration="292000" />
       <workItem from="1522065871941" duration="12726000" />
       <workItem from="1522097908869" duration="1880000" />
-      <workItem from="1522148718338" duration="14894000" />
+      <workItem from="1522148718338" duration="15490000" />
+      <workItem from="1522230236447" duration="11910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="433544000" />
+    <option name="totallyTimeSpent" value="446050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -778,13 +696,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/css-compiled/nucleus.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7516" lean-forward="false" selection-start-line="0" selection-start-column="7516" selection-end-line="0" selection-end-column="7516" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/js/slidebars.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -882,36 +793,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php" />
     <entry file="file://$PROJECT_DIR$/formcreator/forms/lol.html" />
-    <entry file="file://$PROJECT_DIR$/formcreator/forms/contact-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="65" lean-forward="false" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/formcreator/forms/contact-us.html" />
     <entry file="file://$PROJECT_DIR$/formcreator/customFormSubmission.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/forms/become-a-centre.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="84" lean-forward="false" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/formcreator/forms/become-a-centre.html" />
     <entry file="file://$PROJECT_DIR$/user/plugins/tinymce-editor/blueprints/admin/pages/modular_raw.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -966,13 +861,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="2" column="23556" lean-forward="false" selection-start-line="2" selection-start-column="23556" selection-end-line="2" selection-end-column="23556" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
+        <state relative-caret-position="3145">
           <caret line="185" column="32" lean-forward="false" selection-start-line="185" selection-start-column="32" selection-end-line="185" selection-end-column="32" />
           <folding />
         </state>
@@ -982,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="68" column="34" lean-forward="false" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,54 +903,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/test5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/test5Options.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="208" lean-forward="true" selection-start-line="0" selection-start-column="208" selection-end-line="0" selection-end-column="208" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/test6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/test6Options.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="64" lean-forward="true" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/rthOptions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="45" lean-forward="true" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/rth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/test5.html" />
+    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/test5Options.html" />
+    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/test6.html" />
+    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/test6Options.html" />
+    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/rthOptions.html" />
+    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/rth.html" />
     <entry file="file://$PROJECT_DIR$/formcreator/formcreator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1079,14 +930,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/forms/rth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/formcreator/forms/rth.html" />
     <entry file="file://$PROJECT_DIR$/formcreator/formhandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1098,7 +942,7 @@
     <entry file="file://$PROJECT_DIR$/user/pages/02.become-a-centre/default.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="518">
+          <first_editor relative-caret-position="918">
             <caret line="54" column="446" lean-forward="false" selection-start-line="54" selection-start-column="446" selection-end-line="54" selection-end-column="446" />
             <folding />
           </first_editor>
@@ -1122,43 +966,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/formcreator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="271" column="133" lean-forward="false" selection-start-line="271" selection-start-column="133" selection-end-line="271" selection-end-column="133" />
-          <folding>
-            <marker date="1522173721239" expanded="true" signature="405:418" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="728:738" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="1405:1418" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="1730:1740" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="2413:2426" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="2740:2750" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="3674:3687" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="4002:4012" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="4684:4697" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="5018:5028" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="6019:6032" ph="..." />
-            <marker date="1522173721239" expanded="true" signature="6346:6356" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/js/admin.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="5" column="16363" lean-forward="false" selection-start-line="5" selection-start-column="16358" selection-end-line="5" selection-end-column="16363" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formcreator/formcreator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="218" column="38" lean-forward="false" selection-start-line="218" selection-start-column="38" selection-end-line="218" selection-end-column="38" />
+          <folding>
+            <marker date="1522245057867" expanded="true" signature="405:418" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="728:738" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="1405:1418" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="1730:1740" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="2413:2426" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="2740:2750" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="3674:3687" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="4002:4012" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="4684:4697" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="5018:5028" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="6019:6032" ph="..." />
+            <marker date="1522245057867" expanded="true" signature="6346:6356" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formcreator/formcreator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

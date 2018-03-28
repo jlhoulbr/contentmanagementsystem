@@ -46,6 +46,7 @@
 }
 
 .button-column li a {
+    text-align: left;
     color: #676f74 !important;
     display: block;
     height: 100%;
@@ -64,8 +65,11 @@
     display: none;
     outline: 1px #c3c3c3 solid;
     padding: 30px;
-    margin: 40px;
+    margin:  0 40px 40px 40px;
     background: whitesmoke;
+}
+.button-img{
+    float: left;
 }
 
 .open-editPanel {
@@ -131,13 +135,22 @@
     display: inline;
     -webkit-appearance: menulist;
 }
+.title-bar{
+    cursor: pointer;
+}
+.title-bar img{
+    width: 15px;
+    height: auto;
+    margin-left: 5px;
+    vertical-align: middle;
+}
 #form-list{
     margin: 20px;
 }
 #form-list button{
     border: 1px solid #d5d5d5;
     vertical-align: top;
-    padding: 2px 7px;
+    padding: 5px 7px 4px 7px;
 }
 .save-form{
 width: 100px;

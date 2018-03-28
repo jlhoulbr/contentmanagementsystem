@@ -68,6 +68,17 @@ function addLineForm(type) {
 }
 
 function initialiseForm() {
+    $('.title-bar').css('display', '-webkit-box');
+    $('.title-bar').click(function () {
+        var currentName = $(this).children('#form-title').html();
+        var form_name = prompt("Please enter a name for this form:", currentName + "");
+        if (form_name == null || form_name == ""){
+            return false;
+        } else {
+            $(this).children('#form-title').html(form_name);
+        }
+    });
+
     $('.open-editPanel').off().on('click', function () {
         $('.star').css('display', 'none');
         $('.open-editPanel').css('outline', '');
@@ -76,7 +87,7 @@ function initialiseForm() {
         $(this).children('.star').css('display', 'block');
         $(this).children('.remove-formPanel').css('display', 'block');
         var target = $(this).attr('id');
-        target = target.substring(5, 6);
+        target = target.substring(5);
         $('.options').css('display', 'none');
 
         if ($('.labelName' + target).val().length == 0) {
@@ -186,11 +197,11 @@ function animateHeight(constant){
     }, 100);
 }
 function saveForm() {
-    var name = $('#form-selector').val();
+    var name = $('#form-title').html();
     $('.save-form').html('Please Wait...');
-    var formname = prompt("Please enter a name for this form:", name + "");
-    if (formname == null || formname == ""){
-        alert('form must have a name!');
+    var formcheck = confirm("Save form as: "+ name + "?");
+    if (formcheck == false){
+        alert('Form must have a name!');
         $('.save-form').html('Save');
         return false;
     }
@@ -201,11 +212,11 @@ function saveForm() {
         data: {
             'form':form,
             'formOptions': editOptions,
-            'formname': formname
+            'formname': name
         },
         url: '/grav-admin/formcreator/formcreator.php',
         success: function (msg) {
-            $('.save-form').html('done!');
+            $('.save-form').html('Save');
             checkForms();
             $('#form-added').html('Form Added!');
         }
@@ -217,7 +228,7 @@ function editForm() {
     if (formedit == null || formedit == ''){
         return false;
     }
-    if (confirm("You will lose your current form, are you sure you want to edit this?")) {
+    if (confirm("You will lose your current form, are you sure you want to edit: " + formedit)) {
         $.ajax({
             type: 'POST',
             url: '/grav-admin/formcreator/formedit.php',
@@ -230,8 +241,13 @@ function editForm() {
                 $('#field-options').html('');
                 $('#field-options').append(data.options);
                 initialiseForm();
-                var target2 = $('#main-form div').length;
-                i = target2;
+                $('#form-title').html(formedit);
+                var target2 = 0;
+                $('.open-editPanel').each(function() {
+                    var max = this.id.substring(5);
+                    target2 = Math.max(target2, max);
+                });
+                i = target2 + 1;
                 animateHeight(90);
             }
         });
