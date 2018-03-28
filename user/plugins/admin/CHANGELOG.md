@@ -725,7 +725,7 @@
 1. [](#new)
     * Major improvements with the **File Upload** (`file`) field type.  Now fully supports themes, plugins, configuration + pages
 1. [](#improved)
-    * Updated with latest languages via [Crowdin](https://crowdin.com/project/grav-admin/)
+    * Updated with latest languages via [Crowdin](https://crowdin.com/project/CMSProject/)
     * Provide security options for single tabs [#615](https://github.com/getgrav/grav-plugin-admin/issues/615)
     * Disable double clicking on Save/Delete/Copy page actions [#611](https://github.com/getgrav/grav-plugin-admin/issues/611)
     * Tweaked the avatar alignment in sidebar [#592](https://github.com/getgrav/grav-plugin-admin/issues/592)

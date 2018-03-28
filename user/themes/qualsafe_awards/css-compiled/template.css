@@ -284,7 +284,8 @@ b, strong, label, th {
             /*display: block; }*/
         @media only all and (max-width: 59.938em) {
           #header #navbar ul.navigation {
-            display: none; } }
+            /*display: none; */
+          } }
     #header #navbar .panel-activation {
       padding: 1rem;
       display: none;
@@ -309,7 +310,7 @@ b, strong, label, th {
   height: 32px;
   padding: 0;
   align-items: center;
-  background-image: url("/grav-admin/user/themes/qualsafe_awards/images/menu-button.jpg");
+  background-image: url("../../../../user/themes/qualsafe_awards/images/menu-button.jpg");
   border-radius: 5px;
 }
 .navigation li{
@@ -369,7 +370,7 @@ transition: max-height 1s;
   height: 130px;
 }
 #header-panel{
-  background-image: url("/grav-admin/user/pages/header-panel/banner-shadow.jpg");
+  background-image: url("../../../../user/pages/header-panel/banner-shadow.jpg");
   padding: 21px 42px 0 44px;
   margin-top: 33px;
 }

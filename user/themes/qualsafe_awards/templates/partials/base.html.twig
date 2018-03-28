@@ -74,7 +74,7 @@
                 $.ajax({
                     type: 'POST',
                     data: {values: values},
-                    url: '/grav-admin/formcreator/customFormSubmission.php', // Your form script
+                    url: '{{ base_url }}/formcreator/customFormSubmission.php', // Your form script
                     success: function (msg) {
                         $('form#' + formID).html(msg);
                     }
@@ -132,7 +132,7 @@
 
     {% block footer %}
         <footer id="footer">
-            <img src="/grav-admin/user/themes/qualsafe_awards/images/footer-background-top.jpg">
+            <img src="{{ base_url }}/user/themes/qualsafe_awards/images/footer-background-top.jpg">
             <section id="footer-panel">{{ footerPage.content }}</section>
         </footer>
     {% endblock %}
@@ -179,7 +179,7 @@
             $('#' + section + '-panel img').each(function () {
                 var imageLink = $(this).attr('src');
                 if (imageLink.indexOf('grav-admin') == -1) {
-                    $(this).attr('src', '/grav-admin/' + imageLink);
+                    $(this).attr('src', '{{ base_url }}/' + imageLink);
                 }
             });
 
@@ -188,11 +188,12 @@
             for (var i = 0; i < imageOccurence; i++) {
                 $('#' + section + '-panel').html(function (index, html) {
                     var String = html.substring(html.indexOf(">![](") + 5, html.indexOf(")<"));
-                    return html.replace('>![](' + String + ')<', '><img src="/grav-admin/' + section + '-panel/' + String + '"><');
+                    return html.replace('>![](' + String + ')<', '><img src="{{ base_url }}/' + section + '-panel/' + String + '"><');
                 });
             }
 
         }
+
         function replaceBody() {
             var title = window.location.href.substring(window.location.href.lastIndexOf('/') + 1);
             var bodyHTML = $('#body').html();
@@ -200,11 +201,11 @@
             for (var i = 0; i < imageOccurence; i++) {
                 $('#body').html(function (index, html) {
                     var String = html.substring(html.indexOf(">![](") + 5, html.indexOf(")<"));
-                    if (title == ''){
-                        return html.replace('>![](' + String + ')<', '><img src="/grav-admin/home/' + String + '"><');
-                } else {
-                        return html.replace('>![](' + String + ')<', '><img src="/grav-admin/' + title + '/' + String + '"><');
-                }
+                    if (title == '') {
+                        return html.replace('>![](' + String + ')<', '><img src="{{ base_url }}/home/' + String + '"><');
+                    } else {
+                        return html.replace('>![](' + String + ')<', '><img src="{{ base_url }}/' + title + '/' + String + '"><');
+                    }
                 });
             }
 

@@ -31,6 +31,49 @@
     margin: 0;
 }
 
+@-webkit-keyframes demo {
+    0% {
+        box-shadow: 0px 0px 10px 1px  whitesmoke;
+    }
+    10% {
+        box-shadow: 0px 0px 10px 2px  #eaffde;
+    }
+    20% {
+        box-shadow: 0px 0px 10px 4px  #ccffc3;
+    }
+    30% {
+        box-shadow: 0px 0px 10px 5px  #a8ffa0;
+    }
+    40% {
+        box-shadow: 0px 0px 10px 6px  #8bff7b;
+    }
+    50% {
+        box-shadow: 0px 0px 10px 6px  #a1ff91;
+    }
+    60% {
+        box-shadow: 0px 0px 10px 5px  #b6ffab;
+    }
+    70% {
+        box-shadow: 0px 0px 10px 4px  #d1ffc8;
+    }
+    80% {
+        box-shadow: 0px 0px 10px 2px  #dfffdb;
+    }
+    90% {
+        box-shadow: 0px 0px 10px 1px  #e5f3e0;
+    }
+    100% {
+        box-shadow: 0px 0px 10px 1px  whitesmoke;
+    }
+}
+
+.demo {
+    -webkit-animation-name: demo;
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
 .button-column li {
     width: 240px;
     height: 40px;
