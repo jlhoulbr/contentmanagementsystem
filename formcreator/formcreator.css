@@ -157,8 +157,13 @@
 }
 
 .save-form {
+    background: #0090D9;
+    cursor: pointer;
+    color: rgba(255,255,255,0.85);
     display: none;
-    transition: all 2s linear;
+    width: 100px;
+    margin-left: 40px;
+    padding: 0.5rem 0.4rem;
 }
 .remove-formPanel{
     display: none;
@@ -194,11 +199,6 @@
     border: 1px solid #d5d5d5;
     vertical-align: top;
     padding: 5px 7px 4px 7px;
-}
-.save-form{
-width: 100px;
-    margin-left: 40px;
-
 }
 .sortable-img{
     width: 16px;

@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="../../formcreator/formcreator.css" name="form-css">
+{% set formcreatorURL = '/' ~ base_url|trim('/admin') ~ '/formcreator' %}
+<link rel="stylesheet" href="{{ formcreatorURL }}/formcreator.css" name="form-css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="../../formcreator/formcreator.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <div id="select-from">
     <h1>Select form</h1>
@@ -21,14 +21,14 @@
         <h2 style="padding-left: 3rem;">Add field</h2>
         <div id="buttons">
             <ul class="button-column">
-                <li><a href="javascript:addLineForm('text')"><img style="margin: 9px 48px 9px 9px;width: 48px;" class="button-img" src="../../formcreator/custom/linetext.png">Line Text</a></li>
-                <li><a href="javascript:addLineForm('number')"><img style="margin: 9px 48px 9px 9px;width: 48px;" class="button-img" src="../../formcreator/custom/linenumber.png">Line Number</a></li>
-                <li><a href="javascript:addLineForm('textarea')"><img style="margin: 5px 55px 3px 9px;width: 41px;" class="button-img" src="../../formcreator/custom/textarea.png">Text Area</a></li>
-                <li><a href="javascript:addLineForm('dropdown')"><img style="margin: 9px 48px 9px 9px;width: 48px;" class="button-img" src="../../formcreator/custom/dropdown.png">Dropdown</a></li>
-                <li><a href="javascript:addLineForm('radio')"><img style="margin: 7px 58px 7px 9px;width: 38px;" class="button-img" src="../../formcreator/custom/multiple-choice.png">Multiple Choice</a></li>
-                <li><a href="javascript:addLineForm('checkbox')"><img style="margin: 7px 58px 7px 9px; width: 38px;" class="button-img" src="../../formcreator/custom/checkboxes.png">Checkboxes</a></li>
+                <li><a href="javascript:addLineForm('text')"><img style="margin: 9px 48px 9px 9px;width: 48px;" class="button-img" src="{{ formcreatorURL }}/custom/linetext.png">Line Text</a></li>
+                <li><a href="javascript:addLineForm('number')"><img style="margin: 9px 48px 9px 9px;width: 48px;" class="button-img" src="{{ formcreatorURL }}/custom/linenumber.png">Line Number</a></li>
+                <li><a href="javascript:addLineForm('textarea')"><img style="margin: 5px 48px 3px 9px;width: 48px;" class="button-img" src="{{ formcreatorURL }}/custom/textarea.png">Text Area</a></li>
+                <li><a href="javascript:addLineForm('dropdown')"><img style="margin: 9px 48px 9px 9px;width: 48px;" class="button-img" src="{{ formcreatorURL }}/custom/dropdown.png">Dropdown</a></li>
+                <li><a href="javascript:addLineForm('radio')"><img style="margin: 7px 48px 7px 9px;width: 48px;" class="button-img" src="{{ formcreatorURL }}/custom/multiple-choice.png">Multiple Choice</a></li>
+                <li><a href="javascript:addLineForm('checkbox')"><img style="margin: 7px 48px 7px 9px; width: 48px;" class="button-img" src="{{ formcreatorURL }}/custom/checkboxes.png">Checkboxes</a></li>
             </ul>
-            <button onclick="return saveForm()" style="cursor: pointer" class="save-form">Save</button>
+            <button onclick="return saveForm()" class="save-form"><i class="fa fa-check"></i> Save</button>
         </div>
         <h2 style="margin-top: 20px; padding-left: 3rem;">Field Options</h2>
         <div id="field-options">
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div  style="display: none" class="title-bar">
-    <h2 id="form-title" style="padding-left: 1rem">Untitled Form</h2><img src="../../formcreator/custom/pen-icon.png">
+    <h2 id="form-title" style="padding-left: 1rem">Untitled Form</h2><img src="{{ formcreatorURL }}/custom/pen-icon.png">
     </div>
     <div id="form-panel">
         <div id="main-form">
@@ -48,5 +48,6 @@
 
 </div>
 <br>
+<span class="formcreatorURL" style="display: none">{{ formcreatorURL }}</span>
 <span class="target-page" style="display: none">{{ '../user/pages/' ~ context.order ~  context.rawRoute|trim('/') ~ '/' }}</span>
-
+<script src="{{ formcreatorURL }}/formcreator.js"></script>

@@ -6,10 +6,10 @@
     count: 718
 -
     url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 259
+    count: 306
 -
     url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 257
+    count: 301
 -
     url: 'http://localhost:80/CMSProject/user/plugins/tinymce-editor/js/tinymce/langs/en_EN.js'
     count: 186
@@ -26,11 +26,29 @@
     url: 'http://localhost/CMSProject/qualifications/footer-panel/twitter.png'
     count: 26
 -
+    url: 'http://localhost/CMSProject/admin/formcreator/formcreator.css'
+    count: 24
+-
     url: 'http://localhost/CMSProject/news/IMG_9581%20%282%29.JPG'
     count: 24
 -
+    url: 'http://localhost/CMSProject/admin/formcreator/formcreator.js'
+    count: 14
+-
+    url: 'http://localhost/CMSProject/admin/formcreator/formhandler.php'
+    count: 13
+-
     url: 'http://localhost/CMSProject/qualifications/user/themes/qualsafe_awards/images/footer-background-top.jpg'
     count: 13
+-
+    url: 'http://localhost/CMSProject/admin/formcreator/custom/checkboxes.png'
+    count: 12
+-
+    url: 'http://localhost/CMSProject/admin/formcreator/custom/linenumber.png'
+    count: 12
+-
+    url: 'http://localhost/CMSProject/admin/formcreator/custom/textarea.png'
+    count: 12
 -
     url: 'http://localhost/CMSProject/become-a-centreside-panel/Babcock.jpg'
     count: 12
@@ -44,6 +62,12 @@
     url: 'http://localhost/CMSProject/become-a-centreside-panel/Jigsaw%202.jpg'
     count: 12
 -
+    url: 'http://localhost/CMSProject/admin/formcreator/custom/dropdown.png'
+    count: 10
+-
+    url: 'http://localhost/CMSProject/admin/formcreator/custom/pen-icon.png'
+    count: 10
+-
     url: 'http://localhost/CMSProject/qualifications/community-resilience-qualificationsside-panel/Babcock.jpg'
     count: 9
 -
@@ -55,6 +79,12 @@
 -
     url: 'http://localhost/CMSProject/qualifications/community-resilience-qualificationsside-panel/Jigsaw%202.jpg'
     count: 9
+-
+    url: 'http://localhost/CMSProject/admin/formcreator/custom/linetext.png'
+    count: 8
+-
+    url: 'http://localhost/CMSProject/admin/formcreator/custom/multiple-choice.png'
+    count: 8
 -
     url: 'http://localhost:80/CMSProject/user/plugins/bootstrapper/css/bootstrap-theme.min.css.map'
     count: 7
@@ -72,6 +102,9 @@
     count: 5
 -
     url: 'http://localhost/CMSProject/Why%20Choose%20Banner.jpg'
+    count: 4
+-
+    url: 'http://localhost/CMSProject/admin/formcreator/custom/delete.png'
     count: 4
 -
     url: 'http://localhost/CMSProject/qualifications/side-panel/Babcock.jpg'
@@ -113,7 +146,7 @@
     url: 'http://localhost/CMSProject/undefined'
     count: 3
 -
-    url: 'http://localhost/CMSProject/admin/formcreator/custom/delete.png'
+    url: 'http://localhost/CMSProject/admin/formcreator/custom/sortable.png'
     count: 2
 -
     url: 'http://localhost/CMSProject/body-panel/Testimonials%20Banner.jpg'
@@ -129,6 +162,9 @@
     count: 2
 -
     url: 'http://localhost/CMSProject/centre-support/side-panel/Join-QA-Today-Side-Panel%20%283%29.jpg'
+    count: 2
+-
+    url: 'http://localhost/CMSProject/formcreator.css'
     count: 2
 -
     url: 'http://localhost/CMSProject/user/pages/gd/Conference-Book-Now-Banner-QA%20%284'
@@ -157,6 +193,21 @@
 -
     url: 'http://localhost:80/CMSProject/user/plugins/admin/formcreator/user/plugins/admin/formcreator/formcreator.css'
     count: 2
+-
+    url: 'http://localhost/CMSProject/custom/checkboxes.png'
+    count: 1
+-
+    url: 'http://localhost/CMSProject/custom/linenumber.png'
+    count: 1
+-
+    url: 'http://localhost/CMSProject/custom/linetext.png'
+    count: 1
+-
+    url: 'http://localhost/CMSProject/custom/pen-icon.png'
+    count: 1
+-
+    url: 'http://localhost/CMSProject/custom/textarea.png'
+    count: 1
 -
     url: 'http://localhost/CMSProject/formcreator/admin.min.js.map'
     count: 1

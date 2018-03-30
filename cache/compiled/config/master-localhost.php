@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1522258846,
-    'checksum' => '3061c93146b9cdaf616963770eb21ffc',
+    'timestamp' => 1522262663,
+    'checksum' => '70f5e7c36c00398946c779f6dc7b3f5b',
     'files' => [
         'user/config' => [
             'media' => [
@@ -63,7 +63,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1522258837
+                'modified' => 1522262663
             ],
             'themes/antimatter' => [
                 'file' => 'user/config/themes/antimatter.yaml',
@@ -1034,7 +1034,9 @@ return [
                 'ignore_folders' => [
                     0 => '.git',
                     1 => '.idea',
-                    2 => '.revs'
+                    2 => '.revs',
+                    3 => '.revs',
+                    4 => '.revs'
                 ],
                 'ignore_hidden' => true,
                 'url_taxonomy_filters' => true,
