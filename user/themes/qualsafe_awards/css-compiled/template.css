@@ -83,6 +83,11 @@ b, strong, label, th {
 }
 #body .multipleChoice{
   list-style: none;
+  margin: 0;
+}
+#body .checkboxList{
+  list-style: none;
+  margin: 0;
 }
 #body form input[type=submit]{
   background: #174290;

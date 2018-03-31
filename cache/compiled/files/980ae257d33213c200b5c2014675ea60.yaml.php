@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/CMSProject/user/accounts/josh.yaml',
-    'modified' => 1522148666,
+    'modified' => 1522508613,
     'data' => [
         'email' => 'joshyh23@hotmail.co.uk',
         'fullname' => 'Josh H',
@@ -25,7 +25,7 @@ return [
         'login_attempts' => [
             
         ],
-        'twofa_secret' => 'MMPQGEVOZ2KEGS6SETY5SIGE4JER6DVH',
+        'twofa_secret' => '562PUZGW4OT2U2QFK4KC5S3BEJV2B3RL',
         'twofa_enabled' => false,
         'avatar' => [
             'user/accounts/avatars/Lfrx2X69EJzgN5q.jpg' => [

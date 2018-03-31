@@ -12,7 +12,7 @@ access:
 hashed_password: $2y$10$GyMMIrXzQ9iyw9Qu0pfa2.Kmg6Cu4RWjgj6MrqL47n4wiyFHO29lC
 language: en
 login_attempts: {  }
-twofa_secret: MMPQGEVOZ2KEGS6SETY5SIGE4JER6DVH
+twofa_secret: 562PUZGW4OT2U2QFK4KC5S3BEJV2B3RL
 twofa_enabled: false
 avatar:
   user/accounts/avatars/Lfrx2X69EJzgN5q.jpg:

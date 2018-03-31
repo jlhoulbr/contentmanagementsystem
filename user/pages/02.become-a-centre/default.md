@@ -15,7 +15,6 @@ enabled: true
 <p><span id="become-a-centre-title" style="color: #174290; font-size: 18pt; font-family: arial, helvetica, sans-serif;">Become a Centre</span></p>
 <p><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">Applying couldn&rsquo;t be easier! Simply complete the form below and we will send you our<strong>&nbsp;</strong><strong>clear&nbsp;</strong>and<strong>&nbsp;</strong><strong>straightforward&nbsp;</strong>Centre Application pack.</span></p>
 <p>&nbsp;</p>
-<div class="become-a-centre desktop">&nbsp;</div>
 <div class="become-a-centre desktop"><span id="become-a-centre-benefits-title" style="font-size: 16pt; font-family: arial, helvetica, sans-serif; color: #174290;">The Benefits of Joining Qualsafe Awards</span>
 <p><span style="font-size: 9pt; font-family: arial, helvetica, sans-serif;">As an Ofqual recognised Awarding Organisation, with extensive industry knowledge and expertise, Qualsafe Awards is committed to providing Centres with a high quality, cost effective service with exceptional customer care.&nbsp;</span></p>
 <ul>
@@ -53,3 +52,14 @@ enabled: true
 </ul>
 </div>
 <p><span style="font-size: 9pt; font-family: arial, helvetica, sans-serif;">Please Note: The submission of a Centre Approval application is not a guarantee of approval being granted and Qualsafe Awards reserves the right to reject any application without explanation and without the option to appeal. In addition, if approval is requested for more than one suite of qualifications, approval may only be granted for one suite initially.</span></p>
+<form id="teams" onsubmit="return formHandler('teams')">
+<div id="panel0" class="open-editPanel ui-sortable-handle demo"><label class="label-title">Teams </label>
+<ul class="multipleChoice">
+<li><input name="Teams " type="radio" value="A Team " />A Team</li>
+<li><input name="Teams " type="radio" value="B Team " />B Team</li>
+<li><input name="Teams " type="radio" value="C Team " />C Team</li>
+<li><input name="Teams " type="radio" value="X Team" />X Team</li>
+</ul>
+</div>
+<div class="g-recaptcha" data-sitekey="6Le_CEUUAAAAANDccAIPwwFvQnF5GTVz_NC0K17w">&nbsp;</div>
+<br /><input type="submit" /></form>

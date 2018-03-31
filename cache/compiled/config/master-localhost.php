@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1522262663,
-    'checksum' => '70f5e7c36c00398946c779f6dc7b3f5b',
+    'timestamp' => 1522525120,
+    'checksum' => '4590b03d32fbec90ae1a2af745cfc42e',
     'files' => [
         'user/config' => [
             'media' => [
@@ -20,6 +20,10 @@ return [
             'plugins/breadcrumbs' => [
                 'file' => 'user/config/plugins/breadcrumbs.yaml',
                 'modified' => 1521837490
+            ],
+            'plugins/custom-css' => [
+                'file' => 'user/config/plugins/custom-css.yaml',
+                'modified' => 1522525120
             ],
             'plugins/diagrams' => [
                 'file' => 'user/config/plugins/diagrams.yaml',
@@ -63,7 +67,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1522262663
+                'modified' => 1522509738
             ],
             'themes/antimatter' => [
                 'file' => 'user/config/themes/antimatter.yaml',
@@ -314,7 +318,29 @@ return [
                 'theme' => 'block'
             ],
             'custom-css' => [
-                'enabled' => true
+                'enabled' => true,
+                'css_inline' => '#mceu_76 form{
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    background-color: #F1F1F2;
+}
+.multipleChoice .checkboxList{
+ list-style: none;
+  margin: 0;
+}
+#mceu_76 form submit{
+background: #174290;
+    color: white;
+    border-radius: 11px;
+    font-size: 12px;
+    padding: 3px 26px 4px;
+    width: auto;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    text-transform: capitalize;
+}'
             ],
             'customadmin' => [
                 'enabled' => true

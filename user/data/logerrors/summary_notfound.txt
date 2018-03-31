@@ -6,10 +6,10 @@
     count: 718
 -
     url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 306
+    count: 355
 -
     url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 301
+    count: 353
 -
     url: 'http://localhost:80/CMSProject/user/plugins/tinymce-editor/js/tinymce/langs/en_EN.js'
     count: 186
@@ -18,13 +18,13 @@
     count: 184
 -
     url: 'http://localhost/CMSProject/qualifications/side-panel/Join-QA-Today-Side-Panel%20%283%29.jpg'
-    count: 60
+    count: 100
 -
     url: 'http://localhost/CMSProject/qualifications/footer-panel/facebook.png'
-    count: 27
+    count: 77
 -
     url: 'http://localhost/CMSProject/qualifications/footer-panel/twitter.png'
-    count: 26
+    count: 76
 -
     url: 'http://localhost/CMSProject/admin/formcreator/formcreator.css'
     count: 24

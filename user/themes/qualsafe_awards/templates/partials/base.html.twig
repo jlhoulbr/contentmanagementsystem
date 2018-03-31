@@ -1,7 +1,9 @@
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
-{% set headerPage = page.find('/header-panel') %}
-{% set sidePage = page.find('/side-panel') %}
-{% set footerPage = page.find('/footer-panel') %}
+{% set headerPage = page.find('/header-panel').content %}
+{% set sidePage = page.find('/side-panel').content %}
+{% set footerPage = page.find('/footer-panel').content %}
+
+
 <!DOCTYPE html>
 <html lang="{{ grav.language.getLanguage ?: 'en' }}">
 <head>
@@ -82,6 +84,73 @@
                 return false;
             }
         }
+
+        function occurrences(string, subString, allowOverlapping) {
+
+            string += "";
+            subString += "";
+            if (subString.length <= 0) return (string.length + 1);
+
+            var n = 0,
+                pos = 0,
+                step = allowOverlapping ? 1 : subString.length;
+
+            while (true) {
+                pos = string.indexOf(subString, pos);
+                if (pos >= 0) {
+                    ++n;
+                    pos += step;
+                } else break;
+            }
+            return n;
+        }
+
+        function replaceIndex(section) {
+            $('#' + section + '-panel img').each(function () {
+                var imageLink = $(this).attr('name');
+                if (imageLink.indexOf('{{ base_url }}') == -1) {
+                    var width = $(this).attr('width');
+                    var height = $(this).attr('height');
+                    $(this).replaceWith('<img src="{{ base_url }}/' + imageLink + '" height="'+ height + '" width="' + width +'">');
+                }
+            });
+
+            var bodyHTML = $('#' + section + '-panel').html();
+            var imageOccurence = occurrences(bodyHTML, '![](');
+            for (var i = 0; i < imageOccurence; i++) {
+                $('#' + section + '-panel').html(function (index, html) {
+                    var String = html.substring(html.indexOf(">![](") + 5, html.indexOf(")<"));
+                    return html.replace('>![](' + String + ')<', '><img src="{{ base_url }}/' + section + '-panel/' + String + '"><');
+                });
+            }
+
+        }
+
+        function replaceBody() {
+            var title = window.location.href.substring(window.location.href.lastIndexOf('/') + 1);
+            var bodyHTML = $('#body').html();
+            var imageOccurence = occurrences(bodyHTML, '![](');
+            for (var i = 0; i < imageOccurence; i++) {
+                $('#body').html(function (index, html) {
+                    var String = html.substring(html.indexOf(">![](") + 5, html.indexOf(")<"));
+                    if (title == '') {
+                        return html.replace('>![](' + String + ')<', '><img src="{{ base_url }}/home/' + String + '"><');
+                    } else {
+                        return html.replace('>![](' + String + ')<', '><img src="{{ base_url }}/' + title + '/' + String + '"><');
+                    }
+                });
+            }
+
+        }
+        function setURL() {
+            {% if  page.url == base_url %}
+            replaceIndex('header');
+            {% endif %}
+            replaceIndex('side');
+            replaceIndex('footer');
+            replaceBody();
+
+        }
     </script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     {% if  page.url != base_url %}
@@ -113,7 +182,7 @@
             </div>
             {% if  page.url == base_url %}
                 <div id="header-panel">
-                    {{ headerPage.content }}
+                    {{ headerPage|replace({'src':'name'}) }}
                 </div>
             {% endif %}
         </header>
@@ -127,13 +196,13 @@
         <section id="body" class="{{ class }}">
             {% block content %}{% endblock %}
         </section>
-        <section id="side-panel">{{ sidePage.content }}</section>
+        <section id="side-panel">{{ sidePage|replace({'src':'name'}) }}</section>
     {% endblock %}
 
     {% block footer %}
         <footer id="footer">
             <img src="{{ base_url }}/user/themes/qualsafe_awards/images/footer-background-top.jpg">
-            <section id="footer-panel">{{ footerPage.content }}</section>
+            <section id="footer-panel">{{ footerPage|replace({'src':'name'}) }}</section>
         </footer>
     {% endblock %}
 </div>
@@ -154,72 +223,6 @@
 
             });
         });
-
-        function occurrences(string, subString, allowOverlapping) {
-
-            string += "";
-            subString += "";
-            if (subString.length <= 0) return (string.length + 1);
-
-            var n = 0,
-                pos = 0,
-                step = allowOverlapping ? 1 : subString.length;
-
-            while (true) {
-                pos = string.indexOf(subString, pos);
-                if (pos >= 0) {
-                    ++n;
-                    pos += step;
-                } else break;
-            }
-            return n;
-        }
-
-        function replaceIndex(section) {
-            $('#' + section + '-panel img').each(function () {
-                var imageLink = $(this).attr('src');
-                if (imageLink.indexOf('grav-admin') == -1) {
-                    $(this).attr('src', '{{ base_url }}/' + imageLink);
-                }
-            });
-
-            var bodyHTML = $('#' + section + '-panel').html();
-            var imageOccurence = occurrences(bodyHTML, '![](');
-            for (var i = 0; i < imageOccurence; i++) {
-                $('#' + section + '-panel').html(function (index, html) {
-                    var String = html.substring(html.indexOf(">![](") + 5, html.indexOf(")<"));
-                    return html.replace('>![](' + String + ')<', '><img src="{{ base_url }}/' + section + '-panel/' + String + '"><');
-                });
-            }
-
-        }
-
-        function replaceBody() {
-            var title = window.location.href.substring(window.location.href.lastIndexOf('/') + 1);
-            var bodyHTML = $('#body').html();
-            var imageOccurence = occurrences(bodyHTML, '![](');
-            for (var i = 0; i < imageOccurence; i++) {
-                $('#body').html(function (index, html) {
-                    var String = html.substring(html.indexOf(">![](") + 5, html.indexOf(")<"));
-                    if (title == '') {
-                        return html.replace('>![](' + String + ')<', '><img src="{{ base_url }}/home/' + String + '"><');
-                    } else {
-                        return html.replace('>![](' + String + ')<', '><img src="{{ base_url }}/' + title + '/' + String + '"><');
-                    }
-                });
-            }
-
-        }
-
-        function setURL() {
-            {% if  page.url == base_url %}
-            replaceIndex('header');
-            {% endif %}
-            replaceIndex('side');
-            replaceIndex('footer');
-            replaceBody();
-        }
-
         setURL();
     </script>
 {% endblock %}

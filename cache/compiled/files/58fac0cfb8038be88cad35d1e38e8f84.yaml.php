@@ -2,18 +2,24 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/CMSProject/user/config/system.yaml',
-    'modified' => 1522258837,
+    'modified' => 1522509738,
     'data' => [
         'absolute_urls' => false,
+        'timezone' => '',
+        'default_locale' => NULL,
         'param_sep' => ':',
         'wrapped_site' => false,
         'reverse_proxy_setup' => false,
         'force_ssl' => false,
         'force_lowercase_urls' => true,
+        'custom_base_url' => '',
         'username_regex' => '^[a-z0-9_-]{3,16}$',
         'pwd_regex' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}',
         'intl_enabled' => true,
         'languages' => [
+            'supported' => [
+                
+            ],
             'include_default_lang' => true,
             'translations' => true,
             'translations_fallback' => true,
@@ -35,6 +41,7 @@ return [
                 'count' => 20
             ],
             'dateformat' => [
+                'default' => NULL,
                 'short' => 'jS M Y',
                 'long' => 'F jS \\a\\t g:ia'
             ],
@@ -68,7 +75,9 @@ return [
                 5 => 'rss',
                 6 => 'atom'
             ],
+            'append_url_extension' => '',
             'expires' => 604800,
+            'cache_control' => NULL,
             'last_modified' => false,
             'etag' => false,
             'vary_accept_encoding' => false,
@@ -81,7 +90,9 @@ return [
             'ignore_folders' => [
                 0 => '.git',
                 1 => '.idea',
-                2 => '.revs'
+                2 => '.revs',
+                3 => '.revs',
+                4 => '.revs'
             ],
             'ignore_hidden' => true,
             'url_taxonomy_filters' => true,
@@ -104,7 +115,10 @@ return [
             'cli_compatibility' => false,
             'lifetime' => 604800,
             'gzip' => false,
-            'allow_webserver_gzip' => false
+            'allow_webserver_gzip' => false,
+            'redis' => [
+                'socket' => false
+            ]
         ],
         'twig' => [
             'cache' => false,
@@ -151,6 +165,12 @@ return [
         ],
         'media' => [
             'enable_media_timestamp' => false,
+            'unsupported_inline_types' => [
+                
+            ],
+            'allowed_fallback_types' => [
+                
+            ],
             'auto_metadata_exif' => false,
             'upload_limit' => 2097152
         ],
@@ -161,10 +181,12 @@ return [
             'name' => 'grav-site',
             'secure' => false,
             'httponly' => true,
-            'split' => true
+            'split' => true,
+            'path' => NULL
         ],
         'gpm' => [
             'releases' => 'stable',
+            'proxy_url' => NULL,
             'method' => 'auto',
             'verify_peer' => true,
             'official_gpm_only' => true

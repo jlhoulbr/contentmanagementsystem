@@ -15,8 +15,8 @@ date: '22:51 24-03-2018'
 <p><a href="qualifications/first-aid-qualifications"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #808080;"><span style="color: #808080;">First Aid Qualifications</span></span></a></p>
 </td>
 <td style="width: 139px; text-align: center;">
-<p><a href="qualifications/community-resilience-qualifications%20"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #808080;"><img src="qualifications/citizenAID.jpg" alt="" width="100" height="100" /></span></a></p>
-<p><a href="qualifications/community-resilience-qualifications%20"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #808080;">Community Resilience Qualifications</span></a></p>
+<p><a href="qualifications/community-resilience-qualifications"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #808080;"><img src="qualifications/citizenAID.jpg" alt="" width="100" height="100" /></span></a></p>
+<p><a href="qualifications/community-resilience-qualifications"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #808080;">Community Resilience Qualifications</span></a></p>
 </td>
 <td style="width: 139px;">
 <p><a href="qualifications/food-safety-qualifications"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #808080;"><img style="display: block; margin-left: auto; margin-right: auto;" src="qualifications/Course Icon__FOOD Blue.jpg" alt="" width="100" height="100" /></span></a></p>

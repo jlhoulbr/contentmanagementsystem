@@ -19,8 +19,8 @@ if ($pageContents != '' || $pageContents != null) {
     }
 
     $contents = file_get_contents($file);
-    if (substr_count($contents, '<form id="' . $formFile) > 0) {
-        $contents = replace_between($contents, '<form id="' . $formFile, '</form>', $pageContents);
+    if (substr_count($contents, '<form') > 0) {
+        $contents = replace_between($contents, '<form', '</form>', $pageContents);
         $myfile = fopen($file, "w") or die("Unable to open file!");
         fwrite($myfile, $contents);
         fclose($myfile);

@@ -224,7 +224,7 @@ function saveForm() {
             },
             url: formcreatorURL + '/formcreator.php',
             success: function (msg) {
-                $('.save-form').html('Save');
+                $('.save-form').html('Save Form');
                 checkForms();
                 $('#form-added').html('Form Added!');
             }
@@ -295,7 +295,7 @@ function importForm() {
         return false;
     }
     var target_url = $('.target-page').html();
-    if (confirm("Are you sure you want to use this form: " + formadd + '\nIf this form already exists on this page it will be updated')) {
+    if (confirm("Are you sure you want to use this form: " + formadd + '\nIf a form already exists on this page it will be updated')) {
         $.ajax({
             type: 'POST',
             url: formcreatorURL + '/formadd.php',

@@ -4,13 +4,20 @@ $regex2 = '(<input class="empty.*?>)';
 $regex3 = '(<span class="star.*?n>)';
 $regex4 = '(<span class="re.*?n>)';
 $regex5 = '(style="out.*?;")';
+$regex6 = '/<ul class="choices-list">(.*?)<\/ul>/';
+
 
 $formHTML = $_POST['form'];
 $formname = $_POST['formname'];
 $formOptions = $_POST['formOptions'];
+
 $myfile = fopen('rawForms/'.$formname.'.html', "w") or die("Unable to open file!");
 fwrite($myfile, trim($formHTML));
 fclose($myfile);
+
+
+$formOptions = str_replace('style="display: block;"','',$formOptions);
+$formOptions = preg_replace($regex6,'<ul class="choices-list"></ul>', $formOptions);
 $myfile = fopen('rawForms/'.$formname.'Options.html', "w") or die("Unable to open file!");
 fwrite($myfile, trim($formOptions));
 fclose($myfile);
