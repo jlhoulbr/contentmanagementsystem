@@ -5,11 +5,11 @@
     url: 'http://localhost:80/CMSProject/user/plugins/admin/themes/grav/js/admin.min.js.map'
     count: 718
 -
-    url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 355
--
     url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 353
+    count: 388
+-
+    url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/admin.min.js.map'
+    count: 386
 -
     url: 'http://localhost:80/CMSProject/user/plugins/tinymce-editor/js/tinymce/langs/en_EN.js'
     count: 186

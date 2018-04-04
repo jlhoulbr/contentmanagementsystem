@@ -69,8 +69,14 @@ function initialiseForm() {
             $(this).children('#form-title').html(form_name);
         }
     });
+    $('#field-back').click(function () {
+        $(this).css('display','none');
+        $('.options').css('display','none');
+    });
+
 
     $('.open-editPanel').off().on('click', function () {
+        $('#field-back').css('display','block');
         $('.star').css('display', 'none');
         $('.open-editPanel').css('outline', '');
         $(this).css('outline', '1px dashed #d4d4d4');
@@ -194,7 +200,8 @@ function handleFormOption(target) {
     }, 50);
 
     $('#panel' + target + ' .label-title').html(name);
-
+    $('#field-back').css('display','none');
+    $('.options').css('display','none');
 
     return false;
 }

@@ -26,7 +26,7 @@
             </a>
         {% endif %}
     {% endfor %}
-        {% if admin.session.expert == '0' %}
+        {% if admin.session.expert == '0' and context.rawRoute is defined %}
             <a class="tab__link" href="#" data-tabid="tab-content.options4" data-tabkey="tab-content.options" data-scope="data.options">
                 <span>
                 Form                </span>
