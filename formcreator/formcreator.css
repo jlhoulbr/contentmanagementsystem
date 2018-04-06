@@ -191,6 +191,9 @@
     margin-left: 6px;
     height: 18px;
 }
+.open-editPanel:hover > .remove-formPanel{
+    display: block;
+}
 .remove-img{
     width: 18px;
     vertical-align: top;
@@ -224,6 +227,12 @@
     width: 16px;
     float: right;
     position: relative;
+}
+.edit-img{
+    width: 16px;
+    float: right;
+    margin-right: 3px;
+
 }
 .choices-list{
     margin: 0;

@@ -1,0 +1,76 @@
+{% if authorize(['admin.pages', 'admin.super']) %}
+    <script>
+        function getSubmissions() {
+            $.ajax({
+                url: 'formcreator/formsubmissions.php',
+                success: function (data) {
+                    if(data != '') {
+                        $('#form-submissions').html(data);
+                    }
+                    $('#form-submissions .form-header').click(function () {
+                        $(this).children('i').toggleClass('fa-chevron-down fa-chevron-up');
+                        $(this).next().toggleClass('expanded');
+                    });
+                    $('#form-submissions div').click(function () {
+                        $(this).next('li')
+                            .toggleClass('expanded');
+                        if($(this).next('li').hasClass('expanded')) {
+                            $(this).children('.plus').html('-');
+                        } else {
+                            $(this).children('.plus').html('+');
+                        }
+                    });
+                }
+            });
+        }
+
+    getSubmissions();
+    </script>
+    <style>
+        #form-submissions{
+            font-size: 16px;
+        }
+        .form-header{
+            padding-left: 1.5rem;
+            cursor: pointer;
+        }
+        #form-submissions ul{
+            overflow: hidden;
+            max-height: 0;
+            margin: 0;
+            margin: .375rem 0;
+            transition: max-height 0.75s;
+        }
+        #form-submissions div{
+            cursor: pointer;
+        }
+        #form-submissions span{
+            padding-left: 1.5rem;
+        }
+        #form-submissions li{
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.8s;
+            border-top: 1px solid #f7f7f7;
+            border-bottom: 1px solid #f7f7f7;
+            padding-left: 1.5rem;
+        }
+        .expanded{
+            max-height: 500px !important;
+            transition: max-height 1s ease-in !important;
+        }
+        .plus{
+            cursor: pointer;
+        }
+
+    </style>
+    <div id="latest-forms" style="padding-top: 10px;margin-top: 10px; border-top: 1px solid #f7f7f7;">
+        <div class="button-bar">
+            <a class="button" href="javascript:getSubmissions()"><i class="fa fa-refresh"></i>Refresh</a>
+        </div>
+        <h1>Form Submissions</h1>
+        <div id="form-submissions">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have no forms on the site...</div>
+    </div>
+{% else %}
+    <div class="padding">You don't have sufficient access to view the dashboard...</div>
+{% endif %}

@@ -4,7 +4,7 @@ checkForms();
 function addLineForm(type) {
     if (type == 'text') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><span class="star">*</span><label class="label-title">Text</label><span style="color: red" class="required-star"></span><br><input class="text-field" type="text"></div>');
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><img class="edit-img" src="' + formcreatorURL + '/custom/pen-icon.png"><span class="star">*</span><label class="label-title">Text</label><span style="color: red" class="required-star"></span><br><input class="text-field" type="text"></div>');
         var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" class="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><input type="checkbox" class="toggle-required">Required<br><input type="submit"></form></div>';
         $(optionForm).appendTo('#field-options');
         $('#panel'+i).fadeIn(900);
@@ -12,7 +12,7 @@ function addLineForm(type) {
     }
     if (type == 'number') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><span class="star">*</span><label class="label-title">Number</label><span style="color: red" class="required-star"></span><br><input class="number-field" type="number"></div>');
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><img class="edit-img" src="' + formcreatorURL + '/custom/pen-icon.png"><span class="star">*</span><label class="label-title">Number</label><span style="color: red" class="required-star"></span><br><input class="number-field" type="number"></div>');
         var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" class="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><input type="checkbox" class="toggle-required">Required<br><input type="submit"></form></div>';
         $(optionForm).appendTo('#field-options');
         $('#panel'+i).fadeIn(900);
@@ -20,7 +20,7 @@ function addLineForm(type) {
     }
     if (type == 'dropdown') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><span class="star">*</span><label class="label-title">Dropdown</label><span style="color: red" class="required-star"></span><br><select class="dropdown"><option value="option1">Option 1</option><option value="option2">Option 2</option><option value="option2">Option 3</option></select></div>')
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><img class="edit-img" src="' + formcreatorURL + '/custom/pen-icon.png"><span class="star">*</span><label class="label-title">Dropdown</label><span style="color: red" class="required-star"></span><br><select class="dropdown"><option value="option1">Option 1</option><option value="option2">Option 2</option><option value="option2">Option 3</option></select></div>')
         var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" class="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><fieldset class="choices-panel' + i + '"><legend>Choices:</legend><a class="plus"><img class="add-img" src="' + formcreatorURL + '/custom/insert.png"></a><ul class="choices-list"></ul></fieldset><input type="submit"></form></div>';
         $(optionForm).appendTo('#field-options');
         $('#panel'+i).fadeIn(900);
@@ -28,7 +28,7 @@ function addLineForm(type) {
     }
     if (type == 'textarea') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><span class="star">*</span><label class="label-title">Text Area</label><span style="color: red" class="required-star"></span><br><textarea class="textarea-field"></textarea></div>');
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><img class="edit-img" src="' + formcreatorURL + '/custom/pen-icon.png"><span class="star">*</span><label class="label-title">Text Area</label><span style="color: red" class="required-star"></span><br><textarea class="textarea-field"></textarea></div>');
         var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" class="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><input type="checkbox" class="toggle-required">Required<br><input type="submit"></form></div>';
         $(optionForm).appendTo('#field-options');
         $('#panel'+i).fadeIn(900);
@@ -36,7 +36,7 @@ function addLineForm(type) {
     }
     if (type == 'radio') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><span class="star">*</span><label class="label-title">Multiple Choice</label><span style="color: red" class="required-star"></span><br><ul class="multipleChoice"><li><input type="radio" name="radio" value="Radio1">Radio 1</li><li><input type="radio" name="radio" value="Radio2">Radio 2</li><li><input type="radio" name="radio" value="Radio3">Radio 3</li></ul></div>')
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><img class="edit-img" src="' + formcreatorURL + '/custom/pen-icon.png"><span class="star">*</span><label class="label-title">Multiple Choice</label><span style="color: red" class="required-star"></span><br><ul class="multipleChoice"><li><input type="radio" name="radio" value="Radio1">Radio 1</li><li><input type="radio" name="radio" value="Radio2">Radio 2</li><li><input type="radio" name="radio" value="Radio3">Radio 3</li></ul></div>')
         var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" class="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><fieldset class="choices-panel' + i + '"><legend>Choices:</legend><a class="plus"><img class="add-img" src="' + formcreatorURL + '/custom/insert.png"></a><ul class="choices-list"></ul></fieldset><input type="submit"></form></div>';
         $(optionForm).appendTo('#field-options');
         $('#panel'+i).fadeIn(900);
@@ -44,7 +44,7 @@ function addLineForm(type) {
     }
     if (type == 'checkbox') {
         $('.empty')
-            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><span class="star">*</span><label class="label-title">Checkbox</label><span style="color: red" class="required-star"></span><br><ul class="checkboxList"><li><input type="checkbox" value="checkbox1">Checkbox 1</li><li><input type="checkbox" value="checkbox2">Checkbox 2</li><li><input type="checkbox" value="checkbox3">Checkbox 3</li></ul></div>')
+            .replaceWith('<div style="display: none" id="panel' + i + '" class="open-editPanel"><span class="remove-formPanel"><img class="remove-img" src="' + formcreatorURL + '/custom/delete.png"></span><img class="sortable-img" src="' + formcreatorURL + '/custom/sortable.png"><img class="edit-img" src="' + formcreatorURL + '/custom/pen-icon.png"><span class="star">*</span><label class="label-title">Checkbox</label><span style="color: red" class="required-star"></span><br><ul class="checkboxList"><li><input type="checkbox" value="checkbox1">Checkbox 1</li><li><input type="checkbox" value="checkbox2">Checkbox 2</li><li><input type="checkbox" value="checkbox3">Checkbox 3</li></ul></div>')
         var optionForm = '<div class="options" id="field-options' + i + '"><form onsubmit="return handleFormOption(' + i + ')" class="field-option-form"><span class="form-target">' + i + '</span><label>Label Name</label><input class="labelName' + i + '" type="text" name="label-name"><fieldset class="choices-panel' + i + '"><legend>Choices:</legend><a class="plus"><img class="add-img" src="' + formcreatorURL + '/custom/insert.png"></a><ul class="choices-list"></ul></fieldset><input type="submit"></form></div>';
         $(optionForm).appendTo('#field-options');
         $('#panel'+i).fadeIn(900);
@@ -80,9 +80,9 @@ function initialiseForm() {
         $('.star').css('display', 'none');
         $('.open-editPanel').css('outline', '');
         $(this).css('outline', '1px dashed #d4d4d4');
-        $('.remove-formPanel').css('display', 'none');
+        // $('.remove-formPanel').css('display', 'none');
         $(this).children('.star').css('display', 'block');
-        $(this).children('.remove-formPanel').css('display', 'block');
+        // $(this).children('.remove-formPanel').css('display', 'block');
         var target = $(this).attr('id');
         target = target.substring(5);
         $('.options').css('display', 'none');

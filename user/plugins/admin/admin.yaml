@@ -18,6 +18,7 @@ widgets:
   dashboard-notifications: true
   dashboard-feed: true
   dashboard-pages: true
+  dashboard-forms: true
 pages:
   show_parents: both
 session:

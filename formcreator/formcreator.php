@@ -30,9 +30,10 @@ $formHTML = preg_replace($regex4,"",$formHTML);
 $formHTML = preg_replace($regex5,"",$formHTML);
 $formHTML = str_replace('<br>',"",$formHTML);
 $formHTML = trim($formHTML);
-$formHTML = '<form id="'.$newFormName.'" onsubmit="return formHandler(\''.$newFormName.'\')">'.$formHTML.'<div class="g-recaptcha" data-sitekey="6Le_CEUUAAAAANDccAIPwwFvQnF5GTVz_NC0K17w"></div><br><input type="submit"></form>';
+$formHTML = '<form class="'.$formname.'" id="'.$newFormName.'" onsubmit="return formHandler(\''.$newFormName.'\')">'.$formHTML.'<div class="g-recaptcha" data-sitekey="6Le_CEUUAAAAANDccAIPwwFvQnF5GTVz_NC0K17w"></div><br><input type="submit"></form>';
 
 $myfile = fopen('forms/'.$formname.'.html', "w") or die("Unable to open file!");
+mkdir('forms/'.$formname);
 fwrite($myfile, $formHTML);
 fclose($myfile);
 

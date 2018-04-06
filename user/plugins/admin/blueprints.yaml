@@ -314,6 +314,18 @@ form:
         type: bool
       help: Display dashboard latest pages widget
 
+    widgets.dashboard-forms:
+      type: toggle
+      label: Form submission Feed Widget
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+      help: Display dashboard from submissions feed widget
+
     Notifications:
       type: section
       title: Notifications

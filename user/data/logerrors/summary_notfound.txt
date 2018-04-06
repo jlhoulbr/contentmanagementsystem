@@ -6,10 +6,10 @@
     count: 718
 -
     url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 388
+    count: 507
 -
     url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 386
+    count: 505
 -
     url: 'http://localhost:80/CMSProject/user/plugins/tinymce-editor/js/tinymce/langs/en_EN.js'
     count: 186

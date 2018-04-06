@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/CMSProject/user/accounts/josh.yaml',
-    'modified' => 1522508613,
+    'modified' => 1522854150,
     'data' => [
         'email' => 'joshyh23@hotmail.co.uk',
         'fullname' => 'Josh H',

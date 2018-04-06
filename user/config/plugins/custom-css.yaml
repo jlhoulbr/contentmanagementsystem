@@ -1,0 +1,2 @@
+enabled: true
+css_inline: "#mceu_76 form{\r\n    padding: 20px;\r\n    padding-bottom: 30px;\r\n    padding-top: 10px;\r\n    background-color: #F1F1F2;\r\n}\r\n.multipleChoice .checkboxList{\r\n list-style: none;\r\n  margin: 0;\r\n}\r\n#mceu_76 form submit{\r\nbackground: #174290;\r\n    color: white;\r\n    border-radius: 11px;\r\n    font-size: 12px;\r\n    padding: 3px 26px 4px;\r\n    width: auto;\r\n    font-weight: bold;\r\n    font-size: 14px;\r\n    font-family: Arial,Helvetica,sans-serif;\r\n    text-transform: capitalize;\r\n}"

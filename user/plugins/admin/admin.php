@@ -806,6 +806,7 @@ class AdminPlugin extends Plugin
         $this->grav['twig']->plugins_hooked_dashboard_widgets_top[] = ['template' => 'dashboard-notifications'];
         $this->grav['twig']->plugins_hooked_dashboard_widgets_top[] = ['template' => 'dashboard-feed'];
         $this->grav['twig']->plugins_hooked_dashboard_widgets_main[] = ['template' => 'dashboard-pages'];
+        $this->grav['twig']->plugins_hooked_dashboard_widgets_main[] = ['template' => 'dashboard-forms'];
     }
 
     public function onOutputGenerated()

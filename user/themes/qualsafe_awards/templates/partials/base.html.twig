@@ -55,6 +55,7 @@
             if (response.length == 0) {
                 return false;
             } else {
+                var formId = $('form').attr('class');
                 var formValues = $('form#' + formID + ' :input');
                 var values = {};
                 formValues.each(function () {
@@ -75,7 +76,7 @@
                 });
                 $.ajax({
                     type: 'POST',
-                    data: {values: values},
+                    data: {values: values,formId:formId},
                     url: '{{ base_url }}/formcreator/customFormSubmission.php', // Your form script
                     success: function (msg) {
                         $('form#' + formID).html(msg);
