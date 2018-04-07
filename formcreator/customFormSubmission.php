@@ -1,5 +1,4 @@
 <?php
-$date = date('d-m-Y');
 $date2 = date('d/m/y h:i:sa');
 $ip = $_SERVER['REMOTE_ADDR'];
 $data = 'Date Submitted: '. $date2 . '<br>IP: '.$ip.'<br>';

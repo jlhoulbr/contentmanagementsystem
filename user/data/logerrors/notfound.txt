@@ -1,5 +1,13 @@
 -
     url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/admin.min.js.map'
+    time: '2018-04-07 07:40:00am'
+    referer: ''
+-
+    url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/vendor.min.js.map'
+    time: '2018-04-07 07:39:56am'
+    referer: ''
+-
+    url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/admin.min.js.map'
     time: '2018-04-06 06:34:23pm'
     referer: ''
 -
