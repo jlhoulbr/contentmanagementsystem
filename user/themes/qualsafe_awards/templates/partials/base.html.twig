@@ -11,8 +11,8 @@
         <meta charset="utf-8"/>
         <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
         {% include 'partials/metadata.html.twig' %}
-        <meta name="viewport"
-              content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        {#<meta name="viewport"#}
+              {#content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">#}
         <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}"/>
         <link rel="canonical" href="{{ page.url(true, true) }}"/>
 
@@ -109,11 +109,9 @@
         function replaceIndex(section) {
             $('#' + section + '-panel img').each(function () {
                 var imageLink = $(this).attr('name');
-                if (imageLink.indexOf('{{ base_url }}') == -1) {
                     var width = $(this).attr('width');
                     var height = $(this).attr('height');
                     $(this).replaceWith('<img src="{{ base_url }}/' + imageLink + '" height="'+ height + '" width="' + width +'">');
-                }
             });
 
             var bodyHTML = $('#' + section + '-panel').html();
@@ -144,7 +142,7 @@
 
         }
         function setURL() {
-            {% if  page.url == base_url %}
+            {% if page.url == '/' %}
             replaceIndex('header');
             {% endif %}
             replaceIndex('side');
@@ -154,7 +152,7 @@
         }
     </script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    {% if  page.url != base_url %}
+    {% if page.url != '/' %}
         <style>
             .onlyHomePage {
                 display: none;
@@ -181,7 +179,7 @@
                 {% endblock %}
                 <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
             </div>
-            {% if  page.url == base_url %}
+            {% if page.url == '/' %}
                 <div id="header-panel">
                     {{ headerPage|replace({'src':'name'}) }}
                 </div>

@@ -14,14 +14,3 @@ language: en
 login_attempts: {  }
 twofa_secret: 562PUZGW4OT2U2QFK4KC5S3BEJV2B3RL
 twofa_enabled: false
-avatar:
-  user/accounts/avatars/Lfrx2X69EJzgN5q.jpg:
-    name: Lfrx2X69EJzgN5q.jpg
-    type: image/jpeg
-    size: 44376
-    path: user/accounts/avatars/Lfrx2X69EJzgN5q.jpg
-  user/accounts/avatars/LHgByStOUeMQxcR.jpg:
-    name: LHgByStOUeMQxcR.jpg
-    type: image/jpeg
-    size: 44376
-    path: user/accounts/avatars/LHgByStOUeMQxcR.jpg

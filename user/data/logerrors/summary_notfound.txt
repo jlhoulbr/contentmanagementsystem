@@ -6,10 +6,10 @@
     count: 718
 -
     url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 508
+    count: 516
 -
     url: 'http://localhost/CMSProject/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 506
+    count: 515
 -
     url: 'http://localhost:80/CMSProject/user/plugins/tinymce-editor/js/tinymce/langs/en_EN.js'
     count: 186
@@ -31,6 +31,12 @@
 -
     url: 'http://localhost/CMSProject/news/IMG_9581%20%282%29.JPG'
     count: 24
+-
+    url: 'http://localhost/user/plugins/admin/themes/grav/js/admin.min.js.map'
+    count: 17
+-
+    url: 'http://localhost/user/plugins/admin/themes/grav/js/vendor.min.js.map'
+    count: 17
 -
     url: 'http://localhost/CMSProject/admin/formcreator/formcreator.js'
     count: 14
@@ -149,6 +155,9 @@
     url: 'http://localhost/CMSProject/admin/formcreator/custom/sortable.png'
     count: 2
 -
+    url: 'http://localhost/CMSProject/admin/formcreator/formsubmissions.php'
+    count: 2
+-
     url: 'http://localhost/CMSProject/body-panel/Testimonials%20Banner.jpg'
     count: 2
 -
@@ -193,6 +202,21 @@
 -
     url: 'http://localhost:80/CMSProject/user/plugins/admin/formcreator/user/plugins/admin/formcreator/formcreator.css'
     count: 2
+-
+    url: 'http://127.0.0.1/CMSProject/user/plugins/admin/themes/grav/js/admin.min.js.map'
+    count: 1
+-
+    url: 'http://127.0.0.1/CMSProject/user/plugins/admin/themes/grav/js/vendor.min.js.map'
+    count: 1
+-
+    url: 'http://localhost/CMSProject/contact/1481776541738.jpg'
+    count: 1
+-
+    url: 'http://localhost/CMSProject/contact/1522960278079.png'
+    count: 1
+-
+    url: 'http://localhost/CMSProject/contact/c0a.jpg'
+    count: 1
 -
     url: 'http://localhost/CMSProject/custom/checkboxes.png'
     count: 1
