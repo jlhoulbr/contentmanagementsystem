@@ -27,10 +27,10 @@
     count: 76
 -
     url: 'http://localhost/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 35
+    count: 48
 -
     url: 'http://localhost/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 34
+    count: 47
 -
     url: 'http://localhost/CMSProject/admin/formcreator/formcreator.css'
     count: 24

@@ -58,7 +58,7 @@
                 {% endif %}
             {% endif %}
         {% endfor %}
-          <div id="tab-content.options4" class="tab__content {{ (storedTab == scope ~ field.name) or active == loop.index ? 'active' : '' }}">
+          <div id="tab-content.options4" class="tab__content">
               {% include ["forms/fields/formcreator/formcreator.html.twig"] %}
           </div>
       {% endif %}

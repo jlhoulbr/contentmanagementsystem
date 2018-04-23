@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd484b8c-76bb-4e56-af0c-25ecd56b182e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/formcreator/jquery.ui.touch-punch.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/formcreator/formcreator.css" afterPath="$PROJECT_DIR$/formcreator/formcreator.css" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/daily.json" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/totals.json" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" />
       <change beforePath="$PROJECT_DIR$/user/data/logerrors/notfound.txt" afterPath="$PROJECT_DIR$/user/data/logerrors/notfound.txt" />
       <change beforePath="$PROJECT_DIR$/user/data/logerrors/summary_notfound.txt" afterPath="$PROJECT_DIR$/user/data/logerrors/summary_notfound.txt" />
-      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig" />
+      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formcreator.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="formcreator.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formcreator/formcreator.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="278" column="4" lean-forward="false" selection-start-line="278" selection-start-column="4" selection-end-line="280" selection-end-column="5" />
+            <state relative-caret-position="317">
+              <caret line="249" column="9" lean-forward="false" selection-start-line="249" selection-start-column="9" selection-end-line="249" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -98,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tabs.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tabs.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+            <state relative-caret-position="663">
+              <caret line="60" column="60" lean-forward="false" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -233,7 +231,6 @@
         <option value="$PROJECT_DIR$/user/themes/qualsafe_awards/css-compiled/template.css" />
         <option value="$PROJECT_DIR$/user/plugins/customadmin/customadmin.css" />
         <option value="$PROJECT_DIR$/user/plugins/tinymce-editor/js/tinymce/skins/lightgray/content.min.css" />
-        <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig" />
         <option value="$PROJECT_DIR$/formcreator/formcreator.php" />
         <option value="$PROJECT_DIR$/formcreator/forms/test form 1/2.html" />
         <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/dashboard-forms.twig" />
@@ -255,6 +252,7 @@
         <option value="$PROJECT_DIR$/formcreator/jquery.ui.touch-punch.min.js" />
         <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig" />
         <option value="$PROJECT_DIR$/formcreator/formcreator.css" />
+        <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig" />
       </list>
     </option>
   </component>
@@ -300,7 +298,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-14" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -592,15 +590,15 @@
       <workItem from="1524127907324" duration="1154000" />
       <workItem from="1524403263743" duration="4733000" />
       <workItem from="1524425004014" duration="4138000" />
-      <workItem from="1524488060605" duration="3834000" />
+      <workItem from="1524488060605" duration="6314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="542560000" />
+    <option name="totallyTimeSpent" value="545040000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -617,6 +615,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27253446" sideWeight="0.5515625" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -629,7 +628,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27253446" sideWeight="0.5515625" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -930,14 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/formcreator/jquery.ui.touch-punch.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -993,8 +983,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/formcreator/formcreator.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="278" column="4" lean-forward="false" selection-start-line="278" selection-start-column="4" selection-end-line="280" selection-end-column="5" />
+        <state relative-caret-position="317">
+          <caret line="249" column="9" lean-forward="false" selection-start-line="249" selection-start-column="9" selection-end-line="249" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="60" column="60" lean-forward="false" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
           <folding />
         </state>
       </provider>
