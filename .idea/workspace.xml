@@ -2,202 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd484b8c-76bb-4e56-af0c-25ecd56b182e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/formcreator/jquery.ui.touch-punch.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/04af6d8f178c73019608815da36406ce.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/0590c7a026f9ecc7fff1e7f7baf4c49d.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/06c5c9cb9d574096f98590b543088ff3.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/0b690d5c36a12814c4b33f9ce4900f65.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/0b6a0625ab9ef95780d41abc53e052c8.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/0b867382cd3d889af4ccc46e5242ca64.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/0e63a408cc6ca342fce798f35584b33e.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/11ad6d8aae46af29b902ee5a4344d696.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/13489901e2fed191db42cfbda3ac34cf.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/13f16af0a1d5f7ef8c73efdb52c15fc7.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/14ffa155c46edf26335cd3abf119c8d8.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/156731ffd6625327fdca51f0f21eecf0.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/15cc9bc9ec01a664097506bff58bcc4a.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/1680319dfcfe87b23206f3e467be6500.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/170d657a5cbb7b44cc93b0518a328706.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/18f5d42904bac01ae7025c3cbab67bf4.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/1af17b983a7b5a6ae402296fdcd171d5.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/1d4366fb5912e14564b3e8fcd181ad40.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/1d810644e047dc1234a01928f11135bd.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/1deb6fb3823604b5a2ee2e0e293c9910.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/1ec659c9c7317c8327e9ee43a289d7de.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/216eed0e6c87dbbb3f3d53bfc5ab76d2.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/22b54d3ae102dbd81212261f20641215.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/22e3b7014e9309e01cf78e09de0c70db.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/25244c49268a0996a5fa36abd1dbcb94.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/2a3afe6f908d8cd9903ac1cfcbc31bce.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/2c5135e65631a9f5cb428c8fa56839d2.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/2c8187760296a18b957ad84de83e0a6b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/2ca5f81c4a89104cc330f6960b1042eb.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/2e766b897ffdc01a989db6e185234138.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/2fd909575940e1e9ea7f273e27d51d92.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/3004d9b2ff39e42ddfabee690a203ab5.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/30cabc74b5d95a495e47bf7f012a8371.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/30f6c295d38f71dad5115fa35529cbe3.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/31181ea9c8f9d3d996d272750820b313.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/3356578deb0cf48f64e3b31c75cf2696.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/33576393605856733dc799fe8023203b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/3449347edf061da16ae72b396eac5f8d.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/36b99aa4a9068a49645321c27d640458.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/37501d0c7f895c4a4e03b487d6a1f95c.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/3813349d76d20ecb74ac0951d6b7430a.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/394199138d4a2bce76b840ac0dec9fd2.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/3a2c70316dab7d188518be7b2d0cda5b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/3db407a28100b23467b73746bb75535d.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/3eb7536197f7e5e085361ec6d7ca7fc1.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/3ee3ecb79700f5e01d34d34f49b4902e.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/42f8e4d3a0dc4f6ea7bababb4ac591b7.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/45b3f81078c4e8297094ef440ad1d3a0.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/46157db2d110e43bb10cc07965f1057a.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/46fa57876db86ffcda152df751fa5055.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/481d0381925d94080f7cd6a586e51a9c.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/49e6d4f7cadcaaba451d2445343fc7d1.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/4bef664ffbaaeb32fdcd6ede79d828a2.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/4cc10da1cce9f4b1241fbd76d04d47b9.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/4d1bd4869693ef5020b1c3eac8d6268f.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/4da6588a91efa07b3b9827e37ce43cfa.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/4ec6bfbc2d47c7726492ee4be9ba4b85.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/4fb2c219687aed72e245a5b92f976fe5.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/50ba2c056d22410d4ee4cdf3cf532d0c.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/50bd4bbb9ed57282270b2e435540a7b5.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/5187f3af0760f055b684252b595a6f06.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/51c39e49a72a450d00bcb66ecff93a36.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/54b67f944468b1b09190a8a6b1e8a49b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/580ef09c2f9e2beaa3ea47d60bf21c29.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/58fac0cfb8038be88cad35d1e38e8f84.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/5a1689dab988dd0306cf15221acc436e.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/5aa01e6ef75deba84e88756f1fe8c0b4.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/5b09de5d11cd067c66238e2b060afd33.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/5e16517910e97e5c37873a12d6580444.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/5e894954c701ff6bd30d432e919face2.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/5ea2e3d8054241d0f13b77647484cf8a.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/691125aaa6b43a708ee148dce7a436d9.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/69440a534499bc121e4e70d0d231a5da.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/6ac8991659743f984518bd6b212152ff.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/6b329026bb1a82dbeb499aece3e642c3.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/70eee332ad27dfd1817f51ba0d41b811.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/7135f90fd4c6a6153645e49820a71f01.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/723f8359cb277e94d13bb276784450ee.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/72629e4bdfc78be0ee5ac5027d61b9c2.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/730655b0d546b32914b8cf9f1c661ce7.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/73657a8654bad8c85b1b588106f57078.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/754077eb2a0f81a0e63519d46e99f5de.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/7571d255c47534df1c8b800102bd1892.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/758ddf375d04508df94c74f61c8a0f6b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/77c767b2880e2a988b9d9e22ea380790.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/77ce59b611a2b2aa62114d0068808600.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/77f3e3fd0469456b6360ebdb95cabcc1.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/7d1956ff6272a879289375f23b5cf6a2.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/7de2031b47b0b402807aac6b6c44f95b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/7ed889ded23e2cae890f497b2863a5a7.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/804f439114a1fa5b95efc05cc46fc266.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/81d679934201f2988bd62510ced977ad.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/88b1dc9068f5d677c5c32200975bb34e.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/88ba13787673c1bccfaf83480a8af144.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/8a7334fb7703735cae40df96584d61e0.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/8a9e7deaab959c4ec0f12611b951a450.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/8aba95b5d54d9a2bbb222d60fe46390b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/8ac263acbc2c3dc8b482763c0daf40f0.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/8ae491fd0a592415e67c2f522fd1d2e9.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/8ce9f84c1dfd7614e647e926681e42e0.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/8d242c1c9712e4888b41e2a87a684589.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/8e6d9fb56cba9f148bda4ec629931a33.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/911658bd65b54d7124154c6fb87a681b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/927e0cfccc0f399f4641f4ba98b5c41c.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/95fb43328c36f00d626bbef5bac95f1e.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/96a7f5bec3c5f12e9850f71218a7d30e.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/980ae257d33213c200b5c2014675ea60.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/98ac81edd5d3fd4022b2ae00514c18b1.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/990b98b4dd676dfaba1e1cdba1fa51e4.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/99687cd5565bc7d668d7e623d8bf02b6.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/9983656e3b3301d552330e1cc5d85887.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/9b574b30d81b3056b347c9f0df236cb0.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/9e511f38eb527e1e7ddd7b2bb99e118b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/9e5bf3f6b8574fee01ce67b4c621aecf.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a10071b246da266bafe4fc21129ebe23.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a22143165d63dbb6a663eae53bc89fd9.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a2524d926f6faff1c3e63b98fa8008d8.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a49bb2c521b37f56a2c6b18089a019cc.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a5b01878fa6705b5f7734edbfee53cc7.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a7c2ae7a83cc789330b2bad74ca50934.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a8c061fe8a6fd49401110331335963c3.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/aa606565c4a2177e1b365f93808522c8.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/aa795d7f5c5c31b5237af0b3de672209.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/aafb4772d8b496e0934bed4783721708.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/ab5f69d43f0cbcd493b09ec9189bd491.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/ab68ec8f27206f69162a5e3efa60e88d.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/abf88531c139a82a80589082b6737100.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/adb08e27a14113143c5e2e52a89a8674.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/ae0f3dd6b7e19ba2c0de3332dace5581.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/ae46af00d10ca9fa85b27b067cc37542.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/ae9849798d14293dee5cc53892473dab.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/af218ac2bd16b8fab8f33813ed17cd1a.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/af760d65c0d23c4834afbe0997ab130b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b03e82941f1cddf98178cd9460f6a033.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b04086df2c64fb0b6a71be51c15472fc.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b04582d03c6b61e3f2a4e0786c49faeb.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b1db26c3c4ea0d3821eff5cdab38a2c4.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b5c2ae09fd72696a548117c0e801344a.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b7f6091ebcea98eeb4d793185a002343.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b8dc39440b40cd1991d6faccd36ea16e.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bac47aee3cb97021193cadf92495281c.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bb52e68c010dc5f2490e378156b50eaa.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bb98f0782e866d677589a41ff9201c9f.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bcde123ac54e7db38c838b9a1221f140.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bd718c83945ad54f351cfc4a951c730b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bf71138673430b9ea0aeb4c9aef365a8.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/c1acab9b11a72429f94dce1d7a3183ca.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/c2d562f0a87c79f14ab6a24e85f71bbe.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/c38fd22b49b8b19ebef8645718039105.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/c4c830bfb8d08867c4e588a53bfde1d5.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/c4eca9c10d99998cd9bd1fbed63cb98c.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cb39a20f9a334ac5bf75c57d889625cb.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cbcc5468c9414b57829d9778ec761515.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cbd985b780b3ec2a0e2db7cfada52ca0.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cc22df91dc4d97d72bc631c36f434288.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cf88cc09b0aa9e400eb2ab4d3f17178f.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cf9074b9fcebe84c014eddb8563622f9.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/d454eea1fd03cc0fe8372edb57a41d1b.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/d7de0abe6d582fd291cf7c0aacc659a6.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/d92730a4219368d232b66ab4e66590ab.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/e0836be06d53cb4c26659ecf2fd5f497.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/e40959cd08aed377b341fb34761899ea.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/e4b0482e23efd16466d6c5b769443790.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/e685ce286182a30e216234687e16768e.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/ef6dfea82bfa24eb6cc35b00395cb0cd.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/f05a8aa1c40310050146a79194b0aaa2.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/f36c0055f5d0fec13121cc86131e1e9a.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/f39bcc125c90a2adf8bf1f14016ef0d8.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/f747cb0461e837b05cc4a7dfc64cc928.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/f8bd7298855c60434832a3182a6b8c67.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/fb4d5aac1bf4ff1a74a404a8caeae157.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/fd87a81d3bcb3bc2055d0873df16d507.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/fe3d5c97f3ee549401434309aa554c38.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/fe5222624179908b4f87a7c84ff7c974.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/ff7cffed727f53758d489da5d012de16.yaml.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" />
-      <change beforePath="$PROJECT_DIR$/cache/gpm/1a/5b37333763313335616261313763333762393163663737303261663564633832655d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/1a/5b37333763313335616261313763333762393163663737303261663564633832655d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/cache/gpm/27/5b36653238303365343665383633616363643561326265653861336136363163635d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/27/5b36653238303365343665383633616363643561326265653861336136363163635d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/cache/gpm/aa/5b35626661633465356361613463356161373237363730633731333736616139375d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/aa/5b35626661633465356361613463356161373237363730633731333736616139375d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/cache/problem-check-g-69e6609d" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/formcreator/first.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logs/grav.log" afterPath="$PROJECT_DIR$/logs/grav.log" />
+      <change beforePath="$PROJECT_DIR$/formcreator/formcreator.css" afterPath="$PROJECT_DIR$/formcreator/formcreator.css" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/daily.json" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/totals.json" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" />
-      <change beforePath="$PROJECT_DIR$/user/accounts/josh.yaml" afterPath="$PROJECT_DIR$/user/accounts/josh.yaml" />
       <change beforePath="$PROJECT_DIR$/user/data/logerrors/notfound.txt" afterPath="$PROJECT_DIR$/user/data/logerrors/notfound.txt" />
       <change beforePath="$PROJECT_DIR$/user/data/logerrors/summary_notfound.txt" afterPath="$PROJECT_DIR$/user/data/logerrors/summary_notfound.txt" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.home/default.md" afterPath="$PROJECT_DIR$/user/pages/01.home/default.md" />
-      <change beforePath="$PROJECT_DIR$/user/pages/07.contact/default.md" afterPath="$PROJECT_DIR$/user/pages/07.contact/default.md" />
       <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig" />
-      <change beforePath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig" afterPath="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -212,20 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="formsubmissions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/formcreator/formsubmissions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="customFormSubmission.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/formcreator/customFormSubmission.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="0">
               <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding />
             </state>
@@ -255,8 +59,30 @@
       <file leaf-file-name="formcreator.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.ui.touch-punch.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formcreator/jquery.ui.touch-punch.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formcreator.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/formcreator/formcreator.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="278" column="4" lean-forward="false" selection-start-line="278" selection-start-column="4" selection-end-line="280" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -282,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -297,9 +123,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -378,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" />
         <option value="$PROJECT_DIR$/user/themes/qualsafe_awards/blueprints.yaml" />
         <option value="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/breadcrumbs.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/qualsafe_awards/scss/template/_core.scss" />
@@ -409,7 +234,6 @@
         <option value="$PROJECT_DIR$/user/plugins/customadmin/customadmin.css" />
         <option value="$PROJECT_DIR$/user/plugins/tinymce-editor/js/tinymce/skins/lightgray/content.min.css" />
         <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/tabs/tabs.html.twig" />
-        <option value="$PROJECT_DIR$/formcreator/formcreator.css" />
         <option value="$PROJECT_DIR$/formcreator/formcreator.php" />
         <option value="$PROJECT_DIR$/formcreator/forms/test form 1/2.html" />
         <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/partials/dashboard-forms.twig" />
@@ -427,8 +251,10 @@
         <option value="$PROJECT_DIR$/formcreator/formsubmissions.php" />
         <option value="$PROJECT_DIR$/formcreator/customFormSubmission.php" />
         <option value="$PROJECT_DIR$/formcreator/formcreator.js" />
-        <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/qualsafe_awards/templates/partials/base.html.twig" />
+        <option value="$PROJECT_DIR$/formcreator/jquery.ui.touch-punch.min.js" />
+        <option value="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig" />
+        <option value="$PROJECT_DIR$/formcreator/formcreator.css" />
       </list>
     </option>
   </component>
@@ -474,9 +300,9 @@
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
-    <option name="y" value="76" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-14" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -504,6 +330,29 @@
             <path>
               <item name="www" type="b2602c69:ProjectViewProjectNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="formcreator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="customadmin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -743,15 +592,15 @@
       <workItem from="1524127907324" duration="1154000" />
       <workItem from="1524403263743" duration="4733000" />
       <workItem from="1524425004014" duration="4138000" />
-      <workItem from="1524488060605" duration="596000" />
+      <workItem from="1524488060605" duration="3834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="539322000" />
+    <option name="totallyTimeSpent" value="542560000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="76" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -832,22 +681,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/formcreator/rawForms/ftyhOptions.html" />
-    <entry file="file://$PROJECT_DIR$/formcreator/forms/ftyh.html" />
-    <entry file="file://$PROJECT_DIR$/user/plugins/customadmin/customadmin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/custom-css/custom-css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/qualsafe_awards/css-compiled/template.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1015,13 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formcreator/formcreator.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/formcreator/formsubmissions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1054,7 +880,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/formcreator/customFormSubmission.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="0">
           <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding />
         </state>
@@ -1112,10 +938,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/formcreator/jquery.ui.touch-punch.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/formcreator/formcreator.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1124,6 +960,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/customadmin/customadmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/customadmin/customadmin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/customadmin/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formcreator/formcreator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="278" column="4" lean-forward="false" selection-start-line="278" selection-start-column="4" selection-end-line="280" selection-end-column="5" />
           <folding />
         </state>
       </provider>

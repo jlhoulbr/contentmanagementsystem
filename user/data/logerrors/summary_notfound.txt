@@ -26,17 +26,17 @@
     url: 'http://localhost/CMSProject/qualifications/footer-panel/twitter.png'
     count: 76
 -
+    url: 'http://localhost/user/plugins/admin/themes/grav/js/vendor.min.js.map'
+    count: 35
+-
+    url: 'http://localhost/user/plugins/admin/themes/grav/js/admin.min.js.map'
+    count: 34
+-
     url: 'http://localhost/CMSProject/admin/formcreator/formcreator.css'
     count: 24
 -
     url: 'http://localhost/CMSProject/news/IMG_9581%20%282%29.JPG'
     count: 24
--
-    url: 'http://localhost/user/plugins/admin/themes/grav/js/admin.min.js.map'
-    count: 17
--
-    url: 'http://localhost/user/plugins/admin/themes/grav/js/vendor.min.js.map'
-    count: 17
 -
     url: 'http://localhost/CMSProject/admin/formcreator/formcreator.js'
     count: 14

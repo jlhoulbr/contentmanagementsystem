@@ -260,8 +260,23 @@
     #options-panel {
         width: 100%;
     }
-
+    #form-selector{
+        width: 100%;
+        margin-bottom: 10px;
+    }
     #form-panel {
-        width: 96%;
+        width: 93%;
+    }
+    .options{
+        left: 0;
+        margin: 0 0 0 10px;
+        width: 93%;
+        top: 16%;
+    }
+    .remove-formPanel{
+        display: block;
+    }
+    .open-editPanel{
+        outline: rgb(212, 212, 212) dashed 1px;
     }
 }
